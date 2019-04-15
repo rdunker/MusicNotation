@@ -1,15 +1,14 @@
 {
-	"category" : "ToDo-Core",
+	"category" : "BaselineOfMusicNotation",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"todos",
-		"currentTodo" ],
-	"name" : "ToDoTool",
+		 ],
+	"name" : "BaselineOfMusicNotation",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "BaselineOf",
 	"type" : "normal" }
