@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"model" ],
+		"model",
+		"lineWidth" ],
 	"name" : "MNMeasureMorph",
 	"pools" : [
 		 ],

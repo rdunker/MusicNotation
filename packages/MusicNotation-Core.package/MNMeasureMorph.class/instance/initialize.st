@@ -2,4 +2,4 @@ initialization
 initialize
 	super initialize.
 	
-	self color: Color transparent.
+	self lineWidth: 1.

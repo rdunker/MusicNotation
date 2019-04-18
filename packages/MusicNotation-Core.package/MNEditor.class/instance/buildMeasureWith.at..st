@@ -5,6 +5,6 @@ buildMeasureWith: aBuilder at: position
 	^ MNPluggableCustomSpec new
 		morphClass: MNMeasureMorph;
 		frame: (position * size extent: size);
-		borderColor: Color red;
-		borderWidth: 3;
+		color: Color red;
+		lineWidth: 3;
 		yourself
