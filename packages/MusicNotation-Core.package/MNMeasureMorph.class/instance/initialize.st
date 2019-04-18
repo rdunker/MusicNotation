@@ -1,8 +1,5 @@
-as yet unclassified
+initialization
 initialize
-
 	super initialize.
 	
-	self
-		height: 70;
-		width: 100. 
+	self color: Color transparent.

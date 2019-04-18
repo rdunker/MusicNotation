@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"model" ],
-	"name" : "MNMeasureMorph",
+		"morphClass",
+		"customProps" ],
+	"name" : "MNPluggableCustomSpec",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "PluggableWidgetSpec",
 	"type" : "normal" }

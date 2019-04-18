@@ -2,5 +2,7 @@
 	"class" : {
 		"open" : "mm 4/18/2019 17:40" },
 	"instance" : {
-		"buildMusicSheetWith:" : "mm 4/18/2019 19:17",
+		"buildMeasureWith:at:" : "mgjm 4/19/2019 00:14",
+		"buildMeasuresWith:" : "mgjm 4/19/2019 00:16",
+		"buildMusicSheetWith:" : "mgjm 4/19/2019 00:10",
 		"buildWith:" : "mm 4/18/2019 19:21" } }
