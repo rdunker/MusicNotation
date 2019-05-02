@@ -1,10 +1,15 @@
 {
 	"class" : {
-		 },
+		"initializeTypes" : "fb 5/2/2019 16:05",
+		"noteTypes" : "fb 5/2/2019 16:04",
+		"noteTypes:" : "fb 5/2/2019 16:04" },
 	"instance" : {
 		"addPitch:" : "mgjm 4/18/2019 16:34",
+		"createXMLWithDivisions:" : "fb 5/2/2019 16:09",
 		"duration" : "mgjm 4/18/2019 16:31",
 		"duration:" : "mgjm 4/18/2019 16:31",
+		"durationWithDivisions:" : "fb 5/2/2019 15:58",
 		"initialize" : "mgjm 4/18/2019 16:33",
 		"pitches" : "mgjm 4/18/2019 16:32",
-		"pitches:" : "mgjm 4/18/2019 16:32" } }
+		"pitches:" : "mgjm 4/18/2019 16:32",
+		"type" : "fb 5/2/2019 16:08" } }

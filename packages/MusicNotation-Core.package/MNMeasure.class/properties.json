@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"notes" ],
+		"notes",
+		"divisions",
+		"time" ],
 	"name" : "MNMeasure",
 	"pools" : [
 		 ],

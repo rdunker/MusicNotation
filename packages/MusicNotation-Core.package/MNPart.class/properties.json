@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"measures" ],
+		"measures",
+		"id",
+		"name" ],
 	"name" : "MNPart",
 	"pools" : [
 		 ],
