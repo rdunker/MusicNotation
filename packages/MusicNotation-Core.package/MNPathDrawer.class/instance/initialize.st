@@ -1,7 +1,8 @@
-as yet unclassified
+initialize-release
 initialize
 	super initialize.
 	
 	self
-		offset: 0@0;
-		shapes: OrderedCollection new.
+		lastStart: 0@0;
+		lastPosition: 0@0;
+		shape: OrderedCollection new.

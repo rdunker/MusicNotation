@@ -1,3 +1,3 @@
 as yet unclassified
 readRelativePoint
-	^ self position + self readPoint.
+	^ self lastPosition + self readPoint.

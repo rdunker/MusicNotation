@@ -3,14 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"CACHE" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lastPosition",
-		"lastStart",
-		"shape",
-		"path" ],
-	"name" : "MNPathDrawer",
+		"bounds",
+		"glyphs" ],
+	"name" : "MNSmuflFont",
 	"pools" : [
 		 ],
 	"super" : "Object",

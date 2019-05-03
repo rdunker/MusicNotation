@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bounds" : "mgjm 5/3/2019 01:50",
+		"bounds:" : "mgjm 5/3/2019 01:50",
+		"canvas" : "mgjm 5/3/2019 01:49",
+		"canvas:" : "mgjm 5/3/2019 01:49",
+		"color" : "mgjm 5/3/2019 01:49",
+		"color:" : "mgjm 5/3/2019 01:49",
+		"drawCodePoint:" : "mgjm 5/3/2019 03:02",
+		"drawCurrentShape" : "mgjm 5/3/2019 05:20",
+		"font" : "mgjm 5/3/2019 01:49",
+		"font:" : "mgjm 5/3/2019 01:49",
+		"initialize" : "mgjm 5/3/2019 03:22",
+		"lineHeight" : "mgjm 5/3/2019 01:50",
+		"lineHeight:" : "mgjm 5/3/2019 01:50",
+		"offset" : "mgjm 5/3/2019 01:50",
+		"offset:" : "mgjm 5/3/2019 01:50",
+		"position" : "mgjm 5/3/2019 03:23",
+		"position:" : "mgjm 5/3/2019 01:50",
+		"transformVerticies:" : "mgjm 5/3/2019 03:53" } }

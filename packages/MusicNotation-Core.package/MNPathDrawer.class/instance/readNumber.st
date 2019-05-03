@@ -1,3 +1,4 @@
 as yet unclassified
 readNumber
-	^ self pathComponents removeFirst asNumber
+	self skipSeperatorSequence.
+	^ self path nextFloat.

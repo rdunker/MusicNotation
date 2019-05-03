@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lastPosition",
-		"lastStart",
-		"shape",
-		"path" ],
-	"name" : "MNPathDrawer",
+		"codePoint",
+		"lastCanvas" ],
+	"name" : "MNSmuflMorph",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Morph",
 	"type" : "normal" }

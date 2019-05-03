@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lastPosition",
-		"lastStart",
-		"shape",
-		"path" ],
-	"name" : "MNPathDrawer",
+		"font",
+		"path",
+		"width" ],
+	"name" : "MNSmuflGlyph",
 	"pools" : [
 		 ],
 	"super" : "Object",

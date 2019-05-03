@@ -6,12 +6,15 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lastPosition",
-		"lastStart",
-		"shape",
-		"path" ],
-	"name" : "MNPathDrawer",
+		"bounds",
+		"canvas",
+		"color",
+		"font",
+		"lineHeight",
+		"offset",
+		"position" ],
+	"name" : "MNSmuflDrawer",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MNPathDrawer",
 	"type" : "normal" }
