@@ -1,4 +1,4 @@
-initialize-release
+xml creation
 createXMLWithDivisions: aNumber
 
 	| xml |

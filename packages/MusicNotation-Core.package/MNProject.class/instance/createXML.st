@@ -1,10 +1,10 @@
-adding
+xml creating
 createXML
 
 	| doc score list |
 	doc := XMLDocument new.
-	doc version: '1.0'.
-	doc encoding: 'UTF-8'.
+	doc version: '1.0';
+		encoding: 'UTF-8'.
 	
 	score := XMLElement
 		named: 'score-partwise'

@@ -1,4 +1,4 @@
-initialize-release
+accessing
 type
 
 	^ MNNote noteTypes at: self duration

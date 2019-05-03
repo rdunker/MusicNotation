@@ -1,4 +1,4 @@
-accessing
+xml creation
 createXML
 
 	| xml index |
@@ -11,10 +11,8 @@ createXML
 	index := 1.
 	self measures do:
 		[ :measure |
-			xml addElement: ((measure createXML)
-				setAttributes: (Dictionary new
-				at: #number put: index asString;
-				yourself)).
+			xml addElement: (measure createXML
+				attributeAt: #number put: index asString).
 			index := index + 1 ].
 	
 	^ xml

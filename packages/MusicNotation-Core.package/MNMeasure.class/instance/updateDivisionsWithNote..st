@@ -1,8 +1,8 @@
-adding
-updateDivisions: anMNNote
+updating
+updateDivisionsWithNote: aNote
 	
 	self divisions: (self divisions lcm: 
 		(Fraction
-			numerator: (anMNNote duration denominator)
+			numerator: (aNote duration denominator)
 			denominator: 4)
 		reduced numerator)

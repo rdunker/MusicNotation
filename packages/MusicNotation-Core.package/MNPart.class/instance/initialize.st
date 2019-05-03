@@ -2,6 +2,6 @@ initialize-release
 initialize
 	super initialize.
 	
-	self measures: OrderedCollection new.
-	self id: 'P1'.
-	self name: 'Music'
+	self measures: OrderedCollection new;
+		id: 'P1';
+		name: 'Music'

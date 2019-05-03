@@ -1,6 +1,6 @@
-adding
+xml writing
 writeXML: aFile
-
+	"WIP: delete file first"
 	| stream writer |
 	stream := FileStream fileNamed: aFile.
 	writer := XMLWriter on: stream.
