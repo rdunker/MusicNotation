@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertFrequencyOnAnotherOctave:" : "mgjm 5/3/2019 21:17",
+		"samplePitch" : "mgjm 5/3/2019 21:41",
+		"testA4" : "mgjm 5/3/2019 21:17",
+		"testAlterFtoNChange" : "mgjm 5/3/2019 22:16",
+		"testAlterFtoSChange" : "mgjm 5/3/2019 22:16",
+		"testAlterNtoFChange" : "mgjm 5/3/2019 22:16",
+		"testAlterNtoSChange" : "mgjm 5/3/2019 22:16",
+		"testAlterStoFChange" : "mgjm 5/3/2019 22:16",
+		"testAlterStoNChange" : "mgjm 5/3/2019 22:16",
+		"testBb4" : "mgjm 5/3/2019 21:16",
+		"testC4" : "mgjm 5/3/2019 21:17",
+		"testFs4" : "mgjm 5/3/2019 21:17",
+		"testOctaveChange" : "mgjm 5/3/2019 21:43",
+		"testStepChange" : "mgjm 5/3/2019 21:44" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"changes" ],
+	"name" : "MNTestObserver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
