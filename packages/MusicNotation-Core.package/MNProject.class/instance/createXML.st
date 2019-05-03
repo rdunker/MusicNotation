@@ -6,11 +6,8 @@ createXML
 	doc version: '1.0';
 		encoding: 'UTF-8'.
 	
-	score := XMLElement
-		named: 'score-partwise'
-		attributes: (Dictionary new
-			at: #version put: '3.1';
-			yourself).
+	score := (XMLElement named: 'score-partwise')
+		attributeAt: #version put: '3.1'.
 	doc addElement: score.
 			
 	list := XMLElement named: 'part-list'.
@@ -18,18 +15,7 @@ createXML
 			
 	self parts do:
 		[ :part |
-			| scorepart |
-			scorepart := XMLElement
-				named: 'score-part'
-				attributes: (Dictionary new
-					at: #id put: part id;
-					yourself).
-			list addElement: scorepart.
-			
-			scorepart addElement: ((XMLElement named: 'part-name')
-				addContent: (XMLStringNode string: part name);
-				yourself).
-			
+			list addElement: part createXMLScore.			
 			score addElement: part createXML ].
 	
 	^ doc

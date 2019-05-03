@@ -1,4 +1,4 @@
 accessing
 type
 
-	^ MNNote noteTypes at: self duration
+	^ MNNote noteTypes at: self baseDuration denominator

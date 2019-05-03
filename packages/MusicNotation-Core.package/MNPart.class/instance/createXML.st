@@ -2,11 +2,8 @@ xml creation
 createXML
 
 	| xml index |
-	xml := XMLElement
-		named: 'part'
-		attributes: (Dictionary new
-			at: 'id' put: self id;
-			yourself).
+	xml := (XMLElement named: 'part')
+		attributeAt: #id put: self id asString.
 	
 	index := 1.
 	self measures do:
