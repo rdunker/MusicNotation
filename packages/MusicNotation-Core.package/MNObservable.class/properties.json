@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"step",
-		"octave",
-		"alter" ],
-	"name" : "MNPitch",
+		 ],
+	"name" : "MNObservable",
 	"pools" : [
 		 ],
-	"super" : "MNObservable",
+	"super" : "Object",
 	"type" : "normal" }
