@@ -12,7 +12,7 @@ parseGlyphs: aString
 			width := stream nextFloat.
 			stream next.
 			path := stream nextLine.
-			self glyphs at: codePoint put: (MNSmuflGlyph new
+			self glyphs at: codePoint put: (MNGlyph new
 				font: self;
 				path: path;
 				width: width;

@@ -1,15 +1,16 @@
 {
-	"category" : "MusicNotation-Core",
+	"category" : "MusicNotation-Editor",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"codePoint",
-		"lastCanvas" ],
-	"name" : "MNSmuflMorph",
+		"font",
+		"path",
+		"width" ],
+	"name" : "MNGlyph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

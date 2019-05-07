@@ -13,7 +13,7 @@ drawOn: aCanvas
 		bounds: self bounds;
 		canvas: canvas;
 		color: Color red;
-		font: MNSmuflFont bravura;
+		font: MNFont bravura;
 		lineHeight: 400;
 		position: 50@150 + self position;
 		drawCodePoint: self codePoint.

@@ -1,5 +1,5 @@
 {
-	"category" : "MusicNotation-Core",
+	"category" : "MusicNotation-Editor",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -13,7 +13,7 @@
 		"lineHeight",
 		"offset",
 		"position" ],
-	"name" : "MNSmuflDrawer",
+	"name" : "MNFontDrawer",
 	"pools" : [
 		 ],
 	"super" : "MNPathDrawer",

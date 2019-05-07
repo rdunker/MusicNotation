@@ -1,15 +1,14 @@
 {
-	"category" : "MusicNotation-Core",
+	"category" : "MusicNotation-Editor",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"CACHE" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"bounds",
-		"glyphs" ],
-	"name" : "MNSmuflFont",
+		 ],
+	"name" : "MNSmuflDrawer",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MNFontDrawer",
 	"type" : "normal" }
