@@ -2,19 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addClef:" : "fb 5/3/2019 08:20",
-		"addNote:" : "fb 5/3/2019 08:08",
-		"clefs" : "fb 5/3/2019 08:18",
-		"clefs:" : "fb 5/3/2019 08:18",
-		"createXML" : "fb 5/3/2019 08:56",
-		"divisions" : "fb 5/2/2019 15:26",
-		"divisions:" : "fb 5/2/2019 15:26",
-		"initialize" : "fb 5/3/2019 08:38",
-		"key" : "fb 5/3/2019 08:37",
-		"key:" : "fb 5/3/2019 08:37",
+		"addNote:" : "fb 5/8/2019 15:51",
+		"initialize" : "fb 5/8/2019 15:49",
 		"notes" : "mgjm 4/18/2019 14:57",
-		"notes:" : "mgjm 4/18/2019 14:57",
-		"time" : "fb 5/2/2019 16:09",
-		"time:" : "fb 5/2/2019 16:09",
-		"updateDivisions" : "fb 5/3/2019 08:08",
-		"updateDivisionsWithNote:" : "fb 5/3/2019 08:19" } }
+		"notes:" : "mgjm 4/18/2019 14:57" } }
