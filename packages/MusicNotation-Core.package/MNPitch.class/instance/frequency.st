@@ -1,3 +1,3 @@
 accessing
 frequency
-	^ AbstractSound pitchForName: self step asSymbol, self octave.
+	^ AbstractSound pitchForName: self step asSymbol, self alterString, self octave
