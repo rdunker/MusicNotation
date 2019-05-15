@@ -1,7 +1,5 @@
 as yet unclassified
-read_z
-	self shape ifEmpty: [ ^ self ].
+closeShape
 	self lastPosition = self lastStart ifFalse: [
 		self addLineTo: self lastStart.
-		self moveTo: self lastStart. ]. 
-	self finishShape.
+		self moveTo: self lastStart. ].

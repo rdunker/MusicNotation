@@ -11,7 +11,7 @@ parseGlyphs: aString
 			stream next.
 			width := stream nextFloat.
 			stream next.
-			path := stream nextLine.
+			path := stream nextLine ifNil: [ self halt: 'WTF????' ].
 			self glyphs at: codePoint put: (MNGlyph new
 				font: self;
 				path: path;

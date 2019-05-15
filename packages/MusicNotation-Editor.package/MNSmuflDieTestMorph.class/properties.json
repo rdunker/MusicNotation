@@ -6,13 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lastPosition",
-		"lastStart",
-		"shape",
-		"path",
-		"lastControlPoint" ],
-	"name" : "MNPathDrawer",
+		"keys",
+		"index" ],
+	"name" : "MNSmuflDieTestMorph",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MNSmuflTestMorph",
 	"type" : "normal" }
