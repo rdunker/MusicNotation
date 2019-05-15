@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-Player",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sound",
+		"soundSequence" ],
+	"name" : "MNSoundGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

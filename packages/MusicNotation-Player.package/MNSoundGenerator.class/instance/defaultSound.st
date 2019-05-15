@@ -1,0 +1,3 @@
+accessing
+defaultSound
+	^ FMSound mellowBrass

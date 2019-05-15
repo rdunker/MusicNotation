@@ -2,5 +2,6 @@ OrderedDictionary {
 	'packages\/BaselineOfMusicNotation.package' : #SquotCypressCodeSerializer,
 	'packages\/MusicNotation-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/MusicNotation-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/MusicNotation-Player.package' : #SquotCypressCodeSerializer,
 	'packages\/MusicNotation-XML.package' : #SquotCypressCodeSerializer
 }

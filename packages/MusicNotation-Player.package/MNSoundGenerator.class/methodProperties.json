@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addMeasure:" : "mgjm 5/8/2019 14:00",
+		"addNote:" : "mgjm 5/8/2019 13:17",
+		"addPart:" : "mgjm 5/8/2019 14:01",
+		"addPitch:duration:" : "mgjm 5/8/2019 13:28",
+		"addPitches:duration:" : "mgjm 5/8/2019 13:52",
+		"addRest:" : "mgjm 5/8/2019 13:28",
+		"addSound:" : "mgjm 5/8/2019 13:44",
+		"convertDuration:" : "mgjm 5/8/2019 13:56",
+		"defaultSound" : "mgjm 5/8/2019 13:34",
+		"generatePitch:duration:" : "mgjm 5/8/2019 13:40",
+		"generatePitches:duration:" : "mgjm 5/8/2019 13:55",
+		"generateRest:" : "mgjm 5/8/2019 13:27",
+		"loudness" : "mgjm 5/8/2019 13:40",
+		"sound" : "mgjm 5/8/2019 13:34",
+		"sound:" : "mgjm 5/8/2019 10:49",
+		"soundSequence" : "mgjm 5/8/2019 13:37",
+		"soundSequence:" : "mgjm 5/8/2019 13:34" } }
