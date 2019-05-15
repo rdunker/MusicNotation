@@ -8,6 +8,7 @@ drawOn: aCanvas
 		yourself.
 		
 	canvas fillRectangle: ((0@150 + self position) extent: self width@1) color: Color green.
+	canvas drawString: self codePoint hex at: (self bounds bottomLeft - (-10 @ 20)).
 	
 	MNSmuflDrawer new
 		bounds: self bounds;
