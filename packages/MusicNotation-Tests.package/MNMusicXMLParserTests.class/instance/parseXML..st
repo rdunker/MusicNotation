@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 parseXML: aString
 	^ (XMLDOMParser parseDocumentFrom: aString readStream) root

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testParseNote
 
 	| note xmlNote |
