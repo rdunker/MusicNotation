@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"parseXML:" : "aw 5/15/2019 19:07",
+		"testParseEmptyMeasure" : "aw 5/15/2019 20:57",
+		"testParseEmptyNote" : "aw 5/15/2019 20:57",
+		"testParseEmptyPart" : "aw 5/15/2019 21:05",
+		"testParseEmptyProject" : "aw 5/15/2019 21:14",
+		"testParseMeasure" : "aw 5/15/2019 20:57",
+		"testParseNote" : "aw 5/15/2019 20:57",
+		"testParsePart" : "aw 5/15/2019 21:06",
+		"testParsePitch" : "aw 5/15/2019 20:58",
+		"testParseProject" : "aw 5/15/2019 21:15",
+		"xmlParser" : "aw 5/15/2019 20:55",
+		"xmlParser:" : "aw 5/15/2019 20:54" } }
