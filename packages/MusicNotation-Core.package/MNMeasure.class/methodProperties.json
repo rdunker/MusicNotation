@@ -3,6 +3,11 @@
 		 },
 	"instance" : {
 		"addNote:" : "mgjm 4/18/2019 14:58",
+		"getIndex:" : "jst 5/15/2019 17:00",
 		"initialize" : "mgjm 4/18/2019 14:58",
 		"notes" : "mgjm 4/18/2019 14:57",
-		"notes:" : "mgjm 4/18/2019 14:57" } }
+		"notes:" : "mgjm 4/18/2019 14:57",
+		"transpose:" : "jst 5/9/2019 14:14",
+		"transpose:asSharp:" : "jst 5/9/2019 14:14",
+		"transpose:from:to:" : "jst 5/15/2019 17:02",
+		"transpose:from:to:asSharp:" : "jst 5/15/2019 17:02" } }
