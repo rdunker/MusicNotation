@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"NoteTypes" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"duration",
