@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"calls" : "mgjm 5/22/2019 22:29",
+		"calls:" : "mgjm 5/22/2019 22:22",
+		"depth" : "mgjm 5/22/2019 22:24",
+		"depth:" : "mgjm 5/22/2019 22:24",
+		"do:" : "mgjm 5/22/2019 22:25",
+		"doesNotUnderstand:" : "mgjm 5/22/2019 22:26",
+		"isCallTo:" : "mgjm 5/22/2019 22:33",
+		"isCallTo:with:" : "mgjm 5/22/2019 22:39",
+		"isDone" : "mgjm 5/22/2019 22:31",
+		"isRecording" : "mgjm 5/22/2019 22:23",
+		"isSingleCallTo:" : "mgjm 5/22/2019 22:31",
+		"isSingleCallTo:with:" : "mgjm 5/22/2019 22:37" } }
