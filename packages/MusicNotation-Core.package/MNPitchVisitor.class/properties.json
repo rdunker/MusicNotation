@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"notes" ],
-	"name" : "MNMeasure",
+		 ],
+	"name" : "MNPitchVisitor",
 	"pools" : [
 		 ],
-	"super" : "MNMusicObject",
+	"super" : "MNBlockVisitor",
 	"type" : "normal" }

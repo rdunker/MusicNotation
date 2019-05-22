@@ -10,5 +10,5 @@
 	"name" : "MNPart",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MNMusicObject",
 	"type" : "normal" }

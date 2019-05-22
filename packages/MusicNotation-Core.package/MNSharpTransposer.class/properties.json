@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"notes" ],
-	"name" : "MNMeasure",
+		 ],
+	"name" : "MNSharpTransposer",
 	"pools" : [
 		 ],
-	"super" : "MNMusicObject",
+	"super" : "MNTransposer",
 	"type" : "normal" }

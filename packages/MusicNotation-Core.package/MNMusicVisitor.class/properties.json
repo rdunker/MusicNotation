@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"notes" ],
-	"name" : "MNMeasure",
+		 ],
+	"name" : "MNMusicVisitor",
 	"pools" : [
 		 ],
-	"super" : "MNMusicObject",
+	"super" : "Object",
 	"type" : "normal" }

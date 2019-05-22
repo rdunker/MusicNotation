@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"alterByHalfStep" : "mgjm 5/16/2019 01:34",
+		"alterFor:" : "mgjm 5/16/2019 01:40",
+		"halfStepSymbols" : "mgjm 5/16/2019 02:06",
+		"halfStepsInOctave" : "mgjm 5/16/2019 01:28",
+		"halfStepsOf:" : "mgjm 5/16/2019 02:09",
+		"offset" : "mgjm 5/16/2019 02:50",
+		"offset:" : "mgjm 5/16/2019 02:50",
+		"setHalfSteps:of:" : "mgjm 5/16/2019 01:39",
+		"transpose:" : "mgjm 5/16/2019 02:52",
+		"value:" : "mgjm 5/16/2019 03:19" } }
