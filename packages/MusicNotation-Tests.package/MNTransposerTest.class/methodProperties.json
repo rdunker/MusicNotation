@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"pitchC4" : "mgjm 5/23/2019 00:12",
+		"testFlatSetHalfStepsA4" : "mgjm 5/23/2019 00:17",
+		"testFlatSetHalfStepsAb4" : "mgjm 5/23/2019 00:20",
+		"testHalfStepsOfC4" : "mgjm 5/23/2019 00:22",
+		"testSharpSetHalfStepsA4" : "mgjm 5/23/2019 00:17",
+		"testSharpSetHalfStepsAs4" : "mgjm 5/23/2019 00:18",
+		"testTransposeC4Default" : "mgjm 5/23/2019 00:21",
+		"testTransposeC4Flat" : "mgjm 5/23/2019 00:21",
+		"testTransposeC4Sharp" : "mgjm 5/23/2019 00:21" } }
