@@ -11,5 +11,5 @@
 	"name" : "MNNote",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MNMusicObject",
 	"type" : "normal" }

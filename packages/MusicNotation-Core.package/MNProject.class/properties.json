@@ -10,5 +10,5 @@
 	"name" : "MNProject",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MNMusicObject",
 	"type" : "normal" }
