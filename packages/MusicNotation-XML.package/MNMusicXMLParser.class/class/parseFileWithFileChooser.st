@@ -1,0 +1,3 @@
+parsing
+parseFileWithFileChooser
+	^ self new parseFileWithFileChooser
