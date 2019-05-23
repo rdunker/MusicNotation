@@ -1,3 +1,3 @@
 accessing
 divisions
-	^ divisions
+	^ divisions ifNil: [ MNMissingValue for: self at: #divisions ]

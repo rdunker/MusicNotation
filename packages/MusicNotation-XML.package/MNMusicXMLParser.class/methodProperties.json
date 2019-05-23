@@ -5,11 +5,11 @@
 		"parseFileWithFileChooser" : "mgjm 5/4/2019 18:14",
 		"parseFrom:" : "mgjm 5/4/2019 18:14" },
 	"instance" : {
-		"divisions" : "mgjm 5/4/2019 17:31",
+		"divisions" : "mgjm 5/24/2019 00:10",
 		"divisions:" : "mgjm 5/4/2019 17:31",
 		"parseAttributes:" : "mgjm 5/4/2019 18:31",
 		"parseAttributes:in:" : "mgjm 5/4/2019 17:52",
-		"parseDocument:" : "mgjm 5/4/2019 16:44",
+		"parseDocument:" : "mgjm 5/24/2019 00:13",
 		"parseFileNamed:" : "mgjm 5/4/2019 18:10",
 		"parseFileWithFileChooser" : "mgjm 5/4/2019 18:13",
 		"parseFrom:" : "mgjm 5/4/2019 18:09",
@@ -18,6 +18,6 @@
 		"parsePart:" : "mgjm 5/4/2019 16:47",
 		"parsePitch:" : "aw 5/15/2019 17:52",
 		"parseScorePartwise:" : "mgjm 5/4/2019 16:46",
-		"stringNamed:in:" : "mgjm 5/4/2019 18:01",
+		"stringNamed:in:" : "mgjm 5/24/2019 00:22",
 		"stringNamed:in:ifAbsent:" : "mgjm 5/4/2019 17:39",
 		"stringNamed:in:ifPresent:" : "mgjm 5/4/2019 18:32" } }

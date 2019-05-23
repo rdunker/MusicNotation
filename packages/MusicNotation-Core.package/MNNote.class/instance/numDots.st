@@ -1,4 +1,4 @@
 accessing
 numDots
-	self haltIfDurationIsUnsupported.
+	self validateDuration.
 	^ self duration numerator highBit - 1
