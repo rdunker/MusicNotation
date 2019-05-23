@@ -1,4 +1,4 @@
 testing
 isDotted
-
-	^ self duration numerator == 3
+	self haltIfDurationIsUnsupported.
+	^ self duration numerator > 1
