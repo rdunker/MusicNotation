@@ -10,5 +10,5 @@
 	"name" : "MNMeasure",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MNMusicObject",
 	"type" : "normal" }

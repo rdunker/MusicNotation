@@ -1,3 +1,3 @@
 accessing
 octave: anObject
-	octave := anObject
+	octave := anObject asInteger.

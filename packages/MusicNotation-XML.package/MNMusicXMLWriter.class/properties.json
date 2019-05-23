@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-XML",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"writer" ],
+	"name" : "MNMusicXMLWriter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
