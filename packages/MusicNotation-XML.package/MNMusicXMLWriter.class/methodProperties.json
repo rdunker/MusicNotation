@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"on:" : "fb 5/8/2019 15:44",
+		"onFile:" : "fb 5/8/2019 15:43" },
+	"instance" : {
+		"calculateDivisions:" : "fb 5/8/2019 16:00",
+		"durationOf:withDivisions:" : "fb 5/8/2019 16:08",
+		"serializeMeasure:" : "fb 5/8/2019 16:01",
+		"serializeNote:withDivisions:" : "fb 5/8/2019 16:08",
+		"serializePart:withID:" : "fb 5/23/2019 10:46",
+		"serializePartScore:withID:" : "fb 5/23/2019 10:50",
+		"serializePitch:" : "fb 5/8/2019 15:16",
+		"serializeProject:" : "fb 5/23/2019 10:53",
+		"stream" : "fb 5/8/2019 10:50",
+		"stream:" : "fb 5/8/2019 10:50",
+		"stringNamed:content:" : "fb 5/8/2019 15:11",
+		"writeProject:" : "fb 5/8/2019 15:41",
+		"writer" : "fb 5/8/2019 10:53",
+		"writer:" : "fb 5/8/2019 10:53" } }

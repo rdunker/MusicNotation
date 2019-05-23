@@ -1,14 +1,14 @@
 {
-	"category" : "MusicNotation-Core",
+	"category" : "MusicNotation-XML",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"NoteTypes" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"duration",
-		"pitches" ],
-	"name" : "MNNote",
+		"stream",
+		"writer" ],
+	"name" : "MNMusicXMLWriter",
 	"pools" : [
 		 ],
 	"super" : "Object",
