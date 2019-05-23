@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addSound:" : "mgjm 5/16/2019 03:14",
+		"baseSound" : "mgjm 5/16/2019 03:00",
+		"baseSound:" : "mgjm 5/16/2019 02:59",
+		"convertDuration:" : "mgjm 5/15/2019 20:36",
+		"defaultBaseSound" : "mgjm 5/16/2019 03:00",
+		"generateMixedSound:collect:" : "mgjm 5/16/2019 02:11",
+		"generateNote:" : "mgjm 5/15/2019 21:10",
+		"generatePitch:duration:" : "mgjm 5/16/2019 03:00",
+		"loudness" : "mgjm 5/15/2019 20:34",
+		"soundSequence" : "mgjm 5/16/2019 03:03",
+		"soundSequence:" : "mgjm 5/15/2019 20:33",
+		"visitNote:" : "mgjm 5/15/2019 21:05",
+		"visitProject:" : "mgjm 5/16/2019 03:01" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"offset" ],
+	"name" : "MNTransposer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

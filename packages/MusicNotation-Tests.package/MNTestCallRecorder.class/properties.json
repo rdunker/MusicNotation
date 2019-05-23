@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"calls",
+		"depth" ],
+	"name" : "MNTestCallRecorder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
