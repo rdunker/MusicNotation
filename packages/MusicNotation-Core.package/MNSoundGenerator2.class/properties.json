@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"soundSequence",
+		"baseSound" ],
+	"name" : "MNSoundGenerator2",
+	"pools" : [
+		 ],
+	"super" : "MNMusicVisitor",
+	"type" : "normal" }
