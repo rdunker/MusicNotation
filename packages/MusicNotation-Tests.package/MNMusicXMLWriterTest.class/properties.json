@@ -1,15 +1,14 @@
 {
-	"category" : "MusicNotation-Core",
+	"category" : "MusicNotation-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"duration",
-		"pitches" ],
-	"name" : "MNNote",
+		 ],
+	"name" : "MNMusicXMLWriterTest",
 	"pools" : [
 		 ],
-	"super" : "MNMusicObject",
+	"super" : "TestCase",
 	"type" : "normal" }
