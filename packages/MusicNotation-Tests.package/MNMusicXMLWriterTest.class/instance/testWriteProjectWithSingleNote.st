@@ -28,7 +28,7 @@ parsedNote := ((parsedProject parts at: 1) measures at: 1) notes at: 1.
 
 self assert: (Fraction numerator: 4 denominator: 4) equals: parsedNote duration.
 self assert: 1 equals: parsedNote pitches size.
-self assert: 'c' equals: (parsedNote pitches at: 1) step.
+self assert: $c equals: (parsedNote pitches at: 1) step.
 self assert: 4 equals: (parsedNote pitches at: 1) octave.
 self assert: 1 equals: (parsedNote pitches at: 1) alter.
 
