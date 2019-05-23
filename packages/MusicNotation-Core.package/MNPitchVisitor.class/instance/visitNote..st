@@ -1,3 +1,3 @@
 visiting
 visitNote: aNote
-	aNote pitches do: self block.
+	aNote pitches do: [ :pitch | pitch accept: self ].
