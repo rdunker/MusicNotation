@@ -3,7 +3,7 @@ serializePart: aPart withID: id
 
 	| xml index |
 	xml := (XMLElement named: 'part')
-		attributeAt: 'id' put: ('P' , id asString).
+		attributeAt: 'id' put: id asString.
 	
 	index := 1.
 	aPart measures do:
