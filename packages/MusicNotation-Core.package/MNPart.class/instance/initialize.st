@@ -2,4 +2,4 @@ initialize-release
 initialize
 	super initialize.
 	
-	self measures: OrderedCollection new
+	self measures: OrderedCollection new.

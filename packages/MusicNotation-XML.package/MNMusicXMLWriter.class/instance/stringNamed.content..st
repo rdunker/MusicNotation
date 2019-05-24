@@ -1,6 +1,5 @@
-serializing
+accessing
 stringNamed: aSymbol content: aString
-
 	^ (XMLElement named: aSymbol)
-		addContent: (XMLStringNode string: aString);
+		addElement: (XMLStringNode string: aString asString);
 		yourself
