@@ -12,7 +12,7 @@ project addPart: part.
 part addMeasure: measure.
 measure addNote: note.
 note addPitch: (MNPitch new
-	step: 'c';
+	step: $c;
 	octave: 4;
 	alter: 1).
 
