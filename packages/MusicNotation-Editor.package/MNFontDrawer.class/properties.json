@@ -1,0 +1,20 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bounds",
+		"canvas",
+		"color",
+		"font",
+		"lineHeight",
+		"offset",
+		"position" ],
+	"name" : "MNFontDrawer",
+	"pools" : [
+		 ],
+	"super" : "MNPathDrawer",
+	"type" : "normal" }

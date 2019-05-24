@@ -1,0 +1,16 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"font",
+		"path",
+		"width" ],
+	"name" : "MNGlyph",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

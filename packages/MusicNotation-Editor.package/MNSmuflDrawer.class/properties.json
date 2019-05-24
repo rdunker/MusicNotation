@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MNSmuflDrawer",
+	"pools" : [
+		 ],
+	"super" : "MNFontDrawer",
+	"type" : "normal" }

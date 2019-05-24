@@ -7,9 +7,10 @@ baseline: spec
 			spec
 				package: 'MusicNotation-Core';
 				package: 'MusicNotation-XML' with: [spec requires: #('MusicNotation-Core')];
-				package: 'MusicNotation-Tests' with: [spec requires: #('MusicNotation-Core' 'MusicNotation-XML')];
+				package: 'MusicNotation-Editor' with: [spec requires: #('MusicNotation-Core')];
+				package: 'MusicNotation-Tests' with: [spec requires: #('MusicNotation-Core' 'MusicNotation-XML' 'MusicNotation-Editor')];
 				yourself.
 			spec
-				group: 'default' with: #('MusicNotation-Core' 'MusicNotation-XML');
+				group: 'default' with: #('MusicNotation-Core' 'MusicNotation-XML' 'MusicNotation-Editor');
 				group: 'tests' with: #('MusicNotation-Tests')];
 				yourself
