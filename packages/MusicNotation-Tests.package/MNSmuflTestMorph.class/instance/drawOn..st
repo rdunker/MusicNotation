@@ -7,14 +7,13 @@ drawOn: aCanvas
 		aaLevel: 4;
 		yourself.
 		
-	canvas fillRectangle: ((0@150 + self position) extent: self width@1) color: Color green.
+	canvas fillRectangle: (self leftCenter extent: self width@1) color: Color green.
 	canvas drawString: self codePoint hex at: (self bounds bottomLeft - (-10 @ 20)).
 	
 	MNSmuflDrawer new
-		bounds: self bounds;
 		canvas: canvas;
 		color: Color red;
 		font: MNFont bravura;
-		lineHeight: 400;
-		position: 50@150 + self position;
+		position: 22@0 + self leftCenter;
+		noteLineHeight: 22;
 		drawCodePoint: self codePoint.

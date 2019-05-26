@@ -2,4 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"drawCodePoint:at:" : "mgjm 5/25/2019 22:34",
+		"drawDrawable:" : "mgjm 5/25/2019 22:39",
+		"drawHLine:width:" : "mgjm 5/26/2019 17:01",
+		"drawVLine:to:" : "mgjm 5/26/2019 17:01",
+		"fontScale" : "mgjm 5/25/2019 22:55",
+		"lineWidth" : "mgjm 5/25/2019 23:53",
+		"lineWidthUnits" : "mgjm 5/25/2019 23:53",
+		"move:" : "mgjm 5/25/2019 23:19",
+		"moveCodePoint:" : "mgjm 5/26/2019 16:32",
+		"moveLineBack" : "mgjm 5/26/2019 00:01",
+		"noteLineHeight" : "mgjm 5/25/2019 22:55",
+		"noteLineHeight:" : "mgjm 5/25/2019 22:55",
+		"resetPositionAfter:" : "mgjm 5/26/2019 16:59",
+		"widthOfCodePoint:" : "mgjm 5/26/2019 16:32" } }
