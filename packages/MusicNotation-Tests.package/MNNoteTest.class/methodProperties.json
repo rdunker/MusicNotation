@@ -2,8 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"baseDurations" : "mgjm 5/26/2019 19:28",
+		"dotFactors" : "mgjm 5/26/2019 19:17",
+		"invalidDotFactors" : "mgjm 5/26/2019 19:24",
+		"testBaseDuration" : "mgjm 5/26/2019 19:20",
 		"testDurationFraction" : "aw 5/6/2019 23:14",
+		"testIsDotted" : "mgjm 5/26/2019 19:20",
 		"testNoteAccept" : "mgjm 5/22/2019 22:41",
+		"testNumDots" : "mgjm 5/26/2019 19:21",
 		"testQuarterA4" : "aw 5/6/2019 23:11",
 		"testQuarterA4C5" : "aw 5/6/2019 23:11",
-		"testQuarterRest" : "aw 5/6/2019 22:51" } }
+		"testQuarterRest" : "aw 5/6/2019 22:51",
+		"testValidateDurationWithInvalidDenominator" : "mgjm 5/26/2019 19:27",
+		"testValidateDurationWithInvalidDotFactor" : "mgjm 5/26/2019 19:26" } }

@@ -1,4 +1,4 @@
 accessing
 numDots
 	self validateDuration.
-	^ self duration numerator highBit - 1
+	^ self durationNumerator2 highBit - 1
