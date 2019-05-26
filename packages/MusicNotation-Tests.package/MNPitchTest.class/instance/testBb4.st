@@ -12,4 +12,5 @@ testBb4
 	self assert: pitch isSharp not.
 	self assert: 4 equals: pitch octave.
 	self assert: $b equals: pitch step.
+	self assert: 34 equals: pitch steps.
 	self assertFrequencyOnAnotherOctave: pitch.

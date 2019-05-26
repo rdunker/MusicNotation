@@ -12,4 +12,5 @@ testA4
 	self assert: 4 equals: pitch octave.
 	self assert: $a equals: pitch step.
 	self assert: 440 equals: pitch frequency.
+	self assert: 33 equals: pitch steps.
 	self assertFrequencyOnAnotherOctave: pitch.

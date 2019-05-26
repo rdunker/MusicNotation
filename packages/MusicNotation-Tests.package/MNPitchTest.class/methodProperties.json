@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"assertFrequencyOnAnotherOctave:" : "mgjm 5/3/2019 21:17",
-		"testA4" : "mgjm 5/3/2019 21:17",
-		"testAb4" : "mgjm 5/6/2019 22:12",
-		"testAs4" : "mgjm 5/6/2019 22:12",
-		"testBb4" : "mgjm 5/3/2019 21:16",
-		"testC4" : "mgjm 5/3/2019 21:17",
-		"testFs4" : "mgjm 5/3/2019 21:17",
+		"testA4" : "mgjm 5/26/2019 23:51",
+		"testAb4" : "mgjm 5/26/2019 23:51",
+		"testAs4" : "mgjm 5/26/2019 23:51",
+		"testBb4" : "mgjm 5/26/2019 23:51",
+		"testC4" : "mgjm 5/26/2019 23:52",
+		"testFs4" : "mgjm 5/26/2019 23:52",
 		"testInvalidAlter" : "mgjm 5/24/2019 00:20",
 		"testPitchAccept" : "mgjm 5/23/2019 12:16" } }
