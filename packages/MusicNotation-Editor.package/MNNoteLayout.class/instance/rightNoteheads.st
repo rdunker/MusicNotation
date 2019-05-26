@@ -1,0 +1,3 @@
+accessing
+rightNoteheads
+	^ rightNoteheads
