@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"musicXML" ],
+	"name" : "MNSong",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
