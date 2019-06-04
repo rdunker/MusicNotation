@@ -1,3 +1,3 @@
 instance creation
 fromMusicXMLString: aString
-	^ self fromMusicXMLDocument: (XMLDOMParser parseDocumentFrom: (ReadStream on: aString))
+	^ self new musicXML: aString
