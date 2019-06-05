@@ -10,5 +10,5 @@
 	"name" : "MNKeySignatureMorph",
 	"pools" : [
 		 ],
-	"super" : "MNSymbol",
+	"super" : "MNSymbolMorph",
 	"type" : "normal" }

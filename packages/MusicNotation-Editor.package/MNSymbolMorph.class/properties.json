@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MNSymbol",
+	"name" : "MNSymbolMorph",
 	"pools" : [
 		 ],
 	"super" : "MNMorph",
