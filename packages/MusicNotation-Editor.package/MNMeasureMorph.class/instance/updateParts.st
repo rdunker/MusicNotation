@@ -1,4 +1,4 @@
-accessing
+updating
 updateParts
 	self submorphs do: #abandon.
 	self measure ifNil: [ ^ self ].
