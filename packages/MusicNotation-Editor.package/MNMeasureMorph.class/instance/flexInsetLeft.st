@@ -1,0 +1,3 @@
+accessing
+flexInsetLeft
+	^ self noteLineHeight

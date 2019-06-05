@@ -1,15 +1,20 @@
 as yet unclassified
 layout: aMorph in: newBounds
-	| base grow box width |
+	| base grow width bounds |
+	bounds := newBounds insetBy: aMorph flexInset.
+	
 	base := aMorph submorphs detectSum: #flexBase.
-	newBounds width <= base
-		ifTrue: [ ^ self layoutWithoutGrow: aMorph in: newBounds ].
+	width := bounds width - base.
+	width strictlyPositive
+		ifFalse: [ ^ self layoutWithoutGrow: aMorph in: bounds ].
 	
 	grow := aMorph submorphs detectSum: #flexGrow.
-	grow := newBounds width - base / grow.
+	grow isZero
+		ifTrue: [ ^ self layoutWithoutGrow: aMorph in: bounds ].
+	grow := width / grow.
 	
-	box := newBounds withWidth: 0.
+	bounds := bounds withWidth: 0.
 	aMorph submorphsDo: [ :each | 
 		width := grow * each flexGrow + each flexBase.
-		each bounds: (box withWidth: width).
-		box := box translateBy: width @ 0 ].
+		each bounds: (bounds withWidth: width).
+		bounds := bounds translateBy: width @ 0 ].

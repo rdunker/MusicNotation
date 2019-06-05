@@ -1,3 +1,3 @@
 accessing
 flexBase
-	^ self submorphs detectSum: #flexBase
+	^ self flexInsetLeft + (self submorphs detectSum: #flexBase)

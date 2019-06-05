@@ -1,8 +1,8 @@
 as yet unclassified
 layoutWithoutGrow: aMorph in: newBounds
-	| box width |
-	box := newBounds withWidth: 0.
+	| width bounds |
+	bounds := newBounds withWidth: 0.
 	aMorph submorphsDo: [ :each | 
 		width := each flexBase.
-		each bounds: (box withWidth: width).
-		box := box translateBy: width @ 0 ].
+		each bounds: (bounds withWidth: width).
+		bounds := bounds translateBy: width @ 0 ].
