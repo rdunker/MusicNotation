@@ -1,3 +1,3 @@
 accessing
 flexBase
-	^ self noteLayout flexBaseForFont: self font noteLineHeight: self noteLineHeight
+	^ self noteLayout widthForFont: self font noteLineHeight: self noteLineHeight

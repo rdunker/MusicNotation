@@ -4,8 +4,8 @@ drawWith: aDrawer
 	
 	aDrawer move: aDrawer font noteLineHeightUnits / 4.
 	
-	self lines
-		ifEmpty: [ self drawRestWith: aDrawer ]
-		ifNotEmpty: [ self drawNoteWith: aDrawer ].
+	self
+		ifRest: [ self drawRestWith: aDrawer ]
+		ifNote: [ self drawNoteWith: aDrawer ].
 		
 	self drawDotsWith: aDrawer.

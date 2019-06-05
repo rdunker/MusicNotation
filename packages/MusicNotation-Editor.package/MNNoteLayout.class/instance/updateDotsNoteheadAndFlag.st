@@ -1,9 +1,9 @@
 updating
 updateDotsNoteheadAndFlag
 	self dots: self calculateDots.
-	self lines
-		ifEmpty: [
+	self
+		ifRest: [
 			self notehead: self calculateRest ]
-		ifNotEmpty: [
-			self notehead: self calculateNotehead.
-			self flagCodePoint: self calculateFlag ].
+		ifNote: [
+			self flagCodePoint: self calculateFlag.
+			self notehead: self calculateNotehead ].

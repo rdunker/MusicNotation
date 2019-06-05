@@ -1,4 +1,4 @@
-accessing
+calculating
 widthUnitsOfNoteForFont: aFont
 	| width |
 	width := 0.
@@ -6,13 +6,6 @@ widthUnitsOfNoteForFont: aFont
 		width := width + (aFont codePoint: codePoint) width.
 		width := width + aFont accidentalSpaceUnits ].
 	
-	self leftNoteheads
-		ifNotEmpty: [ width := width + (aFont codePoint: self notehead) width ].
-	
-	width := width + ((self rightNoteheads
-			ifEmpty: [ self flagCodePoint ]
-			ifNotEmpty: [ self notehead ])
-		ifNil: [ aFont lineWidthUnits ]
-		ifNotNilDo: [ :codePoint | (aFont codePoint: codePoint) width ]).
-	
+	width := width + (self leftWidthFor: aFont).
+	width := width + (self rightWidthFor: aFont).
 	^ width

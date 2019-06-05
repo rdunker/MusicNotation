@@ -1,5 +1,5 @@
 calculating
 calculateDots
-	^ self lines
-		ifEmpty: [ #(-0.5) ]
-		ifNotEmpty: [ self calculateNoteDots ].
+	^ self
+		ifRest: [ #(-0.5) ]
+		ifNote: [ self calculateNoteDots ].

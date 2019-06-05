@@ -1,4 +1,4 @@
-accessing
+enumerating
 accidentalsDo: aBlock
 	self note pitches with: self lines do: [ :pitch :line |
 		pitch isNormal
