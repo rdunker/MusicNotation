@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"DefaultScale" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scale",
-		"font" ],
-	"name" : "MNMorph",
+		"codePoint",
+		"lastCanvas" ],
+	"name" : "MNSmuflTestMorph",
 	"pools" : [
 		 ],
 	"super" : "Morph",

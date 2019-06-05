@@ -1,15 +1,15 @@
 {
-	"category" : "MusicNotation-Tests",
+	"category" : "MusicNotation-Editor",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"codePoint",
-		"lastCanvas" ],
-	"name" : "MNSmuflTestMorph",
+		"top",
+		"bottom" ],
+	"name" : "MNTimeSignatureMorph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "MNSymbol",
 	"type" : "normal" }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"newDouble" : "mm 6/5/2019 12:22",
+		"newFinal" : "mm 6/5/2019 12:22",
+		"newRepeatLeft" : "mm 6/5/2019 12:22",
+		"newRepeatRight" : "mm 6/5/2019 12:23",
+		"newRepeatRightLeft" : "mm 6/5/2019 12:23",
+		"newReverseFinal" : "mm 6/5/2019 12:22",
+		"newSingle" : "mm 6/5/2019 15:31" },
+	"instance" : {
+		"barLineCodePoint" : "mm 6/5/2019 12:17",
+		"barLineCodePoint:" : "mm 6/5/2019 12:19",
+		"codePointsAndOffsets" : "mm 6/5/2019 12:25" } }

@@ -1,3 +1,3 @@
 accessing
 font: anObject
-	font := anObject
+	^ font := anObject

@@ -3,13 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"DefaultScale" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scale",
-		"font" ],
-	"name" : "MNMorph",
+		"barLineCodePoint" ],
+	"name" : "MNBarLineMorph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "MNSymbol",
 	"type" : "normal" }
