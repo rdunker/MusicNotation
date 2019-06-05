@@ -1,14 +1,16 @@
 {
 	"class" : {
-		 },
+		"fraction:" : "mgjm 6/5/2019 20:35",
+		"numerator:denominator:" : "mgjm 6/5/2019 20:35" },
 	"instance" : {
-		"baseCodePoint" : "mm 6/5/2019 12:08",
-		"bottom" : "mm 6/5/2019 11:51",
-		"bottom:" : "mm 6/5/2019 12:11",
-		"bottomCodePoint" : "mm 6/5/2019 12:09",
-		"drawWith:" : "mgjm 6/5/2019 19:42",
-		"flexBase" : "mgjm 6/5/2019 20:01",
-		"initialize" : "mm 6/5/2019 12:13",
-		"top" : "mm 6/5/2019 11:51",
-		"top:" : "mm 6/5/2019 12:12",
-		"topCodePoint" : "mm 6/5/2019 12:09" } }
+		"bottomWidthUnits" : "mgjm 6/5/2019 21:26",
+		"codePointsOf:reverseDo:" : "mgjm 6/5/2019 21:35",
+		"denominator" : "mgjm 6/5/2019 21:41",
+		"draw:at:with:" : "mgjm 6/5/2019 21:38",
+		"drawWith:" : "mgjm 6/5/2019 22:00",
+		"flexBase" : "mgjm 6/5/2019 21:40",
+		"fraction" : "mgjm 6/5/2019 20:36",
+		"fraction:" : "mgjm 6/5/2019 20:36",
+		"numerator" : "mgjm 6/5/2019 21:41",
+		"topWidthUnits" : "mgjm 6/5/2019 21:26",
+		"widthUnitsOf:" : "mgjm 6/5/2019 21:42" } }
