@@ -1,5 +1,5 @@
 as yet unclassified
 drawWith: aDrawer
-	self keySignature do: [ :each | 
-		aDrawer drawAndMoveCodePoint: each first at: each second. 
+	self keySignatureCodePointsDo: [ :codePoint :line |
+		aDrawer drawAndMoveCodePoint: codePoint at: line.
 		aDrawer move: aDrawer font accidentalSpaceUnits ].

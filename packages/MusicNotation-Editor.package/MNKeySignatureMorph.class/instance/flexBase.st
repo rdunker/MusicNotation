@@ -1,5 +1,9 @@
 as yet unclassified
 flexBase
-	^ (self keySignature detectSum: [ :each |
-		(self font codePoint: each first) width + self font accidentalSpaceUnits ]
-	) * (self font scaleFactorForNoteLineHeight: self noteLineHeight) x + self noteLineHeight
+	| width |
+	width := self font noteLineHeightUnits.
+	
+	self keySignatureCodePointsDo: [ :codePoint :line |
+		width := width + (self font codePoint: codePoint) width + self font accidentalSpaceUnits ].
+	
+	^ width * (self font scaleFactorForNoteLineHeight: self noteLineHeight) x
