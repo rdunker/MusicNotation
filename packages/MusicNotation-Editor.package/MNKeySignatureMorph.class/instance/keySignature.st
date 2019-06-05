@@ -1,0 +1,3 @@
+accessing
+keySignature
+	^ keySignature
