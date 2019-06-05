@@ -4,4 +4,7 @@ updateMeasures
 	self part ifNil: [ ^ self ].
 	
 	self part measures do: [ :measure |
-		self addMorphBack: measure asMorph ].	
+		self addMorphBack: measure asMorph ].
+	
+	self addSymbolsToFirstMeasure: self submorphs first.
+	self addSymbolsToLastMeasure: self submorphs last.

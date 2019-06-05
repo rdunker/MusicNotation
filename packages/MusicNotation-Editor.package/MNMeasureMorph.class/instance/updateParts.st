@@ -5,3 +5,5 @@ updateParts
 	
 	self measure notes do: [ :note |
 		self addMorphBack: note asMorph ].
+	
+	self addMorphBack: MNBarLineMorph newSingle.
