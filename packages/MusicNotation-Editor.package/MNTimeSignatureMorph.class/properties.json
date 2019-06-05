@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"top",
+		"bottom" ],
 	"name" : "MNTimeSignatureMorph",
 	"pools" : [
 		 ],

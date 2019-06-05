@@ -4,4 +4,4 @@ clefCodePoint: aCodePoint
 		ifTrue: [
 			clefCodePoint := aCodePoint ]
 		ifFalse: [
-			MNInvalidValue for: self at: #clefCodePoint value: aCodePoint ] 
+			MNInvalidValue for: self at: #clefCodePoint: value: aCodePoint ] 

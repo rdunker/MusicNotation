@@ -1,6 +1,7 @@
 as yet unclassified
 drawOn: aCanvas
-	| canvas |
+	| canvas drawer |
+	
 	self flag: #todo. "Remove background (only used for debugging)"
 	aCanvas fillRectangle: self bounds fillStyle: Color veryVeryLightGray.
 	
@@ -8,10 +9,15 @@ drawOn: aCanvas
 		aaLevel: 4;
 		copyClipRect: self bounds.
 	
-	MNSmuflDrawer new
+	drawer := MNSmuflDrawer new
 		canvas: canvas;
 		color: self color;
 		font: self font;
 		position: self leftCenter;
 		noteLineHeight: self noteLineHeight;
-		drawCodePoint: self clefCodePoint
+		yourself.
+	
+	self codePointsAndOffsets 
+		do: [ :each |
+			drawer 	drawCodePoint: each first at: each second.
+			drawer move: drawer font accidentalSpaceUnits * each third ]
