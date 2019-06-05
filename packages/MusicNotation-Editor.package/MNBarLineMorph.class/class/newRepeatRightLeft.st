@@ -1,3 +1,3 @@
 as yet unclassified
 newRepeatRightLeft
-	^ self new barLineCodePoint: 16rE042
+	^ self newWith: 16rE042

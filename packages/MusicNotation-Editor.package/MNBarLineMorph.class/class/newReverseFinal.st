@@ -1,3 +1,3 @@
 as yet unclassified
 newReverseFinal
-	^ self new barLineCodePoint: 16rE033
+	^ self newWith: 16rE033

@@ -1,3 +1,3 @@
 as yet unclassified
 newDouble
-	^ self new barLineCodePoint: 16rE031
+	^ self newWith: 16rE031
