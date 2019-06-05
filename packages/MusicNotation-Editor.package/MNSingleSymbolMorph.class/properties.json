@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"barLineCodePoint" ],
-	"name" : "MNBarLineMorph",
+		 ],
+	"name" : "MNSingleSymbolMorph",
 	"pools" : [
 		 ],
-	"super" : "MNSingleSymbolMorph",
+	"super" : "MNSymbol",
 	"type" : "normal" }

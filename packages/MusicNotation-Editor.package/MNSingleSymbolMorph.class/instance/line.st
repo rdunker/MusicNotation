@@ -1,3 +1,3 @@
 as yet unclassified
-drawWith: aDrawer
+line
 	self subclassResponsibility.

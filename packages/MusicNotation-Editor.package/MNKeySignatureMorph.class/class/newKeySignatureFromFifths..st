@@ -10,5 +10,5 @@ newKeySignatureFromFifths: aNumber
 		[ 
 			keySignatureCollection := self keySignatureFlatCollection.
 			codePoint := self codePointFlat ].
-	keySignature := keySignatureCollection collect: [ :value | { codePoint . value } ] from: 1 to: aNumber abs.
+	keySignature := keySignatureCollection collect: [ :value | { codePoint . value / 2 } ] from: 1 to: aNumber abs.
 	^ self new keySignature: keySignature.

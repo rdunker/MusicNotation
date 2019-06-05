@@ -1,6 +1,4 @@
-as yet unclassified
+accessing
 drawWith: aDrawer
-	aDrawer move: aDrawer font noteLineHeightUnits.
-	self codePointsAndOffsets 
-		do: [ :each |
-			aDrawer drawCodePoint: each first at: each second ].
+	aDrawer move: self font noteLineHeightUnits.
+	super drawWith: aDrawer.

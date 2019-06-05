@@ -4,9 +4,10 @@
 		"codePointSharp" : "mm 6/5/2019 13:15",
 		"keySignatureFlatCollection" : "fb 6/5/2019 13:51",
 		"keySignatureSharpCollection" : "fb 6/5/2019 13:51",
-		"newKeySignatureFromFifths:" : "fb 6/5/2019 15:14" },
+		"newKeySignatureFromFifths:" : "mgjm 6/5/2019 20:05" },
 	"instance" : {
-		"codePointsAndOffsets" : "fb 6/5/2019 15:14",
-		"drawWith:" : "mm 6/5/2019 15:13",
+		"drawOn:" : "mgjm 6/5/2019 19:55",
+		"drawWith:" : "mgjm 6/5/2019 19:57",
+		"flexBase" : "mgjm 6/5/2019 20:09",
 		"keySignature" : "fb 6/5/2019 15:12",
 		"keySignature:" : "fb 6/5/2019 15:12" } }
