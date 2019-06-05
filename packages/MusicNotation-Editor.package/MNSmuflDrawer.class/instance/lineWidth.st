@@ -1,3 +1,3 @@
 as yet unclassified
 lineWidth
-	^ self lineWidthUnits * self fontScale x
+	^ self font lineWidthForNoteLineHeight: self noteLineHeight

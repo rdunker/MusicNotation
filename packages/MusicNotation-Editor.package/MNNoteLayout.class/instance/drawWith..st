@@ -1,10 +1,8 @@
 drawing
 drawWith: aDrawer
-	self update.
-	self isValid ifFalse: [ self update ].
-	self assert: self isValid.
+	self updateIfNeeded.
 	
-	aDrawer move: 250.
+	aDrawer move: aDrawer font noteLineHeightUnits / 4.
 	
 	self lines
 		ifEmpty: [ self drawRestWith: aDrawer ]

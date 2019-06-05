@@ -1,3 +1,3 @@
 accessing
-fontScale
+updateFontScale
 	self subclassResponsibility.

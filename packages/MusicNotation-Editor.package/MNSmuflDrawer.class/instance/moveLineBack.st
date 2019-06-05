@@ -1,3 +1,3 @@
 as yet unclassified
 moveLineBack
-	self move: self lineWidthUnits negated.
+	self move: self font lineWidthUnits negated.
