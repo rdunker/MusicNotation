@@ -24,6 +24,7 @@
 		"drawWith:" : "mgjm 6/5/2019 02:54",
 		"flagCodePoint" : "mgjm 5/26/2019 00:14",
 		"flagCodePoint:" : "mgjm 5/26/2019 00:14",
+		"flexBaseForFont:noteLineHeight:" : "mgjm 6/5/2019 03:18",
 		"hasDenseLines" : "mgjm 5/25/2019 20:27",
 		"ifDown:" : "mgjm 5/25/2019 20:07",
 		"ifUp:" : "mgjm 5/26/2019 00:11",
@@ -49,4 +50,6 @@
 		"updateIfNeeded" : "mgjm 6/5/2019 02:25",
 		"updateLeftAndRightNoteheads" : "mgjm 5/26/2019 00:04",
 		"updateLines" : "mgjm 5/25/2019 20:03",
-		"updateUp" : "mgjm 5/26/2019 17:26" } }
+		"updateUp" : "mgjm 5/26/2019 17:26",
+		"widthUnitsOfNoteForFont:" : "mgjm 6/5/2019 03:11",
+		"widthUnitsOfRestForFont:" : "mgjm 6/5/2019 03:12" } }

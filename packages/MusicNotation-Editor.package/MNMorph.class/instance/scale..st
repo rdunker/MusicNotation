@@ -1,3 +1,4 @@
 accessing
 scale: anObject
-	scale := anObject
+	scale := anObject.
+	self scaleChanged.
