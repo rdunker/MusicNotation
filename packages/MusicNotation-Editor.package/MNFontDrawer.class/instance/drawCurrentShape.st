@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawCurrentShape
 	self canvas
 		drawGeneralBezierShape: self shape

@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 closeShape
 	self lastPosition = self lastStart ifFalse: [
 		self addLineTo: self lastStart.

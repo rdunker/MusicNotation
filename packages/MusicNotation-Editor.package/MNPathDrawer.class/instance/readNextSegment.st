@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 readNextSegment
 	| type |
 	self skipSeperatorSequence.

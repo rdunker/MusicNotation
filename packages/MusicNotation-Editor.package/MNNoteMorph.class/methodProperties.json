@@ -4,8 +4,9 @@
 	"instance" : {
 		"defaultBounds" : "mgjm 5/25/2019 05:13",
 		"defaultColor" : "mgjm 5/26/2019 17:15",
-		"drawMeasureLinesOn:" : "mgjm 5/25/2019 06:49",
-		"drawOn:" : "mgjm 5/26/2019 17:25",
+		"drawOn:" : "mgjm 6/4/2019 17:52",
+		"flexBase" : "mgjm 6/5/2019 06:56",
+		"flexGrow" : "mgjm 6/4/2019 18:49",
 		"note" : "mgjm 5/24/2019 22:01",
 		"note:" : "mgjm 5/25/2019 19:51",
 		"noteLayout" : "mgjm 5/26/2019 17:24",

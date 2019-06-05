@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawHLine: line width: width
 	| rect |
 	rect := 0 @ (line * self noteLineHeight) extent: (width * self fontScale x) @ self lineWidth.

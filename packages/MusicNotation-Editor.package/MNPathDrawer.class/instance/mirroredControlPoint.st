@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 mirroredControlPoint
 	^ self lastControlPoint 
 		ifNil: [ self lastPosition ]

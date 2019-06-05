@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultBounds" : "mgjm 6/4/2019 17:50",
+		"defaultColor" : "mgjm 6/4/2019 17:50",
+		"drawMeasureLinesOn:" : "mgjm 6/4/2019 17:52",
+		"drawOn:" : "mgjm 6/5/2019 04:07",
+		"flexBase" : "mgjm 6/5/2019 04:11",
+		"flexGrow" : "mgjm 6/5/2019 04:06",
+		"flexInsetLeft" : "mgjm 6/5/2019 04:13",
+		"initialize" : "mgjm 6/5/2019 03:24",
+		"measure" : "mgjm 6/4/2019 17:49",
+		"measure:" : "mgjm 6/4/2019 18:11",
+		"scaleChanged" : "mgjm 6/5/2019 02:22",
+		"update:" : "mgjm 6/4/2019 18:09",
+		"updateParts" : "mgjm 6/4/2019 19:03" } }

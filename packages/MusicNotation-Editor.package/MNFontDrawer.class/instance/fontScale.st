@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 fontScale
 	self subclassResponsibility.

@@ -10,4 +10,3 @@ drawMeasureLinesOn: aCanvas
 			color: Color gray
 			borderWidth: 0
 			borderColor: nil ].
-	

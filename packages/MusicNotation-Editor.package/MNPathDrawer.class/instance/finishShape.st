@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 finishShape
 	self shape ifEmpty: [ ^ self ].
 	self drawCurrentShape.

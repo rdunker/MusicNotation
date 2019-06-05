@@ -1,4 +1,4 @@
-nil
+drawing
 drawCodePoint: anInteger
 	| glyph |
 	glyph := self font codePoint: anInteger.

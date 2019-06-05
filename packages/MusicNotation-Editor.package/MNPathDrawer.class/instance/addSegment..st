@@ -1,3 +1,3 @@
-as yet unclassified
+parsing
 addSegment: verticies
 	self shape add: (self transformVerticies: verticies).

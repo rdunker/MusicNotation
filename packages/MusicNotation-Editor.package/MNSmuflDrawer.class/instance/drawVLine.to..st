@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawVLine: start to: end
 	| rect |
 	rect := 0 @ start corner: self lineWidth @ end.
