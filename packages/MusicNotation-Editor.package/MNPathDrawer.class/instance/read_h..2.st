@@ -1,4 +1,4 @@
-parsing
+as yet unclassified
 read_h
 	| end |
 	end := self lastPosition + (self readNumber @ 0).
