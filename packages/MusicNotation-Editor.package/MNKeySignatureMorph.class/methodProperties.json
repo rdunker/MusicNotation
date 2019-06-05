@@ -7,8 +7,8 @@
 		"newKeySignatureFromFifths:" : "fb 6/5/2019 15:14" },
 	"instance" : {
 		"codePointsAndOffsets" : "fb 6/5/2019 15:14",
-		"defaultBounds" : "mm 6/5/2019 13:10",
-		"defaultColor" : "mm 6/5/2019 13:11",
-		"drawOn:" : "mm 6/5/2019 13:08",
 		"keySignature" : "fb 6/5/2019 15:12",
-		"keySignature:" : "fb 6/5/2019 15:12" } }
+		"keySignature:" : "fb 6/5/2019 15:12",
+		"drawWith:" : "mm 6/5/2019 15:13",
+		"fifths" : "mm 6/5/2019 13:23",
+		"fifths:" : "mm 6/5/2019 13:23" } }

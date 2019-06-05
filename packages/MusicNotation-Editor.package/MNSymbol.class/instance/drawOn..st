@@ -1,19 +1,14 @@
 as yet unclassified
 drawOn: aCanvas
-
-	| canvas drawer |
+	| canvas |
 	canvas := aCanvas asBalloonCanvas
 		aaLevel: 4;
 		copyClipRect: self bounds.
 	
-	drawer := MNSmuflDrawer new
+	MNSmuflDrawer new
 		canvas: canvas;
 		color: self color;
 		font: self font;
 		position: self leftCenter;
 		noteLineHeight: self noteLineHeight;
-		yourself.
-	
-	self codePointsAndOffsets 
-		do: [ :each |
-			drawer 	drawAndMoveCodePoint: each first at: each second ]
+		drawDrawable: self.
