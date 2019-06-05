@@ -1,5 +1,7 @@
 drawing
 drawNoteWith: aDrawer
+	self drawAccidentalsWith: aDrawer.
+	
 	aDrawer resetPositionAfter: [
 		self drawLedgerLinesWith: aDrawer ].
 	

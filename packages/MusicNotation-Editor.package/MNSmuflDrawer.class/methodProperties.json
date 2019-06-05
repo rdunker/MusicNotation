@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"drawAndMoveCodePoint:at:" : "mgjm 6/5/2019 04:51",
 		"drawCodePoint:at:" : "mgjm 5/25/2019 22:34",
 		"drawDrawable:" : "mgjm 5/25/2019 22:39",
 		"drawHLine:width:" : "mgjm 5/26/2019 17:01",

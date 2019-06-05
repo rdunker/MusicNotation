@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"accidentalsDo:" : "mgjm 6/5/2019 05:02",
 		"calculateDenseNoteheads:" : "mgjm 5/25/2019 23:22",
 		"calculateDots" : "mgjm 5/26/2019 19:45",
 		"calculateFlag" : "mgjm 5/26/2019 02:13",
@@ -12,12 +13,13 @@
 		"calculateRest" : "mgjm 5/26/2019 18:19",
 		"dots" : "mgjm 5/25/2019 20:20",
 		"dots:" : "mgjm 5/25/2019 20:20",
+		"drawAccidentalsWith:" : "mgjm 6/5/2019 05:04",
 		"drawDotsWith:" : "mgjm 6/5/2019 03:18",
 		"drawFlagWith:" : "mgjm 5/26/2019 00:26",
 		"drawLedgerLines:other:with:" : "mgjm 6/5/2019 03:50",
 		"drawLedgerLinesUpTo:with:" : "mgjm 5/26/2019 16:56",
 		"drawLedgerLinesWith:" : "mgjm 6/5/2019 02:46",
-		"drawNoteWith:" : "mgjm 6/5/2019 02:29",
+		"drawNoteWith:" : "mgjm 6/5/2019 04:52",
 		"drawNoteheads:with:" : "mgjm 5/26/2019 16:51",
 		"drawRestWith:" : "mgjm 5/26/2019 18:25",
 		"drawStemWith:" : "mgjm 5/26/2019 00:25",
@@ -51,5 +53,5 @@
 		"updateLeftAndRightNoteheads" : "mgjm 5/26/2019 00:04",
 		"updateLines" : "mgjm 5/25/2019 20:03",
 		"updateUp" : "mgjm 5/26/2019 17:26",
-		"widthUnitsOfNoteForFont:" : "mgjm 6/5/2019 03:11",
+		"widthUnitsOfNoteForFont:" : "mgjm 6/5/2019 05:06",
 		"widthUnitsOfRestForFont:" : "mgjm 6/5/2019 03:12" } }
