@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 scaleFactorForNoteLineHeight: aNumber
 	| scaleFactor |
 	scaleFactor := aNumber / self noteLineHeightUnits.

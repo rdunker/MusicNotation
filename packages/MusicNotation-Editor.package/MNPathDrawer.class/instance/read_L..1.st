@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 read_L
 	| end |
 	end := self readPoint.

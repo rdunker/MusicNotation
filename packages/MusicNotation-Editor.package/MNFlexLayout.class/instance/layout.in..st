@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 layout: aMorph in: newBounds
 	| base grow width bounds |
 	bounds := newBounds insetBy: aMorph flexInset.

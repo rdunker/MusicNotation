@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 resetPositionAfter: aBlock
 	| oldPosition |
 	oldPosition := self position.

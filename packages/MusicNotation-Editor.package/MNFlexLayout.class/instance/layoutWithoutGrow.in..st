@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 layoutWithoutGrow: aMorph in: newBounds
 	| width bounds |
 	bounds := newBounds withWidth: 0.

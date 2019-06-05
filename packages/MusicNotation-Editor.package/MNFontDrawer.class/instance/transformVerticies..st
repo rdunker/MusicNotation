@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 transformVerticies: verticies
 	| scale translate |
 	scale := self fontScale.
