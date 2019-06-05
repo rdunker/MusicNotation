@@ -1,6 +1,14 @@
 {
 	"class" : {
-		 },
+		"codePointFlat" : "mm 6/5/2019 13:15",
+		"codePointSharp" : "mm 6/5/2019 13:15",
+		"keySignatureFlatCollection" : "mm 6/5/2019 13:20",
+		"keySignatureSharpCollection" : "mm 6/5/2019 13:19",
+		"newKeySignatureFrom:" : "mm 6/5/2019 13:30" },
 	"instance" : {
-		"codePointsAndOffsets" : "mm 6/5/2019 12:46",
-		"drawOn:" : "mm 6/5/2019 12:43" } }
+		"codePointsAndOffsets" : "mm 6/5/2019 13:29",
+		"defaultBounds" : "mm 6/5/2019 13:10",
+		"defaultColor" : "mm 6/5/2019 13:11",
+		"drawOn:" : "mm 6/5/2019 13:08",
+		"fifths" : "mm 6/5/2019 13:23",
+		"fifths:" : "mm 6/5/2019 13:23" } }

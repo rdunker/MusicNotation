@@ -1,3 +1,12 @@
 as yet unclassified
 codePointsAndOffsets
-	^ { { 16rE260 . 0 . 0 } . { 16rE261 . 0 . 1 } }
+	| keySignatureCollection codePoint |
+	(fifths = 0) ifTrue: [ ^ { } ].
+	keySignatureCollection := self class keySignatureSharpCollection.
+	codePoint := self class codePointSharp.
+	(fifths < 0) ifTrue: 
+		[ 
+			keySignatureCollection := self class keySignatureFlatCollection.
+			codePoint := self class codePointFlat ].
+	^ keySignatureCollection collect: [ :value | { codePoint . value } ] from: 1 to: fifths abs.
+	
