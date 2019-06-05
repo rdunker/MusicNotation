@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 keySignatureFlatCollection
 	^ #(
 		(-1 0)

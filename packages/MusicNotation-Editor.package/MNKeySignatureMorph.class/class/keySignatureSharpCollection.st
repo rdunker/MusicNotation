@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 keySignatureSharpCollection
 	^ #(
 		(1 -2)

@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 newFinal
 	^ self newWith: 16rE032

@@ -1,4 +1,4 @@
-accessing
+enumerating
 codePointsOf: anInteger reverseDo: aBlock
 	| n |
 	n := anInteger.

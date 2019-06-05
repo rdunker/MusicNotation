@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawOn: aCanvas
 	self keySignature
 		ifNotNil: [ super drawOn: aCanvas ].

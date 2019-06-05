@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 clefCodePoint: aCodePoint
 	({ 16rE050 } includes: aCodePoint) 
 		ifTrue: [

@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawWith: aDrawer
 	self keySignatureCodePointsDo: [ :codePoint :line |
 		aDrawer drawAndMoveCodePoint: codePoint at: line.

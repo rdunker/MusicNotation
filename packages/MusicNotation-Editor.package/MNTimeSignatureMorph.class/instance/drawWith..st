@@ -1,4 +1,4 @@
-accessing
+drawing
 drawWith: aDrawer
 	| bottom top |
 	top := self topWidthUnits.

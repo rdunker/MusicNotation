@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 flexBase
 	| width |
 	width := self font noteLineHeightUnits.

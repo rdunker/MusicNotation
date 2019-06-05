@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 flexBase
 	^ self noteLineHeight + (self widthOfCodePoint: self codePoint)

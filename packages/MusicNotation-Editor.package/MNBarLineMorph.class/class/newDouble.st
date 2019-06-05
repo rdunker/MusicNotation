@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 newDouble
 	^ self newWith: 16rE031

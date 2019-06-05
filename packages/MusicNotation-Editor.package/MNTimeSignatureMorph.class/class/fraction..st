@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fraction: aFraction
 	^ self new
 		fraction: aFraction;

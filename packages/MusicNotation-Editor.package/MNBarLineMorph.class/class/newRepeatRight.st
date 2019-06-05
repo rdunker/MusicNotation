@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 newRepeatRight
 	^ self newWith: 16rE041

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newWith: codePoint
 	^ self new
 		barLineCodePoint: codePoint;
