@@ -21,4 +21,4 @@ testTransposeProject
 			
 			self assert: (pitch step = pitchTransposed step).
 			self assert: (pitch octave = pitchTransposed octave).
-			self assert: (pitch alter = pitchTransposed alter) ].
+			self assert: (pitch alter = pitchTransposed alter) ]
