@@ -6,9 +6,11 @@ createAttributesFor: aMeasure
 	xml addElement: (self stringNamed: #divisions content: self divisions / 4).
 	
 	self flag: #todo. "use aMeasure key once this is supported"
-	xml addElement: ((XMLElement named: #key)
-		addElement: (self stringNamed: #fifths content: 0);
-		yourself).
+	aMeasure key ifNotNil:
+		[
+			xml addElement: ((XMLElement named: #key)
+				addElement: (self stringNamed: #fifths content: aMeasure key fifths asString);
+				yourself) ].
 	
 	self flag: #todo. "use aMeasure beat once this is supported"
 	xml addElement: ((XMLElement named: #time)
