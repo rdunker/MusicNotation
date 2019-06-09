@@ -5,14 +5,9 @@ createAttributesFor: aMeasure
 	
 	xml addElement: (self stringNamed: #divisions content: self divisions / 4).
 	
-	self flag: #todo. "add support for manual keys"
-	aMeasure key ifNotNil: [
-		aMeasure key class = MNFifthsKey ifTrue: [
-			xml addElement: ((XMLElement named: #key)
-				addElement: (self stringNamed: #fifths content: aMeasure key fifths asString);
-				yourself) ] ].
+	aMeasure key ifNotNil: [ xml addElement: (self convertKey: aMeasure key) ].
 	
-	self flag: #todo. "use aMeasure beat once this is supported"
+	self flag: #todo. "use aMeasure time once this is supported"
 	xml addElement: ((XMLElement named: #time)
 		addElement: (self stringNamed: #beats content: 4);
 		addElement: (self stringNamed: #'beat-type' content: 4)).

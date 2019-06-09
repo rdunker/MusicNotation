@@ -2,4 +2,4 @@ initialize-release
 initialize
 	super initialize.
 	
-	self alter: 0
+	self symbols: OrderedCollection new

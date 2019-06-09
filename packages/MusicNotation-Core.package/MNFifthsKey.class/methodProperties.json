@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"flatCollection" : "fb 6/9/2019 10:04",
-		"sharpCollection" : "fb 6/9/2019 10:04" },
+		"flatCollection" : "fb 6/9/2019 16:07",
+		"sharpCollection" : "fb 6/9/2019 16:08" },
 	"instance" : {
 		"fifths" : "fb 6/9/2019 09:50",
 		"fifths:" : "fb 6/9/2019 09:50",
 		"initialize" : "fb 6/9/2019 10:09",
-		"symbols" : "fb 6/9/2019 10:07" } }
+		"isFifthsKey" : "fb 6/9/2019 16:02",
+		"symbols" : "fb 6/9/2019 16:05" } }
