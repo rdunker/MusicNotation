@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MNKey",
+	"name" : "MNNaturalSymbol",
 	"pools" : [
 		 ],
-	"super" : "MNMusicObject",
+	"super" : "MNKeySymbol",
 	"type" : "normal" }

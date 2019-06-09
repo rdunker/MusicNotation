@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MNKey",
+		"symbols" ],
+	"name" : "MNManualKey",
 	"pools" : [
 		 ],
-	"super" : "MNMusicObject",
+	"super" : "MNKey",
 	"type" : "normal" }
