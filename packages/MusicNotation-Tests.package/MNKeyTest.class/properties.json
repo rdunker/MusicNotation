@@ -1,17 +1,14 @@
 {
-	"category" : "MusicNotation-Core",
+	"category" : "MusicNotation-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"notes",
-		"key",
-		"time",
-		"clef" ],
-	"name" : "MNMeasure",
+		 ],
+	"name" : "MNKeyTest",
 	"pools" : [
 		 ],
-	"super" : "MNMusicObject",
+	"super" : "TestCase",
 	"type" : "normal" }

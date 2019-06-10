@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"notes",
-		"key",
-		"time",
-		"clef" ],
-	"name" : "MNMeasure",
+		"sign",
+		"line" ],
+	"name" : "MNClef",
 	"pools" : [
 		 ],
 	"super" : "MNMusicObject",

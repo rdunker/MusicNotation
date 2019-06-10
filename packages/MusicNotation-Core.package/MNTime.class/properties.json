@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"notes",
-		"key",
-		"time",
-		"clef" ],
-	"name" : "MNMeasure",
+		"beats",
+		"beatType" ],
+	"name" : "MNTime",
 	"pools" : [
 		 ],
 	"super" : "MNMusicObject",

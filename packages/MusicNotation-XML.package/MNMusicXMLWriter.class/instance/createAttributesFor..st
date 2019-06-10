@@ -7,16 +7,8 @@ createAttributesFor: aMeasure
 	
 	aMeasure key ifNotNil: [ xml addElement: (self convertKey: aMeasure key) ].
 	
-	self flag: #todo. "use aMeasure time once this is supported"
-	xml addElement: ((XMLElement named: #time)
-		addElement: (self stringNamed: #beats content: 4);
-		addElement: (self stringNamed: #'beat-type' content: 4)).
+	aMeasure time ifNotNil: [ xml addElement: (self convertTime: aMeasure time) ].
 	
-	self flag: #todo. "use aMeasure clef once this is supported"
-	xml addElement: ((XMLElement named: #clef)
-		attributeAt: #number put: 1 asString;
-		addElement: (self stringNamed: #sign content: $g asUppercase);
-		addElement: (self stringNamed: #line content: 2);
-		yourself).
+	aMeasure clef ifNotNil: [ xml addElement: (self convertClef: aMeasure clef) ].
 	
 	^ xml.

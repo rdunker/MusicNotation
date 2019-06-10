@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMeasureWithA4
 
 	| pitch note measure |
