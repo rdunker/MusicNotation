@@ -6,4 +6,4 @@ testBassClef
 		line: 2.
 	
 	self assert: $f equals: clef sign.
-	self assert: 2 equals: clef sign.
+	self assert: 2 equals: clef line.
