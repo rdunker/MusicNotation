@@ -1,3 +1,3 @@
 accessing
 font
-	^ font ifNil: [ self font: MNFont bravura ]
+	^ font ifNil: [ font := MNFont bravura ]

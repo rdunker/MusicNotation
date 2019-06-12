@@ -4,7 +4,7 @@ widthForFont: aFont noteLineHeight: aNumber
 	| width |
 	self updateIfNeeded.
 	
-	width := aFont dotSpaceUnits + (aFont codePoint: 16rE1E7) width.
+	width := aFont dotSpaceUnits + (aFont codePoint: self dot) width.
 	width := width * self note numDots.
 	
 	width := width + (self
