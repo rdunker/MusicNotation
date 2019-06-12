@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bounds" : "mgjm 5/3/2019 01:50",
-		"bounds:" : "mgjm 5/3/2019 01:50",
 		"canvas" : "mgjm 5/3/2019 01:49",
 		"canvas:" : "mgjm 5/3/2019 01:49",
 		"color" : "mgjm 5/3/2019 01:49",
@@ -11,12 +9,12 @@
 		"drawCodePoint:" : "mgjm 5/3/2019 03:02",
 		"drawCurrentShape" : "mgjm 5/3/2019 05:20",
 		"font" : "mgjm 5/3/2019 01:49",
-		"font:" : "mgjm 5/3/2019 01:49",
+		"font:" : "mgjm 6/4/2019 19:40",
+		"fontScale" : "mgjm 5/26/2019 01:20",
 		"initialize" : "mgjm 5/3/2019 03:22",
-		"lineHeight" : "mgjm 5/3/2019 01:50",
-		"lineHeight:" : "mgjm 5/3/2019 01:50",
 		"offset" : "mgjm 5/3/2019 01:50",
 		"offset:" : "mgjm 5/3/2019 01:50",
 		"position" : "mgjm 5/3/2019 03:23",
 		"position:" : "mgjm 5/3/2019 01:50",
-		"transformVerticies:" : "mgjm 5/3/2019 03:53" } }
+		"transformVerticies:" : "mgjm 5/25/2019 05:14",
+		"updateFontScale" : "mgjm 6/4/2019 19:40" } }

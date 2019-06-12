@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"bounds",
 		"canvas",
 		"color",
 		"font",
-		"lineHeight",
 		"offset",
 		"position" ],
 	"name" : "MNFontDrawer",

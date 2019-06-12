@@ -4,4 +4,5 @@ parseDocument: xmlDocument
 	root := xmlDocument root.
 	root tag == #'score-partwise'
 		ifTrue: [ ^ self parseScorePartwise: root ].
-	self halt: 'Unsupported MusicXML root element ', root tag, '.'.
+	MNInvalidValue for: xmlDocument at: #root
+		value: '<', root tag, '>' description: 'only <score-partwise> is supported'.

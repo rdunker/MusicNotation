@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MNInvalidValue",
+	"pools" : [
+		 ],
+	"super" : "MNError",
+	"type" : "normal" }

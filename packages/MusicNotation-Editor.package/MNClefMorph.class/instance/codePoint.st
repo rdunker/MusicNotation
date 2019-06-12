@@ -1,0 +1,3 @@
+accessing
+codePoint
+	^ self clefCodePoint

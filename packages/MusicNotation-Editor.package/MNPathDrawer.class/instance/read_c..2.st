@@ -6,4 +6,3 @@ read_c
 	end := self readRelativePoint.
 	self addCubicSegment: { self lastPosition . mid1 . mid2 . end }.
 	self moveTo: end.
-	self lastControlPoint: mid2.

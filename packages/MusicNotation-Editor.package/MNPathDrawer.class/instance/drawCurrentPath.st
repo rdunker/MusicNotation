@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawCurrentPath
 	[ self path atEnd ]
 		whileFalse: [ self readNextSegment ].

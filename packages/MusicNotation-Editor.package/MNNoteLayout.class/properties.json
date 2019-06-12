@@ -1,0 +1,22 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dots",
+		"flagCodePoint",
+		"lastHash",
+		"leftNoteheads",
+		"lines",
+		"note",
+		"notehead",
+		"rightNoteheads",
+		"up" ],
+	"name" : "MNNoteLayout",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

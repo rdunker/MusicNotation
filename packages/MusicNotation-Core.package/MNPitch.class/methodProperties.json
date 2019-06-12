@@ -2,11 +2,14 @@
 	"class" : {
 		"readFrom:" : "mgjm 4/18/2019 12:35" },
 	"instance" : {
+		"<=" : "mgjm 5/25/2019 02:06",
+		"=" : "mgjm 5/25/2019 02:02",
 		"accept:" : "mgjm 5/23/2019 12:00",
 		"alter" : "mgjm 4/18/2019 12:03",
-		"alter:" : "mgjm 5/22/2019 18:09",
+		"alter:" : "mgjm 5/24/2019 00:08",
 		"alterString" : "mgjm 5/6/2019 22:12",
 		"frequency" : "mgjm 5/6/2019 22:13",
+		"hash" : "mgjm 5/25/2019 19:42",
 		"initialize" : "mgjm 4/18/2019 17:18",
 		"isFlat" : "mgjm 4/18/2019 12:04",
 		"isNormal" : "mgjm 4/18/2019 12:04",
@@ -14,4 +17,5 @@
 		"octave" : "mgjm 4/18/2019 12:03",
 		"octave:" : "mgjm 5/22/2019 18:05",
 		"step" : "mgjm 4/18/2019 12:03",
-		"step:" : "mgjm 5/22/2019 18:05" } }
+		"step:" : "mgjm 5/22/2019 18:05",
+		"steps" : "mgjm 5/26/2019 16:45" } }

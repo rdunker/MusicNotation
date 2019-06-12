@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 read_t
 	| end mid |
 	mid := self mirroredControlPoint.
