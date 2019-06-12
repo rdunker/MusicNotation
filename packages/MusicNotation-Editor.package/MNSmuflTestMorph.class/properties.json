@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"codePoint",
+		"lastCanvas" ],
+	"name" : "MNSmuflTestMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

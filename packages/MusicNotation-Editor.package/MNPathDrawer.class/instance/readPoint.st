@@ -1,3 +1,3 @@
-as yet unclassified
+parsing
 readPoint
 	^ self readNumber @ self readNumber.

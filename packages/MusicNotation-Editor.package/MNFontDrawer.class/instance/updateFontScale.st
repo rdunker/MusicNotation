@@ -1,0 +1,3 @@
+accessing
+updateFontScale
+	self subclassResponsibility.

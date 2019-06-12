@@ -1,0 +1,3 @@
+accessing
+baseNoteLineHeight
+	^ 10

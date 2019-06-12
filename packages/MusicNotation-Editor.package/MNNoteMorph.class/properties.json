@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"note",
+		"noteLayout" ],
+	"name" : "MNNoteMorph",
+	"pools" : [
+		 ],
+	"super" : "MNMorph",
+	"type" : "normal" }

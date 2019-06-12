@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keySignature" ],
+	"name" : "MNKeySignatureMorph",
+	"pools" : [
+		 ],
+	"super" : "MNSymbolMorph",
+	"type" : "normal" }

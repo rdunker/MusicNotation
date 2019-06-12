@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 read_m
 	self closeShape.
 	self moveTo: self readRelativePoint.
