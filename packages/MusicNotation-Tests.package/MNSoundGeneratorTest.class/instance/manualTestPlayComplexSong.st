@@ -1,0 +1,3 @@
+tests
+manualTestPlayComplexSong
+	MNSong stardustCrusaders project asSound play

@@ -1,0 +1,3 @@
+tests
+manualTestPlaySimpleSong
+	MNSong alleMeineEntchen project asSound play
