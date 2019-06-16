@@ -3,6 +3,10 @@
 		"new" : "mgjm 6/12/2019 05:34",
 		"parentClass" : "mgjm 6/11/2019 03:35" },
 	"instance" : {
+		"=" : "mgjm 6/16/2019 12:06",
 		"accidentals" : "mgjm 6/16/2019 12:10",
 		"asFifths" : "mgjm 6/16/2019 12:06",
+		"equalTo:" : "mgjm 6/12/2019 06:04",
+		"equalToCustomKey:" : "mgjm 6/12/2019 05:58",
+		"equalToFifthsKey:" : "mgjm 6/12/2019 05:58",
 		"isEmpty" : "mgjm 6/12/2019 05:10" } }
