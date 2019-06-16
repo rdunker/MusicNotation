@@ -1,3 +1,3 @@
 accessing
 line: anObject
-	line := anObject
+	line := anObject asInteger.

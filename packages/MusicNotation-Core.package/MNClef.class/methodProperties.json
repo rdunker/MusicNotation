@@ -1,8 +1,11 @@
 {
 	"class" : {
-		"parentClass" : "mgjm 6/11/2019 03:34" },
+		"parentClass" : "mgjm 6/11/2019 03:34",
+		"sign:line:" : "mgjm 6/12/2019 04:14" },
 	"instance" : {
+		"initialize" : "mgjm 6/12/2019 04:15",
 		"line" : "fb 6/10/2019 15:02",
-		"line:" : "fb 6/10/2019 15:02",
+		"line:" : "mgjm 6/12/2019 01:19",
+		"printOn:" : "mgjm 6/12/2019 06:39",
 		"sign" : "fb 6/10/2019 15:02",
-		"sign:" : "fb 6/10/2019 15:02" } }
+		"sign:" : "mgjm 6/12/2019 01:20" } }
