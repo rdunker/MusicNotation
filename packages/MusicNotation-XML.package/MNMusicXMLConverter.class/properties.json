@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MNMusicXMLWriter",
+		"divisions" ],
+	"name" : "MNMusicXMLConverter",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MNMusicVisitor",
 	"type" : "normal" }

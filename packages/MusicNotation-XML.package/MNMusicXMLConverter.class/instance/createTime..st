@@ -1,5 +1,5 @@
 converting
-convertTime: aFraction
+createTime: aFraction
 	| xml |
 	xml := XMLElement named: #time.
 	

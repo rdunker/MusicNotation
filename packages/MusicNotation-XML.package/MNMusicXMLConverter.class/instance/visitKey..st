@@ -1,5 +1,5 @@
-converting
-convertKey: aKey
+visiting
+visitKey: aKey
 	| xml |
 	xml := XMLElement named: #key.
 	

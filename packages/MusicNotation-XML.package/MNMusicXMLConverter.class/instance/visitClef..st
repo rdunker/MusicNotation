@@ -1,5 +1,5 @@
-converting
-convertClef: aClef
+visiting
+visitClef: aClef
 	| xml |
 	xml := XMLElement named: #clef.
 	
