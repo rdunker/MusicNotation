@@ -1,4 +1,0 @@
-accessing
-symbols
-
-self subclassResponsibility

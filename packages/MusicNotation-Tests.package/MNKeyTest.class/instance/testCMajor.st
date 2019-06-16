@@ -3,4 +3,4 @@ testCMajor
 	| key |
 	key := MNFifthsKey new fifths: 0.
 	
-	self assert: key symbols isEmpty
+	self assert: key isEmpty

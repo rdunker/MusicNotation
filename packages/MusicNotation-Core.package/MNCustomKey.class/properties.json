@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"symbols" ],
-	"name" : "MNManualKey",
+		"accidentals" ],
+	"name" : "MNCustomKey",
 	"pools" : [
 		 ],
 	"super" : "MNKey",

@@ -1,18 +1,19 @@
 tests
 testManualKey
 	| key |
-	key := MNManualKey new symbols: {
-		MNKeySymbol newSharpSymbol step: $c .
-		MNKeySymbol newFlatSymbol step: $d .
-		MNKeySymbol newNaturalSymbol step: $e }.
+	key := MNCustomKey accidentals: {
+		$c -> 1 .
+		$d -> -1 .
+		$e -> 0
+	}.
 		
-	self assert: 3 equals: key symbols size.
+	self assert: 3 equals: key accidentals size.
 	
-	self assert: $c equals: (key symbols at: 1) step.
-	self assert: (key symbols at: 1) isSharp.
+	self assert: $c equals: key accidentals first key.
+	self assert: 1 equals: key accidentals first value.
 	
-	self assert: $d equals: (key symbols at: 2) step.
-	self assert: (key symbols at: 2) isFlat.
+	self assert: $d equals: key accidentals second key.
+	self assert: -1 equals: key accidentals second value.
 	
-	self assert: $e equals: (key symbols at: 3) step.
-	self assert: (key symbols at: 3) isNormal.
+	self assert: $e equals: key accidentals third key.
+	self assert: 0 equals: key accidentals third value.

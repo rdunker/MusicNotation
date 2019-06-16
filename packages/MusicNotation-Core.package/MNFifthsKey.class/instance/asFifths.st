@@ -1,0 +1,3 @@
+converting
+asFifths
+	^ self fifths

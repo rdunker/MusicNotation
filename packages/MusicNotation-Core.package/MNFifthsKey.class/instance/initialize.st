@@ -2,4 +2,4 @@ initialize-release
 initialize
 	super initialize.
 	
-	self fifths: 0
+	self fifths: 0.

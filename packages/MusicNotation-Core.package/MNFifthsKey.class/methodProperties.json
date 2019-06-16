@@ -1,10 +1,13 @@
 {
 	"class" : {
-		"flatCollection" : "fb 6/9/2019 16:07",
-		"sharpCollection" : "fb 6/9/2019 16:08" },
+		"fifths:" : "mgjm 6/12/2019 05:00" },
 	"instance" : {
+		"accidentals" : "mgjm 6/12/2019 07:33",
+		"allSymbols" : "mgjm 6/12/2019 02:05",
+		"asFifths" : "mgjm 6/12/2019 05:14",
 		"fifths" : "fb 6/9/2019 09:50",
-		"fifths:" : "fb 6/9/2019 09:50",
-		"initialize" : "fb 6/9/2019 10:09",
-		"isFifthsKey" : "fb 6/9/2019 16:02",
-		"symbols" : "fb 6/9/2019 16:05" } }
+		"fifths:" : "mgjm 6/16/2019 12:21",
+		"flatSymbols" : "mgjm 6/12/2019 06:51",
+		"initialize" : "mgjm 6/12/2019 01:30",
+		"isEmpty" : "mgjm 6/12/2019 05:11",
+		"sharpSymbols" : "mgjm 6/12/2019 06:51" } }
