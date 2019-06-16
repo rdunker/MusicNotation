@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"new" : "mgjm 6/12/2019 05:34" },
+		"new" : "mgjm 6/12/2019 05:34",
+		"parentClass" : "mgjm 6/11/2019 03:35" },
 	"instance" : {
 		"accidentals" : "mgjm 6/16/2019 12:10",
 		"asFifths" : "mgjm 6/16/2019 12:06",

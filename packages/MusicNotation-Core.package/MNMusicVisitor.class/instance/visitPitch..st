@@ -1,3 +1,3 @@
 visiting
 visitPitch: aPitch
-	self subclassResponsibility.
+	^ self visitObject: aPitch

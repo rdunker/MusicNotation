@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"duration",
-		"pitches" ],
+		"duration" ],
 	"name" : "MNNote",
 	"pools" : [
 		 ],
-	"super" : "MNMusicObject",
+	"super" : "MNMusicObjectWithChildren",
 	"type" : "normal" }

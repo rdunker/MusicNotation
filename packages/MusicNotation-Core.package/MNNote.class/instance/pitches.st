@@ -1,3 +1,3 @@
 accessing
 pitches
-	^ pitches
+	^ self children

@@ -1,3 +1,4 @@
 accessing
 clef: anObject
-	clef := anObject
+	clef privateAbandon.
+	clef := self privateAdopt: anObject.

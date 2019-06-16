@@ -1,3 +1,3 @@
 accessing
-measures: anObject
-	measures := anObject
+measures: aCollection
+	self children: aCollection.

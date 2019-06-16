@@ -1,3 +1,3 @@
 visiting
 visitNote: aNote
-	self subclassResponsibility.
+	^ self visitObjectWithChildren: aNote

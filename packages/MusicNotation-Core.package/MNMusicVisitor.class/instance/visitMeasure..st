@@ -1,3 +1,6 @@
 visiting
 visitMeasure: aMeasure
-	^ aMeasure notesAccept: self.
+	^ self
+		visitKey: aMeasure key;
+		visitClef: aMeasure clef;
+		visitObjectWithChildren: aMeasure

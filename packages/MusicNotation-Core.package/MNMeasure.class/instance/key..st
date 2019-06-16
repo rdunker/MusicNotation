@@ -1,3 +1,4 @@
 accessing
 key: anObject
-	key := anObject
+	key privateAbandon.
+	key := self privateAdopt: anObject.

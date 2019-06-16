@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parts" ],
+		 ],
 	"name" : "MNProject",
 	"pools" : [
 		 ],
-	"super" : "MNMusicObject",
+	"super" : "MNMusicObjectWithChildren",
 	"type" : "normal" }

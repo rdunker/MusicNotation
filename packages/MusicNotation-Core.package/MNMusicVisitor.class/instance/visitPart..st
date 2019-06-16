@@ -1,3 +1,3 @@
 visiting
 visitPart: aPart
-	^ aPart notesAccept: self.
+	^ self visitObjectWithChildren: aPart

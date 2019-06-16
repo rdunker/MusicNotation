@@ -12,5 +12,5 @@
 	"name" : "MNPitch",
 	"pools" : [
 		 ],
-	"super" : "MNMusicObject",
+	"super" : "MNMusicObjectWithSiblings",
 	"type" : "normal" }

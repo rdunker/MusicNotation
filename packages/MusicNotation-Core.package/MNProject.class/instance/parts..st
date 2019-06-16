@@ -1,3 +1,3 @@
 accessing
-parts: anObject
-	parts := anObject
+parts: aCollection
+	self children: aCollection.
