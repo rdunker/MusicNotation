@@ -1,11 +1,5 @@
 parsing
-parseTime: xmlKey
-	| time |
-	time := MNTime new.
-	self stringNamed: #beats in: xmlKey
-		ifPresent: [ :beats | 
-			time beats: beats asInteger].
-	self stringNamed: #'beat-type' in: xmlKey
-		ifPresent: [ :beatType | 
-			time beatType: beatType asInteger].
-	^ time
+parseTime: xmlTime
+	^ Fraction
+		numerator: (self stringNamed: #beats in: xmlTime) asInteger
+		denominator: (self stringNamed: #'beat-type' in: xmlTime) asInteger

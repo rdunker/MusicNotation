@@ -1,14 +1,16 @@
 converting
 createAttributesFor: aMeasure
-	| xml |
+	| xml leftSibling block |
 	xml := XMLElement named: #attributes.
-	
 	xml addElement: (self stringNamed: #divisions content: self divisions / 4).
 	
-	aMeasure key ifNotNil: [ xml addElement: (self convertKey: aMeasure key) ].
+	leftSibling := aMeasure leftSibling.
+	block := [ :getter :aBlock |
+		(getter value: aMeasure) = (leftSibling ifNotNilDo: getter)
+			ifFalse: [ xml addElement: aBlock value ]].
 	
-	aMeasure time ifNotNil: [ xml addElement: (self convertTime: aMeasure time) ].
+	block value: #key value: [ self convertKey: aMeasure key ].
+	block value: #time value: [  self convertTime: aMeasure time ].
+	block value: #clef value: [ self convertClef: aMeasure clef ].
 	
-	aMeasure clef ifNotNil: [ xml addElement: (self convertClef: aMeasure clef) ].
-	
-	^ xml.
+	^ xml

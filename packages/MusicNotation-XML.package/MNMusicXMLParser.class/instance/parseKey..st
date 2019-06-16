@@ -1,8 +1,6 @@
 parsing
 parseKey: xmlKey
 	self stringNamed: #fifths in: xmlKey
-		ifPresent: [ :fifths | 
-			^ MNFifthsKey new fifths: fifths asInteger].
-	(xmlKey firstTagNamed: #'key-step') ifNotNil: [ ^ self parseManualKey: xmlKey ].
+		ifPresent: [ :fifths | ^ MNFifthsKey fifths: fifths ].
 	
-	self halt: 'Invalid key element in XML.'
+	^ self parseManualKey: xmlKey

@@ -1,13 +1,13 @@
 parsing
 parseManualKey: xmlKey
-	| key currentSymbol |
-	key := MNManualKey new.
+	| key step |
+	key := MNCustomKey new.
 	
+	step := nil.
 	xmlKey elements do: [ :xmlElement |
-		xmlElement tag = #'key-step' ifTrue: [
-			currentSymbol := MNKeySymbol new step: (xmlElement contentString asLowercase) ].
-		xmlElement tag = #'key-alter' ifTrue: [
-			currentSymbol alter: (xmlElement contentString asInteger).
-			key symbols addLast: currentSymbol ] ].
+		xmlElement tag = #'key-step'
+			ifTrue: [ step := xmlElement contentString ].
+		xmlElement tag = #'key-alter'
+			ifTrue: [ key addAccidental: step alter: xmlElement contentString ]].
 	
 	^ key
