@@ -1,6 +1,6 @@
 drawing
 drawWith: aDrawer
-	self updateIfNeeded.
+	super drawWith: aDrawer.
 	
 	aDrawer move: aDrawer font noteLineHeightUnits / 4.
 	

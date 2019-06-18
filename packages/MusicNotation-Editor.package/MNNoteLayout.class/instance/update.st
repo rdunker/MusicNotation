@@ -1,8 +1,10 @@
 updating
 update
-	self updateLines.
-	self updateUp.
-	self ifUp: [ self lines: self lines reversed ].
-	self updateLeftAndRightNoteheads.
-	self updateDotsNoteheadAndFlag.
-	lastHash := self note hash.
+	self
+		updateLinesAndUp: self calculateLines;
+		updateLeftAndRightNoteheads;
+		dots: self calculateDots;
+		accidentals: self calculateAccidentals;
+		updateNoteheadAndFlag.
+	
+	super update.

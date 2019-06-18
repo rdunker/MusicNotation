@@ -1,5 +1,9 @@
 calculating
 calculateLines
+	| baseSteps |
+	baseSteps := self clef
+		ifNil: 38
+		ifNotNilDo: #baseSteps.
 	^ (self note pitches
-		collect: [ :pitch | 34 - pitch steps / 2 ])
+		collect: [ :pitch | baseSteps - pitch steps / 2 ])
 		sort
