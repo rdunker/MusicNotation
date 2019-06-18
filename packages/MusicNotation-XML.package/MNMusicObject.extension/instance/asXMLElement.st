@@ -1,3 +1,3 @@
 *MusicNotation-XML
 asXMLElement
-	^ self accept: (MNMusicXMLConverter new)
+	^ self accept: MNMusicXMLConverter new
