@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:to:" : "mgjm 6/18/2019 17:59",
+		"addAll:to:" : "mgjm 6/18/2019 17:59",
+		"addPrefixOfMeasure:after:to:" : "mgjm 6/18/2019 22:43",
+		"createTime:" : "mgjm 6/16/2019 20:02",
+		"visitClef:" : "mgjm 6/16/2019 19:51",
+		"visitKey:" : "mgjm 6/18/2019 16:25",
+		"visitMeasure:" : "mgjm 6/16/2019 19:56",
+		"visitNote:" : "mgjm 6/16/2019 20:01",
+		"visitPart:" : "mgjm 6/16/2019 20:01",
+		"visitPitch:" : "mgjm 6/16/2019 19:16",
+		"visitProject:" : "mgjm 6/16/2019 20:01" } }

@@ -6,8 +6,8 @@
 		"DefaultScale" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scale",
-		"font" ],
+		"font",
+		"scale" ],
 	"name" : "MNMorph",
 	"pools" : [
 		 ],

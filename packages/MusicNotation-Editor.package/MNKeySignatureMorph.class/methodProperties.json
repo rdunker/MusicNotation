@@ -1,13 +1,10 @@
 {
 	"class" : {
-		"fifths:" : "mgjm 6/5/2019 20:53",
-		"keySignatureFlatCollection" : "mgjm 6/5/2019 21:02",
-		"keySignatureSharpCollection" : "mgjm 6/5/2019 21:13" },
+		"key:" : "mgjm 6/18/2019 16:26" },
 	"instance" : {
-		"codePointOf:" : "mgjm 6/5/2019 21:03",
-		"drawOn:" : "mgjm 6/5/2019 19:55",
-		"drawWith:" : "mgjm 6/5/2019 21:05",
-		"flexBase" : "mgjm 6/5/2019 21:07",
-		"keySignature" : "fb 6/5/2019 15:12",
-		"keySignature:" : "fb 6/5/2019 15:12",
-		"keySignatureCodePointsDo:" : "mgjm 6/5/2019 21:04" } }
+		"drawable" : "mgjm 6/18/2019 16:23",
+		"flexBase" : "mgjm 6/18/2019 22:07",
+		"key" : "mgjm 6/18/2019 16:23",
+		"key:" : "mgjm 6/18/2019 16:24",
+		"keySignatureLayout" : "mgjm 6/18/2019 16:24",
+		"keySignatureLayout:" : "mgjm 6/18/2019 16:23" } }

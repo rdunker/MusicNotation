@@ -11,5 +11,5 @@
 	"name" : "MNNoteMorph",
 	"pools" : [
 		 ],
-	"super" : "MNMorph",
+	"super" : "MNSymbolMorph",
 	"type" : "normal" }
