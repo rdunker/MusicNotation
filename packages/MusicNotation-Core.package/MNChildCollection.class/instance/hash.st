@@ -1,4 +1,4 @@
 comparing
 hash
 	^ MNHashBuilder
-		hash: self measures
+		collection: self
