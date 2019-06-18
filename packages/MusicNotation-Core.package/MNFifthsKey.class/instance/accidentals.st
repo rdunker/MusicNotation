@@ -1,6 +1,6 @@
 accessing
 accidentals
 	| sign |
-	sign := fifths sign.
+	sign := self fifths sign.
 	^ self allSymbols asOrderedCollection
-		collect: [ :each | each -> sign ] from: 1 to: fifths abs.
+		collect: [ :each | each -> sign ] from: 1 to: self fifths abs.

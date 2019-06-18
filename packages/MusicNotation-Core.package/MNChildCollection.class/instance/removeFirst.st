@@ -1,5 +1,5 @@
 removing
 removeFirst
-	^ self removeFirst
+	^ super removeFirst
 		privateAbandon;
 		yourself

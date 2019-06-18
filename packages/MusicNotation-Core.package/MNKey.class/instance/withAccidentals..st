@@ -1,3 +1,3 @@
 accessing
 withAccidentals: accidentals
-	^ MNCustomKey accidentials: accidentals
+	^ MNCustomKey accidentals: accidentals
