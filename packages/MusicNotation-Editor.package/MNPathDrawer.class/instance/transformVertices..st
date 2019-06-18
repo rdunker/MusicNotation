@@ -1,3 +1,3 @@
 parsing
-transformVerticies: verticies
+transformVertices: vertices
 	self subclassResponsibility.

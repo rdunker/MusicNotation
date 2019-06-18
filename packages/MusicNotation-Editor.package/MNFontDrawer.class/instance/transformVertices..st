@@ -1,6 +1,6 @@
 parsing
-transformVerticies: verticies
+transformVertices: vertices
 	| scale translate |
 	scale := self fontScale.
 	translate := self position + self offset.
-	^ verticies collect: [ :p | p * scale + translate ]
+	^ vertices collect: [ :p | p * scale + translate ]

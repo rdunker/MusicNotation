@@ -1,3 +1,3 @@
 parsing
-addSegment: verticies
-	self shape add: (self transformVerticies: verticies).
+addSegment: vertices
+	self shape add: (self transformVertices: vertices).
