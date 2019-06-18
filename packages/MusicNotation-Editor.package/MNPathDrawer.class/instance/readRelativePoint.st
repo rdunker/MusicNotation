@@ -1,3 +1,3 @@
 parsing
 readRelativePoint
-	^ self lastPosition + self readPoint.
+	^ self lastPosition + self readPoint

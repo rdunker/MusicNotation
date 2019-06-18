@@ -9,4 +9,4 @@ visitMeasure: aMeasure
 	
 	self addAll: aMeasure notes to: xml.
 	
-	^ xml.
+	^ xml

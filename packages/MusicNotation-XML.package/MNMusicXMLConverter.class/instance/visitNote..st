@@ -12,4 +12,4 @@ visitNote: aNote
 	
 	aNote numDots timesRepeat: [ xml addElement: (XMLElement named: #dot) ].
 	
-	^ xml.
+	^ xml
