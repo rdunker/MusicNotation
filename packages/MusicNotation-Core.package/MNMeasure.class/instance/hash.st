@@ -1,4 +1,7 @@
 comparing
 hash
 	^ MNHashBuilder
-		collection: self notes
+		hash: self notes
+		hash: self key
+		hash: self time
+		hash: self clef

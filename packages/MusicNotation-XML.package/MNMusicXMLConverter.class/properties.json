@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-XML",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"divisions" ],
+	"name" : "MNMusicXMLConverter",
+	"pools" : [
+		 ],
+	"super" : "MNMusicVisitor",
+	"type" : "normal" }

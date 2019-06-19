@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"fifths:" : "mgjm 6/12/2019 05:00" },
+	"instance" : {
+		"accidentals" : "mgjm 6/19/2019 01:43",
+		"allSymbols" : "mgjm 6/12/2019 02:05",
+		"asFifths" : "mgjm 6/12/2019 05:14",
+		"equalTo:" : "mgjm 6/12/2019 06:00",
+		"equalToFifthsKey:" : "mgjm 6/12/2019 05:55",
+		"fifths" : "fb 6/9/2019 09:50",
+		"fifths:" : "mgjm 6/16/2019 12:21",
+		"flatSymbols" : "mgjm 6/12/2019 06:51",
+		"hash" : "mgjm 6/18/2019 21:42",
+		"initialize" : "mgjm 6/12/2019 01:30",
+		"isEmpty" : "mgjm 6/12/2019 05:11",
+		"sharpSymbols" : "mgjm 6/12/2019 06:51",
+		"withFifths:" : "mgjm 6/12/2019 05:08" } }

@@ -1,3 +1,3 @@
 accessing
 notes
-	^ notes
+	^ self children

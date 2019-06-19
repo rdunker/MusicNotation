@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMeasureAccept
 	| measure |
 	measure := MNMeasure new.

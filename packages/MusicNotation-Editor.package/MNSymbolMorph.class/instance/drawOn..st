@@ -11,4 +11,4 @@ drawOn: aCanvas
 		font: self font;
 		position: self leftCenter;
 		noteLineHeight: self noteLineHeight;
-		drawDrawable: self.
+		drawDrawable: self drawable.

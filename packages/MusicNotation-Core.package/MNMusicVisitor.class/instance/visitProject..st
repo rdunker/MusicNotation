@@ -1,3 +1,3 @@
 visiting
 visitProject: aProject
-	^ aProject notesAccept: self.
+	^ self visitObjectWithChildren: aProject

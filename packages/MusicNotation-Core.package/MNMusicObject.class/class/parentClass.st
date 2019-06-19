@@ -1,0 +1,3 @@
+accessing
+parentClass
+	self subclassResponsibility.

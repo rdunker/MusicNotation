@@ -6,6 +6,5 @@ parseMeasure: xmlMeasure
 		xmlElement tag == #attributes
 			ifTrue: [ self parseAttributes: xmlElement in: measure ].
 		xmlElement tag == #note
-			ifTrue: [ measure addNote: (self parseNote: xmlElement) ].
-		].
+			ifTrue: [ measure addNote: (self parseNote: xmlElement) ] ].
 	^ measure

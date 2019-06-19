@@ -1,12 +1,22 @@
 {
 	"class" : {
-		 },
+		"childClass" : "mgjm 6/12/2019 07:44",
+		"parentClass" : "mgjm 6/11/2019 03:35" },
 	"instance" : {
 		"accept:" : "mgjm 5/15/2019 20:38",
 		"addNote:" : "mgjm 5/23/2019 21:54",
-		"asMorph" : "mgjm 6/4/2019 17:49",
-		"hash" : "mgjm 5/25/2019 19:48",
-		"initialize" : "mgjm 5/23/2019 21:51",
-		"notes" : "mgjm 4/18/2019 14:57",
-		"notes:" : "mgjm 4/18/2019 14:57",
-		"notesAccept:" : "mgjm 5/15/2019 20:44" } }
+		"clearKey" : "mgjm 6/12/2019 05:23",
+		"clef" : "fb 6/10/2019 15:02",
+		"clef:" : "mgjm 6/12/2019 00:59",
+		"hash" : "mgjm 6/18/2019 21:45",
+		"initialize" : "mgjm 6/16/2019 20:16",
+		"key" : "fb 6/7/2019 09:05",
+		"key:" : "mgjm 6/12/2019 00:59",
+		"keyAccidentals:" : "mgjm 6/12/2019 05:23",
+		"keyFifths:" : "mgjm 6/12/2019 05:22",
+		"notes" : "mgjm 6/12/2019 07:41",
+		"notes:" : "mgjm 6/12/2019 07:41",
+		"postCopy" : "mgjm 6/18/2019 13:49",
+		"time" : "fb 6/10/2019 14:48",
+		"time:" : "mgjm 6/11/2019 03:16",
+		"timeNumerator:denominator:" : "mgjm 6/12/2019 05:25" } }

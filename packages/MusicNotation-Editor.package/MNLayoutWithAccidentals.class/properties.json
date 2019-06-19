@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"accidentals" ],
+	"name" : "MNLayoutWithAccidentals",
+	"pools" : [
+		 ],
+	"super" : "MNLayout",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+private
+privateAbandon
+	parent := nil.

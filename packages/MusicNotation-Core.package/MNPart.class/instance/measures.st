@@ -1,3 +1,3 @@
 accessing
 measures
-	^ measures
+	^ self children

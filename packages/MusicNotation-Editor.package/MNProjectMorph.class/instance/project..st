@@ -1,4 +1,3 @@
 accessing
 project: anObject
-	project := anObject.
-	self updateParts.
+	project := anObject

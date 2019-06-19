@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"divisions" ],
+		 ],
 	"name" : "MNMusicXMLWriter",
 	"pools" : [
 		 ],

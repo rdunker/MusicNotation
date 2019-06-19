@@ -1,0 +1,3 @@
+accessing
+drawable
+	^ self noteLayout

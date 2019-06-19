@@ -1,19 +1,18 @@
 {
 	"class" : {
-		 },
+		"childClass" : "mgjm 6/12/2019 07:45",
+		"parentClass" : "mgjm 6/11/2019 03:35" },
 	"instance" : {
 		"accept:" : "mgjm 5/15/2019 20:32",
 		"addPitch:" : "mgjm 4/18/2019 16:34",
-		"asMorph" : "mgjm 6/4/2019 18:16",
 		"baseDuration" : "mgjm 5/26/2019 19:05",
 		"duration" : "mgjm 4/18/2019 16:31",
 		"duration:" : "aw 5/6/2019 23:14",
 		"durationNumerator2" : "mgjm 5/26/2019 18:48",
-		"hash" : "mgjm 5/25/2019 19:46",
-		"initialize" : "mgjm 4/18/2019 16:33",
+		"hash" : "mgjm 6/18/2019 21:45",
 		"isDotted" : "mgjm 5/26/2019 18:40",
-		"notesAccept:" : "mgjm 5/15/2019 20:45",
 		"numDots" : "mgjm 5/26/2019 18:49",
-		"pitches" : "mgjm 4/18/2019 16:32",
-		"pitches:" : "mgjm 4/18/2019 16:32",
+		"pitches" : "mgjm 6/12/2019 07:39",
+		"pitches:" : "mgjm 6/12/2019 07:39",
+		"printOn:" : "mgjm 6/12/2019 07:05",
 		"validateDuration" : "mgjm 5/26/2019 18:49" } }

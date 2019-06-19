@@ -1,3 +1,3 @@
 accessing
 line
-	^ 3 - 2
+	^ 3 - self clef line

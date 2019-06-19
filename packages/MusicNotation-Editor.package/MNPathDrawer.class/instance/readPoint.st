@@ -1,3 +1,3 @@
 parsing
 readPoint
-	^ self readNumber @ self readNumber.
+	^ self readNumber @ self readNumber

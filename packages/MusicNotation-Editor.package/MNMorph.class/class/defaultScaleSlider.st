@@ -8,4 +8,4 @@ defaultScaleSlider
 		getValueSelector: #defaultScale;
 		setValueSelector: #defaultScale:;
 		getValue;
-		yourself.
+		yourself

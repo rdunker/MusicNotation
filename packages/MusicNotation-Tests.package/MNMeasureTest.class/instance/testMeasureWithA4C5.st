@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMeasureWithA4C5
 
 	| measure noteA4 noteC5 pitchA4 pitchC5 |

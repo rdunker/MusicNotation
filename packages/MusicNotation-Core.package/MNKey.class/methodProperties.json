@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"isAbstract" : "mgjm 6/16/2019 12:58",
+		"new" : "mgjm 6/12/2019 05:34",
+		"parentClass" : "mgjm 6/11/2019 03:35" },
+	"instance" : {
+		"=" : "mgjm 6/16/2019 12:06",
+		"accept:" : "mgjm 6/16/2019 13:25",
+		"accidentals" : "mgjm 6/16/2019 12:10",
+		"asFifths" : "mgjm 6/16/2019 12:06",
+		"equalTo:" : "mgjm 6/12/2019 06:04",
+		"equalToCustomKey:" : "mgjm 6/12/2019 05:58",
+		"equalToFifthsKey:" : "mgjm 6/12/2019 05:58",
+		"hash" : "mgjm 6/18/2019 21:36",
+		"isEmpty" : "mgjm 6/12/2019 05:10",
+		"printOn:" : "mgjm 6/12/2019 07:00",
+		"withAccidentals:" : "mgjm 6/19/2019 01:06",
+		"withFifths:" : "mgjm 6/12/2019 05:34" } }

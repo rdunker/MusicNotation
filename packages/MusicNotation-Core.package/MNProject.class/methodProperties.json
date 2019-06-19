@@ -1,12 +1,10 @@
 {
 	"class" : {
-		 },
+		"childClass" : "mgjm 6/12/2019 07:45",
+		"parentClass" : "mgjm 6/11/2019 03:36" },
 	"instance" : {
 		"accept:" : "mgjm 5/15/2019 20:47",
 		"addPart:" : "mgjm 4/18/2019 16:28",
-		"asMorph" : "mgjm 6/5/2019 04:24",
-		"hash" : "mgjm 5/25/2019 19:49",
-		"initialize" : "mgjm 4/18/2019 16:28",
-		"notesAccept:" : "mgjm 5/15/2019 20:51",
-		"parts" : "mgjm 4/18/2019 16:28",
-		"parts:" : "mgjm 4/18/2019 16:28" } }
+		"hash" : "mgjm 6/18/2019 21:45",
+		"parts" : "mgjm 6/12/2019 07:43",
+		"parts:" : "mgjm 6/12/2019 07:43" } }

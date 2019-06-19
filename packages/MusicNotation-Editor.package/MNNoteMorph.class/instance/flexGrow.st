@@ -1,3 +1,3 @@
 accessing
 flexGrow
-	^ self note duration.
+	^ self note duration

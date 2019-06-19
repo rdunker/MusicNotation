@@ -1,0 +1,3 @@
+visiting
+visitPitch: aPitch
+	^ nil

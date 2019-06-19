@@ -1,3 +1,3 @@
 accessing
-pitches: anObject
-	pitches := anObject
+pitches: aCollection
+	self children: aCollection.

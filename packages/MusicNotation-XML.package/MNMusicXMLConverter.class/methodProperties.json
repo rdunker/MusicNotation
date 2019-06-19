@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addAll:to:" : "mgjm 6/16/2019 14:15",
+		"createAttributesFor:" : "mgjm 6/16/2019 13:45",
+		"createPartList:" : "mgjm 6/16/2019 14:19",
+		"createScorePartAt:" : "mgjm 6/16/2019 13:45",
+		"createTime:" : "mgjm 6/16/2019 13:29",
+		"divisions" : "mgjm 6/16/2019 14:04",
+		"divisions:" : "mgjm 5/23/2019 20:11",
+		"divisionsOf:" : "mgjm 6/16/2019 14:01",
+		"durationOf:" : "mgjm 6/16/2019 14:08",
+		"noteTypeOf:" : "mgjm 5/23/2019 21:46",
+		"partIdAt:" : "mgjm 5/23/2019 21:07",
+		"printDocument:on:" : "mgjm 6/16/2019 15:01",
+		"stringNamed:content:" : "mgjm 5/23/2019 21:39",
+		"visitClef:" : "mgjm 6/16/2019 13:29",
+		"visitKey:" : "mgjm 6/16/2019 13:29",
+		"visitMeasure:" : "mgjm 6/19/2019 01:44",
+		"visitNote:" : "mgjm 6/19/2019 01:44",
+		"visitPart:" : "mgjm 6/16/2019 14:15",
+		"visitPitch:" : "mgjm 6/16/2019 13:17",
+		"visitProject:" : "mgjm 6/16/2019 14:15",
+		"writeDeclarationOn:" : "mgjm 6/16/2019 14:56" } }

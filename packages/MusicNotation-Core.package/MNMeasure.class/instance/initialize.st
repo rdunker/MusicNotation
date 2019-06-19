@@ -2,4 +2,6 @@ initialize-release
 initialize
 	super initialize.
 	
-	self notes: OrderedCollection new.
+	key := self privateAdopt: MNEmptyKey new.
+	time := Fraction numerator: 4 denominator: 4.
+	clef := self privateAdopt: MNClef new.
