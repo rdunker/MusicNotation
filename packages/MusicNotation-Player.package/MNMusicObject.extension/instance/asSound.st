@@ -1,6 +1,6 @@
-converting
+*MusicNotation-Player
 asSound
 	| soundGenerator |
-	soundGenerator := MNSoundGenerator2 new.
+	soundGenerator := MNSoundGenerator new.
 	self accept: soundGenerator.
 	^ soundGenerator soundSequence
