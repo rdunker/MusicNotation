@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-Scripting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"context",
+		"note" ],
+	"name" : "MNNoteStatement",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

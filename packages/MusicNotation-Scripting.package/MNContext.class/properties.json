@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Scripting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "MNContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

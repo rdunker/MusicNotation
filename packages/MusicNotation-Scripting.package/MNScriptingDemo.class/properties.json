@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Scripting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"script" ],
+	"name" : "MNScriptingDemo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
