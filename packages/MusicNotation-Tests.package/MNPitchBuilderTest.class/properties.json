@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MNPitchBuilderTest",
+	"pools" : [
+		 ],
+	"super" : "MNScriptingTestCase",
+	"type" : "normal" }
