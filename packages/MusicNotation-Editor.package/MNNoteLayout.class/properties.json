@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"accidentals",
 		"dots",
 		"flagCodePoint",
 		"leftNoteheads",
@@ -18,5 +17,5 @@
 	"name" : "MNNoteLayout",
 	"pools" : [
 		 ],
-	"super" : "MNLayout",
+	"super" : "MNLayoutWithAccidentals",
 	"type" : "normal" }

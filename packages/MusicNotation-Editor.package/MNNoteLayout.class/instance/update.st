@@ -4,7 +4,7 @@ update
 		updateLinesAndUp: self calculateLines;
 		updateLeftAndRightNoteheads;
 		dots: self calculateDots;
-		accidentals: self calculateAccidentals;
+		updateAccidentals;
 		updateNoteheadAndFlag.
 	
 	super update.

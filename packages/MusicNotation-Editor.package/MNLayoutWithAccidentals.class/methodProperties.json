@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accidentalCodePointOf:" : "mgjm 6/19/2019 15:48",
+		"accidentalCodePointsDo:" : "mgjm 6/19/2019 15:47",
+		"accidentals" : "mgjm 6/19/2019 15:46",
+		"accidentals:" : "mgjm 6/19/2019 15:46",
+		"calculateAccidentals" : "mgjm 6/19/2019 15:50",
+		"drawAccidentalsWith:" : "mgjm 6/19/2019 15:52",
+		"updateAccidentals" : "mgjm 6/19/2019 15:50",
+		"widthUnitsOfAccidentalsForFont:" : "mgjm 6/19/2019 15:58" } }

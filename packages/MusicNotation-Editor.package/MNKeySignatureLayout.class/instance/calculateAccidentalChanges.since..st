@@ -1,16 +1,16 @@
 calculating
 calculateAccidentalChanges: newAccidentals since: oldAccidentals
-	| changes dict |
-	changes := OrderedCollection new.
+	| changes collection |
+	changes := OrderedCollection new: 7.
 	
-	dict := newAccidentals collect: #key as: Set.
+	collection := newAccidentals collect: #key as: Set.
 	oldAccidentals do: [ :each |
-		(dict includes: each key)
+		(collection includes: each key)
 			ifFalse: [ changes add: (self lineOf: each) -> 0 ]].
 		
-	dict := oldAccidentals as: Dictionary.
+	collection := oldAccidentals as: Dictionary.
 	newAccidentals do: [ :each |
-		(dict includesAssociation: each)
+		(collection includesAssociation: each)
 			ifFalse: [ changes add: (self lineAndAlterOf: each) ]].
 	
 	^ changes

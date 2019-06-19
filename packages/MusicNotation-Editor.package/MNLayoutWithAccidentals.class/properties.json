@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"allFlatLines",
-		"allSharpLines",
-		"key" ],
-	"name" : "MNKeySignatureLayout",
+		"accidentals" ],
+	"name" : "MNLayoutWithAccidentals",
 	"pools" : [
 		 ],
-	"super" : "MNLayoutWithAccidentals",
+	"super" : "MNLayout",
 	"type" : "normal" }

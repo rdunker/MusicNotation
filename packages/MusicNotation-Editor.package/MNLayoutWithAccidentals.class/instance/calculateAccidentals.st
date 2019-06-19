@@ -1,0 +1,3 @@
+calcualting
+calculateAccidentals
+	self subclassResponsibility.

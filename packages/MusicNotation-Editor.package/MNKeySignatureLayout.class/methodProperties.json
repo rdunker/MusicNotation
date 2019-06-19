@@ -2,20 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"accidentalCodePointsDo:" : "mgjm 6/18/2019 21:51",
-		"accidentals" : "mgjm 6/18/2019 21:03",
-		"accidentals:" : "mgjm 6/18/2019 21:03",
 		"allFlatLines" : "mgjm 6/18/2019 16:59",
 		"allFlatLines:" : "mgjm 6/18/2019 16:59",
 		"allSharpLines" : "mgjm 6/18/2019 16:59",
 		"allSharpLines:" : "mgjm 6/18/2019 16:59",
-		"calculateAccidentalChanges:since:" : "mgjm 6/18/2019 22:00",
-		"calculateAccidentals" : "mgjm 6/18/2019 22:02",
+		"calculateAccidentalChanges:since:" : "mgjm 6/19/2019 15:45",
+		"calculateAccidentals" : "mgjm 6/19/2019 15:43",
 		"calculateAllFlatLines" : "mgjm 6/18/2019 17:46",
 		"calculateAllSharpLines" : "mgjm 6/18/2019 17:32",
 		"clef" : "mgjm 6/18/2019 16:13",
 		"codePointOf:" : "mgjm 6/18/2019 21:50",
-		"drawWith:" : "mgjm 6/18/2019 22:18",
+		"drawWith:" : "mgjm 6/19/2019 15:53",
 		"hash" : "mgjm 6/18/2019 16:15",
 		"key" : "mgjm 6/18/2019 16:06",
 		"key:" : "mgjm 6/18/2019 16:06",
@@ -25,5 +22,5 @@
 		"lineAndAlterOf:" : "mgjm 6/18/2019 21:59",
 		"lineOf:" : "mgjm 6/18/2019 21:59",
 		"stepSequence" : "mgjm 6/18/2019 16:45",
-		"update" : "mgjm 6/18/2019 23:08",
-		"widthForFont:noteLineHeight:" : "mgjm 6/18/2019 22:06" } }
+		"update" : "mgjm 6/19/2019 15:49",
+		"widthForFont:noteLineHeight:" : "mgjm 6/19/2019 15:58" } }

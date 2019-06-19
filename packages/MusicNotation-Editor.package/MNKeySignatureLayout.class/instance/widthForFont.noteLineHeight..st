@@ -6,9 +6,8 @@ widthForFont: aFont noteLineHeight: aNumber
 	
 	self accidentals ifEmpty: [ ^ 0 ].
 	
-	width := self accidentals size - 1 * aFont accidentalSpaceUnits.
-	self accidentalCodePointsDo: [ :line :codePoint |
-		width := width + (aFont codePoint: codePoint) width ].
+	width := self widthUnitsOfAccidentalsForFont: aFont.
+	width := width - aFont accidentalSpaceUnits.
 	
 	width := width * (aFont scaleFactorForNoteLineHeight: aNumber) x.
 	^ width + aNumber

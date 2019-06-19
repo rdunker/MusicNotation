@@ -2,10 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"accidentals" : "mgjm 6/18/2019 22:52",
-		"accidentals:" : "mgjm 6/18/2019 22:52",
-		"accidentalsDo:" : "mgjm 6/18/2019 22:50",
-		"calculateAccidentals" : "mgjm 6/18/2019 23:01",
+		"calculateAccidentals" : "mgjm 6/19/2019 15:55",
 		"calculateDenseNoteheads:" : "mgjm 6/12/2019 16:05",
 		"calculateDots" : "mgjm 6/19/2019 01:44",
 		"calculateFlag" : "mgjm 5/26/2019 02:13",
@@ -18,7 +15,6 @@
 		"dot" : "mgjm 6/5/2019 06:36",
 		"dots" : "mgjm 6/5/2019 06:07",
 		"dots:" : "mgjm 5/25/2019 20:20",
-		"drawAccidentalsWith:" : "mgjm 6/5/2019 05:04",
 		"drawDotsWith:" : "mgjm 6/5/2019 06:37",
 		"drawFlagWith:" : "mgjm 5/26/2019 00:26",
 		"drawLedgerLines:other:with:" : "mgjm 6/5/2019 03:50",
@@ -55,10 +51,10 @@
 		"stemOffset" : "mgjm 6/12/2019 15:59",
 		"up" : "mgjm 6/5/2019 06:17",
 		"up:" : "mgjm 5/25/2019 20:04",
-		"update" : "mgjm 6/18/2019 23:14",
+		"update" : "mgjm 6/19/2019 15:49",
 		"updateLeftAndRightNoteheads" : "mgjm 5/26/2019 00:04",
 		"updateLinesAndUp:" : "mgjm 6/18/2019 23:14",
 		"updateNoteheadAndFlag" : "mgjm 6/18/2019 23:05",
 		"widthForFont:noteLineHeight:" : "mgjm 6/12/2019 16:04",
-		"widthUnitsOfNoteForFont:" : "mgjm 6/5/2019 06:35",
+		"widthUnitsOfNoteForFont:" : "mgjm 6/19/2019 15:59",
 		"widthUnitsOfRestForFont:" : "mgjm 6/5/2019 03:12" } }
