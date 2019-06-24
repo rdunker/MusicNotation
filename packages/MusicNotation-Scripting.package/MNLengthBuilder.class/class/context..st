@@ -1,6 +1,5 @@
 instance creation
-context: aContext step: aStep
+context: aContext
 	^ self new
 		context: aContext;
-		step: aStep;
 		yourself

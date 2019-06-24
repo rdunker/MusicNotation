@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"step" ],
-	"name" : "MNPitchBuilder",
+		"context" ],
+	"name" : "MNLengthBuilder",
 	"pools" : [
 		 ],
-	"super" : "MNLengthBuilder",
+	"super" : "Object",
 	"type" : "normal" }
