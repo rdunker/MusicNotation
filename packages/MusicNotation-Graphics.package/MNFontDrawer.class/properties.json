@@ -1,0 +1,18 @@
+{
+	"category" : "MusicNotation-Graphics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"canvas",
+		"color",
+		"font",
+		"offset",
+		"position" ],
+	"name" : "MNFontDrawer",
+	"pools" : [
+		 ],
+	"super" : "MNPathDrawer",
+	"type" : "normal" }

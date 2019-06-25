@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Graphics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "MNProjectMorph",
+	"pools" : [
+		 ],
+	"super" : "MNMorph",
+	"type" : "normal" }

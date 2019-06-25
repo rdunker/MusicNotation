@@ -1,0 +1,21 @@
+{
+	"category" : "MusicNotation-Graphics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dots",
+		"flagCodePoint",
+		"leftNoteheads",
+		"lines",
+		"note",
+		"notehead",
+		"rightNoteheads",
+		"up" ],
+	"name" : "MNNoteLayout",
+	"pools" : [
+		 ],
+	"super" : "MNLayoutWithAccidentals",
+	"type" : "normal" }

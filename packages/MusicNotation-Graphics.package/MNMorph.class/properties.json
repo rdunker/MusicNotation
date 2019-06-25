@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-Graphics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultScale" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"font",
+		"scale" ],
+	"name" : "MNMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
