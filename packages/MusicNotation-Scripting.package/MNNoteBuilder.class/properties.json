@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"step" ],
-	"name" : "MNPitchBuilder",
+		"context",
+		"pitches" ],
+	"name" : "MNNoteBuilder",
 	"pools" : [
 		 ],
-	"super" : "MNLengthBuilder",
+	"super" : "Object",
 	"type" : "normal" }
