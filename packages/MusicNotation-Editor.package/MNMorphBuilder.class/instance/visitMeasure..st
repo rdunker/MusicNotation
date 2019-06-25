@@ -7,9 +7,8 @@ visitMeasure: aMeasure
 	
 	self addAll: aMeasure notes to: morph.
 	
-	emptyDuration := self emptyDurationInMeasure: aMeasure.	
-	emptyDuration > 0
-		ifTrue: [ self addAll: (self createRestsForDuration: emptyDuration) to: morph ].
+	emptyDuration := self emptyDurationInMeasure: aMeasure.
+	self addRestsForDuration: emptyDuration to: morph.
 	
 	morph addMorphBack: (aMeasure rightSibling
 		ifNil: [ MNBarLineMorph newFinal ]
