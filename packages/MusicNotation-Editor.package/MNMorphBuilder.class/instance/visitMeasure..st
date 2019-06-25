@@ -1,11 +1,15 @@
 visiting
 visitMeasure: aMeasure
-	| morph |
+	| morph emptyDuration |
 	morph := MNMeasureMorph measure: aMeasure.
 		
 	self addPrefixOfMeasure: aMeasure after: aMeasure leftSibling to: morph.
 	
 	self addAll: aMeasure notes to: morph.
+	
+	emptyDuration := self emptyDurationInMeasure: aMeasure.	
+	emptyDuration > 0
+		ifTrue: [ self addAll: (self createRestsForDuration: emptyDuration) to: morph ].
 	
 	morph addMorphBack: (aMeasure rightSibling
 		ifNil: [ MNBarLineMorph newFinal ]
