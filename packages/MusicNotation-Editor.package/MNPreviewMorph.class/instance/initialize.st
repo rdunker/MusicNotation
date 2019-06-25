@@ -4,5 +4,4 @@ initialize
 	
 	self
 		layoutPolicy: TableLayout new;
-		hResizing: #spaceFill;
-		vResizing: #spaceFill.
+		clipSubmorphs: true.
