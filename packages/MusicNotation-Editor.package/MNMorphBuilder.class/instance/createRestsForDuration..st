@@ -10,5 +10,5 @@ createRestsForDuration: aDuration
 		
 	remainder := aDuration - powerOfTwo.
 	^ (self createRestsForDuration: remainder)
-		addFirst: (MNNote new duration: powerOfTwo);
+		addLast: (MNNote new duration: powerOfTwo);
 		yourself
