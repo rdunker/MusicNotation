@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Graphics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fraction" ],
+	"name" : "MNTimeSignatureMorph",
+	"pools" : [
+		 ],
+	"super" : "MNSymbolMorph",
+	"type" : "normal" }

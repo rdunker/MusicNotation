@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-Graphics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fontScale",
+		"noteLineHeight" ],
+	"name" : "MNSmuflDrawer",
+	"pools" : [
+		 ],
+	"super" : "MNFontDrawer",
+	"type" : "normal" }

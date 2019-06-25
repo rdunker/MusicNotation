@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Graphics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MNSmuflFont",
+	"pools" : [
+		 ],
+	"super" : "MNFont",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-Graphics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"key",
+		"keySignatureLayout" ],
+	"name" : "MNKeySignatureMorph",
+	"pools" : [
+		 ],
+	"super" : "MNSymbolMorph",
+	"type" : "normal" }
