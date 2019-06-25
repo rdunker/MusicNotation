@@ -1,4 +1,4 @@
-visiting
+converting
 emptyDurationInMeasure: aMeasure
 	| sum |
 	sum := aMeasure notes detectSum: [ :each | each duration ].
