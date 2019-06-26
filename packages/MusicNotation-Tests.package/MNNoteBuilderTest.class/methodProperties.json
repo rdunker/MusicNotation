@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createContext" : "mgjm 6/19/2019 22:05",
+		"testAddChord4" : "fb 6/26/2019 09:30",
+		"testAddNote4" : "fb 6/26/2019 09:22",
+		"testAddNote4Twice" : "fb 6/26/2019 09:22",
+		"testAddNote8" : "fb 6/26/2019 09:23",
+		"testAddRest4" : "fb 6/26/2019 09:23" } }
