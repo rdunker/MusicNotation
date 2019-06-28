@@ -1,3 +1,3 @@
 accessing
 setFlat
-	self alter: -1
+	self alter: -1.

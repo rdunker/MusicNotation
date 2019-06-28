@@ -1,3 +1,3 @@
 accessing
 setNatural
-	self alter: 0
+	self alter: 0.

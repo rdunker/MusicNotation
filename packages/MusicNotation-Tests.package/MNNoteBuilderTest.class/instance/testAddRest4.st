@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAddRest4
 	| context builder |
 	context := self createContext.

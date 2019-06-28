@@ -1,8 +1,8 @@
-as yet unclassified
+tests
 testAddNaturalNote4
 	| context builder |
 	context := self createContext.
-	builder := MNNoteBuilder context: context pitch: 'c4s'.
+	builder := MNNoteBuilder context: context pitchFrom: 'c4s'.
 	
 	builder n / 4.
 	

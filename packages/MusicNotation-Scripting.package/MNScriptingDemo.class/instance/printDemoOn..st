@@ -5,7 +5,7 @@ printDemoOn: aStream
 		cr.
 	
 	#cdefgab do: [ :each | aStream
-		nextPutAll: ('{1} := MNNoteBuilder context: context pitch: ''{1}4''.' format: { each }); cr ].
+		nextPutAll: ('{1} := MNNoteBuilder context: context pitchFrom: ''{1}4''.' format: { each }); cr ].
 	aStream nextPutAll: 'r := MNNoteBuilder context: context.'; cr.
 	
 	aStream

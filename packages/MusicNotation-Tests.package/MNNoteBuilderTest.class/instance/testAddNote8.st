@@ -1,8 +1,8 @@
-as yet unclassified
+tests
 testAddNote8
 	| context builder |
 	context := self createContext.
-	builder := MNNoteBuilder context: context pitch: 'c4'.
+	builder := MNNoteBuilder context: context pitchFrom: 'c4'.
 	
 	builder / 8.
 	

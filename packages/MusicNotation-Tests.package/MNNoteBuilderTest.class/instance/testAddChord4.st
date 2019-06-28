@@ -1,10 +1,10 @@
-as yet unclassified
+tests
 testAddChord4
 	| context cBuilder eBuilder gBuilder |
 	context := self createContext.
-	cBuilder := MNNoteBuilder context: context pitch: 'c4'.
-	eBuilder := MNNoteBuilder context: context pitch: 'e4'.
-	gBuilder := MNNoteBuilder context: context pitch: 'g4'.
+	cBuilder := MNNoteBuilder context: context pitchFrom: 'c4'.
+	eBuilder := MNNoteBuilder context: context pitchFrom: 'e4'.
+	gBuilder := MNNoteBuilder context: context pitchFrom: 'g4'.
 	
 	cBuilder + eBuilder + gBuilder / 4.
 	

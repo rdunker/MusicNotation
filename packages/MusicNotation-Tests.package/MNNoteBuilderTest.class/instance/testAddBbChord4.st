@@ -1,10 +1,10 @@
-as yet unclassified
+tests
 testAddBbChord4
 	| context bBuilder dBuilder fBuilder |
 	context := self createContext.
-	bBuilder := MNNoteBuilder context: context pitch: 'b4'.
-	dBuilder := MNNoteBuilder context: context pitch: 'd4'.
-	fBuilder := MNNoteBuilder context: context pitch: 'f4'.
+	bBuilder := MNNoteBuilder context: context pitchFrom: 'b4'.
+	dBuilder := MNNoteBuilder context: context pitchFrom: 'd4'.
+	fBuilder := MNNoteBuilder context: context pitchFrom: 'f4'.
 	
 	bBuilder f + dBuilder + fBuilder / 4.
 	

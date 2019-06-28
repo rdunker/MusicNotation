@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"parentClass" : "mgjm 6/11/2019 03:36",
-		"readFrom:" : "fb 6/27/2019 08:23" },
+		"readFrom:" : "fb 6/28/2019 10:18" },
 	"instance" : {
 		"<=" : "mgjm 5/25/2019 02:06",
 		"=" : "mgjm 5/25/2019 02:02",
@@ -18,9 +18,9 @@
 		"octave" : "mgjm 4/18/2019 12:03",
 		"octave:" : "mgjm 5/22/2019 18:05",
 		"printOn:" : "mgjm 6/12/2019 07:06",
-		"setFlat" : "fb 6/27/2019 08:25",
-		"setNatural" : "fb 6/27/2019 08:25",
-		"setSharp" : "fb 6/27/2019 08:25",
+		"setFlat" : "fb 6/28/2019 10:38",
+		"setNatural" : "fb 6/28/2019 10:38",
+		"setSharp" : "fb 6/28/2019 10:38",
 		"step" : "mgjm 4/18/2019 12:03",
 		"step:" : "mgjm 5/22/2019 18:05",
 		"steps" : "mgjm 5/26/2019 16:45" } }
