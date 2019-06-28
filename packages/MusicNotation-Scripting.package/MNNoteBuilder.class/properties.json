@@ -1,14 +1,15 @@
 {
-	"category" : "MusicNotation-Tests",
+	"category" : "MusicNotation-Scripting",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MNLengthBuilderTest",
+		"context",
+		"pitches" ],
+	"name" : "MNNoteBuilder",
 	"pools" : [
 		 ],
-	"super" : "MNScriptingTestCase",
+	"super" : "Object",
 	"type" : "normal" }

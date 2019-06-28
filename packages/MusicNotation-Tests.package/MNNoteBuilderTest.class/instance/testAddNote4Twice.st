@@ -1,8 +1,8 @@
-as yet unclassified
+tests
 testAddNote4Twice
 	| context builder |
 	context := self createContext.
-	builder := MNPitchBuilder context: context step: $c.
+	builder := MNNoteBuilder context: context pitchFrom: 'c4'.
 	
 	builder / 4 * 2.
 	

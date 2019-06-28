@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAddC4Twice
 	| context |
 	context := MNContext new.

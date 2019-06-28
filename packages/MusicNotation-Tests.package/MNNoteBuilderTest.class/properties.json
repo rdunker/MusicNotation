@@ -1,14 +1,14 @@
 {
-	"category" : "MusicNotation-Scripting",
+	"category" : "MusicNotation-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"step" ],
-	"name" : "MNPitchBuilder",
+		 ],
+	"name" : "MNNoteBuilderTest",
 	"pools" : [
 		 ],
-	"super" : "MNLengthBuilder",
+	"super" : "MNScriptingTestCase",
 	"type" : "normal" }

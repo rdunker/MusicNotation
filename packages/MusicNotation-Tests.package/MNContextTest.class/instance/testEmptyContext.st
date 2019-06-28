@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEmptyContext
 	| context |
 	context := MNContext new.

@@ -1,8 +1,8 @@
-as yet unclassified
+tests
 testAddRest4
 	| context builder |
 	context := self createContext.
-	builder := MNLengthBuilder context: context.
+	builder := MNNoteBuilder context: context.
 	
 	builder / 4.
 	
