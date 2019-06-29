@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"open" : "jst 6/28/2019 16:36",
+		"openAlleMeineEntchen" : "jst 6/29/2019 14:40" },
+	"instance" : {
+		"bindingOf:" : "jst 6/29/2019 17:37",
+		"bindings" : "jst 6/28/2019 17:59",
+		"bindings:" : "jst 6/28/2019 17:19",
+		"buildCodePaneWith:" : "jst 6/29/2019 14:23",
+		"buildMenuButtonsWith:" : "jst 6/29/2019 17:26",
+		"buildWith:" : "jst 6/28/2019 20:25",
+		"buttonHeight" : "jst 6/29/2019 14:23",
+		"contents:" : "jst 6/29/2019 17:35",
+		"hasBindingOf:" : "jst 6/28/2019 15:32",
+		"initialize" : "jst 6/28/2019 15:39",
+		"initializeBindings" : "jst 6/29/2019 17:34",
+		"initializePitchBindings" : "jst 6/29/2019 17:33",
+		"inspectBindings" : "jst 6/28/2019 15:36",
+		"lookupInPools:" : "jst 6/28/2019 15:37",
+		"mncontext" : "jst 6/29/2019 17:36",
+		"mncontext:" : "jst 6/28/2019 17:18",
+		"runScript" : "jst 6/29/2019 17:07",
+		"selectionInterval" : "jst 6/29/2019 17:32",
+		"setPitchBinding:" : "jst 6/29/2019 15:03",
+		"showResult" : "jst 6/29/2019 17:23",
+		"showScriptResult" : "jst 6/29/2019 17:04",
+		"text" : "jst 6/29/2019 17:33" } }
