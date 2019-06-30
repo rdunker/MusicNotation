@@ -8,6 +8,12 @@
 		"testAs4" : "mgjm 5/26/2019 23:51",
 		"testBb4" : "mgjm 5/26/2019 23:51",
 		"testC4" : "mgjm 5/26/2019 23:52",
+		"testCLessThanOrEqualToD" : "fb 6/27/2019 08:56",
+		"testCsLessThanOrEqualToDb" : "fb 6/27/2019 08:55",
+		"testEquals" : "fb 6/27/2019 08:49",
 		"testFs4" : "mgjm 5/26/2019 23:52",
 		"testInvalidAlter" : "mgjm 5/24/2019 00:20",
-		"testPitchAccept" : "mgjm 5/23/2019 12:16" } }
+		"testPitchAccept" : "mgjm 5/23/2019 12:16",
+		"testReadFrom" : "fb 6/27/2019 08:41",
+		"testReadFromFlat" : "fb 6/27/2019 08:42",
+		"testReadFromSharp" : "fb 6/27/2019 08:41" } }

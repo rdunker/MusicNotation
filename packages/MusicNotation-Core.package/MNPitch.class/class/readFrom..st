@@ -1,10 +1,15 @@
 instance creation
 readFrom: aStringOrStream
-	| stream |
+	| stream pitch alter |
 	stream := aStringOrStream isString 
 		ifTrue: [ aStringOrStream readStream ]
 		ifFalse: [ aStringOrStream ].
-	^ MNPitch new
+	pitch := MNPitch new
 		step: stream next;
 		octave: (Integer readFrom: stream);
-		yourself
+		yourself.
+	alter := #fns indexOf: stream next.
+	alter isZero
+		ifTrue: [ alter := 2 ].
+	pitch alter: alter - 2.
+	^ pitch

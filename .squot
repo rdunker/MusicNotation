@@ -2,9 +2,9 @@ OrderedDictionary {
 	'packages\/BaselineOfMusicNotation.package' : #SquotCypressCodeSerializer,
 	'packages\/MusicNotation-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/MusicNotation-Tests.package' : #SquotCypressCodeSerializer,
-	'packages\/MusicNotation-XML.package' : #SquotCypressCodeSerializer,
-	'packages\/MusicNotation-Graphics.package' : #SquotCypressCodeSerializer,
+	'packages\/MusicNotation-Editor.package' : #SquotCypressCodeSerializer,
 	'packages\/MusicNotation-Player.package' : #SquotCypressCodeSerializer,
 	'packages\/MusicNotation-Scripting.package' : #SquotCypressCodeSerializer,
-	'packages\/MusicNotation-Editor.package' : #SquotCypressCodeSerializer
+	'packages\/MusicNotation-XML.package' : #SquotCypressCodeSerializer,
+	'packages\/MusicNotation-Graphics.package' : #SquotCypressCodeSerializer
 }

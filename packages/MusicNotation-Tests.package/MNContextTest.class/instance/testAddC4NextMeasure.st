@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAddC4NextMeasure
 	| context |
 	context := MNContext new.
