@@ -1,3 +1,3 @@
 accessing
 name
-	^ 'Untitled'
+	^ name ifNil: [ 'Untitled' ]
