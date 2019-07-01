@@ -9,3 +9,8 @@ addModelItemsToWindowMenu: aMenu
 		add: 'open preview'
 		target: self
 		action: #openPreview.
+	aMenu addLine.
+	aMenu
+		add: 'reset do-it environment'
+		target: self
+		action: #resetDoItEnvironment.
