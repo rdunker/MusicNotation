@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"project",
-		"status" ],
-	"name" : "MNEditor",
+		 ],
+	"name" : "MNEditorStatusSuccess",
 	"pools" : [
 		 ],
-	"super" : "StringHolder",
+	"super" : "MNEditorStatus",
 	"type" : "normal" }

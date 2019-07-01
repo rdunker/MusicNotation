@@ -1,10 +1,10 @@
 toolbuilder
-buildCodePaneWith: builder
-	^ builder pluggableCodePaneSpec new
+buildCodePaneWith: aBuilder
+	^ aBuilder pluggableCodePaneSpec new
 		model: self;
 		getText: #contents; 
 		setText: #contents:notifying:; 
 		selection: #contentsSelection; 
 		menu: #codePaneMenu:shifted:;
-		frame: (0@0 corner: 1@1);
+		frame: self codeFrame;
 		yourself
