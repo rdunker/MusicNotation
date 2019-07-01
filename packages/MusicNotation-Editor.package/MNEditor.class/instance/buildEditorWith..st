@@ -1,6 +1,5 @@
 toolbuilder
-buildWith: aBuilder
-
+buildEditorWith: aBuilder
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'Music Workspace';

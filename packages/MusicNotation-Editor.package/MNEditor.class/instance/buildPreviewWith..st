@@ -1,4 +1,4 @@
-building
+toolbuilder
 buildPreviewWith: aBuilder
 	| window |
 	window := aBuilder pluggableWindowSpec new

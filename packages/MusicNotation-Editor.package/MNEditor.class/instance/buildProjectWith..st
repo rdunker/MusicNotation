@@ -1,4 +1,4 @@
-building
+toolbuilder
 buildProjectWith: aBuilder
 	^ aBuilder mnPluggableCustomSpec new
 		morphClass: MNPreviewMorph;
