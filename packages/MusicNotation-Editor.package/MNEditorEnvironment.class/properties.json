@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"project" ],
-	"name" : "MNEditor",
+		"bindings",
+		"context" ],
+	"name" : "MNEditorEnvironment",
 	"pools" : [
 		 ],
-	"super" : "StringHolder",
+	"super" : "Object",
 	"type" : "normal" }

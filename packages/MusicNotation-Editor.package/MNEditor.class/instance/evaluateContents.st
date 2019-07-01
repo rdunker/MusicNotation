@@ -1,5 +1,6 @@
 evaluating
 evaluateContents
-	self initializeBindings.
-	Compiler evaluate: self contents for: self notifying: self.
-	self project: self mncontext project.
+	| environment |
+	environment := self createEnvironment.
+	Compiler evaluate: self contents in: environment notifying: nil logged: false.
+	self project: environment context project.

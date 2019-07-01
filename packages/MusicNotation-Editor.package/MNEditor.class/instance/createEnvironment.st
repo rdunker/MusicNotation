@@ -1,0 +1,3 @@
+accessing
+createEnvironment
+	^ MNEditorEnvironment new
