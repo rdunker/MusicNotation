@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GlobalInstances" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"compiledMethod",
+		"methodNode" ],
+	"name" : "MNCompiledMethodObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

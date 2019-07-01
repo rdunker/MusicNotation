@@ -1,6 +1,10 @@
 evaluating
 evaluateContents
-	| environment |
+	| environment newStatus |
 	environment := self createEnvironment.
-	Compiler evaluate: self contents in: environment notifying: nil logged: false.
-	self project: environment context project.
+	
+	newStatus := self evaluateToStatus: self methodCode in: environment.
+	
+	newStatus isSuccess
+		ifTrue: [ self project: environment context project ].
+	self status: newStatus.

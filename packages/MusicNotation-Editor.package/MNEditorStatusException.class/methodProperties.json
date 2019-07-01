@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addAttributesTo:from:to:" : "mgjm 7/1/2019 16:24",
+		"applyStyleTo:" : "mgjm 7/1/2019 16:44",
+		"color" : "mgjm 7/1/2019 16:05",
+		"error:in:" : "mgjm 7/1/2019 17:54",
+		"message" : "mgjm 7/1/2019 16:03",
+		"message:" : "mgjm 7/1/2019 16:03",
+		"range" : "mgjm 7/1/2019 16:03",
+		"range:" : "mgjm 7/1/2019 16:03",
+		"rangeIn:" : "mgjm 7/1/2019 17:54",
+		"syntaxError:in:" : "mgjm 7/1/2019 16:44" } }

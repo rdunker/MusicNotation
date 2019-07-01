@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MNCompiledMethod",
+	"pools" : [
+		 ],
+	"super" : "CompiledMethod",
+	"type" : "compiledMethod" }

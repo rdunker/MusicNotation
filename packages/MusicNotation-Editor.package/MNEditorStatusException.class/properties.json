@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"message",
+		"range" ],
+	"name" : "MNEditorStatusException",
+	"pools" : [
+		 ],
+	"super" : "MNEditorStatus",
+	"type" : "normal" }
