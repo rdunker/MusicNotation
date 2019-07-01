@@ -3,7 +3,7 @@ evaluate: textOrStream in: anEnvironment
 	| method methodNode |
 	methodNode := Compiler new
 		compile: textOrStream
-		in: UndefinedObject
+		in: anEnvironment context class
 		environment: anEnvironment
 		notifying: nil
 		ifFail: nil.
@@ -12,4 +12,4 @@ evaluate: textOrStream in: anEnvironment
 	method := methodNode generate: CompiledMethodTrailer empty using: MNCompiledMethod.
 	method methodNode: methodNode.
 	
-	nil executeMethod: method.
+	anEnvironment context executeMethod: method.
