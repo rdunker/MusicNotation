@@ -1,8 +1,11 @@
 toolbuilder
 buildEditorWith: aBuilder
-	^ aBuilder build: (aBuilder pluggableWindowSpec new
+	| window |
+	window := aBuilder pluggableWindowSpec new
 		model: self;
-		label: 'Music Workspace';
-		extent: 500@400;
-		children: { self buildMenuButtonsWith: aBuilder . self buildCodePaneWith: aBuilder };
-		yourself)
+		label: #editorLabel;
+		extent: 400@600;
+		children: { self buildCodePaneWith: aBuilder };
+		yourself.
+	
+	^ aBuilder build: window

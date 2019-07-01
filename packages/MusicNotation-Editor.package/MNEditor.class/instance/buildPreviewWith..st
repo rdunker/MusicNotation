@@ -6,7 +6,6 @@ buildPreviewWith: aBuilder
 		label: #previewLabel;
 		extent: 600@200;
 		children: { self buildProjectWith: aBuilder };
-		color: Color blue;
 		yourself.
 	
 	^ aBuilder build: window
