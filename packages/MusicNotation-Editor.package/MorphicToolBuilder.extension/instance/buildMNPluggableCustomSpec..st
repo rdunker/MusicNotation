@@ -13,6 +13,6 @@ buildMNPluggableCustomSpec: aSpec
 	
 	self setFrame: aSpec frame in: widget.
 	self setLayoutHintsFor: widget spec: aSpec.
-	self parent ifNotNilDo: [ :p | self addAll: widget to: p ].
+	self parent ifNotNilDo: [ :p | self add: widget to: p ].
 	
 	^ widget
