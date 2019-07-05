@@ -2,9 +2,7 @@ tests
 testSmuflFontDisplay
 	| drawer |
 	drawer := MNSmuflDrawer new
-			canvas: (self currentWorld canvas
-				copyClipRect: (0@0 corner: 0@0))
-				asBalloonCanvas;
+			canvas: self hiddenCanvas asBalloonCanvas;
 			color: Color red;
 			font: MNFont bravura;
 			position: 15@25;

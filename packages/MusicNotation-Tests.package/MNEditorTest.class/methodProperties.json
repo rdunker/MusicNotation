@@ -2,4 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testSmuflFontDisplay" : "mgjm 5/26/2019 19:10" } }
+		"ensureAbandonOf:do:" : "mgjm 7/5/2019 20:47",
+		"hiddenCanvas" : "mgjm 7/5/2019 20:06",
+		"testDoItEnvironment" : "mgjm 7/5/2019 20:29",
+		"testMenuItems" : "mgjm 7/5/2019 20:23",
+		"testOpenEditor" : "mgjm 7/5/2019 20:45",
+		"testOpenEditorClass" : "mgjm 7/5/2019 20:44",
+		"testOpenPreview" : "mgjm 7/5/2019 20:47",
+		"testSmuflFontDisplay" : "mgjm 7/5/2019 20:43",
+		"testTextContents" : "mgjm 7/5/2019 20:30" } }
