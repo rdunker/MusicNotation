@@ -6,4 +6,4 @@ bindingOf: aSymbol
 			ifFalse: [ CurrentEnvironment bindingOf: aSymbol ]]
 		ifFalse: [
 			self bindingOf: aSymbol
-				ifAbsent: [ bindings add: aSymbol asSymbol => nil ]]
+				ifAbsent: [ self bindings add: aSymbol asSymbol => nil ]]

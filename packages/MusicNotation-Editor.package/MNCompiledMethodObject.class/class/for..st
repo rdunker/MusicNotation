@@ -7,4 +7,4 @@ for: aCompiledMethod
 	^ self globalInstances like: instance
 		ifAbsent: [
 			self globalInstances add: instance.
-			instance ].
+			instance ]

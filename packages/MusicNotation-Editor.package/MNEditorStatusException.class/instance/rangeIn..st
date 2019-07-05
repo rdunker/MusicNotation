@@ -13,4 +13,4 @@ rangeIn: aContext
 			contextIsActiveContext: false ]
 		
 		on: UndeclaredVariableWarning
-		do: [ :e | e resume true ]
+		do: [ :e | e resume: true ]

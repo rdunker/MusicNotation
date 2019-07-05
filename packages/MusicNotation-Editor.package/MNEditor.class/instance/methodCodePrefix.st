@@ -1,3 +1,3 @@
 evaluating
 methodCodePrefix
-	^ 'DoIt', String cr.
+	^ 'DoIt', String cr
