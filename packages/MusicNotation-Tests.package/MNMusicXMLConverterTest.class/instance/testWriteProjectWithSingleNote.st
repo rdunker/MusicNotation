@@ -17,7 +17,7 @@ testWriteProjectWithSingleNote
 		alter: 1;
 		yourself).
 
-	xml := MNMusicXMLWriter writeProject: project.
+	xml := project asXMLString.
 	parsedProject := MNMusicXMLParser parseFrom: xml.
 
 	self assert: 1 equals: parsedProject parts size.

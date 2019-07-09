@@ -1,3 +1,3 @@
 arithmetic
 n
-	^ self collect: #setNatural
+	^ self natural

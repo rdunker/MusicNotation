@@ -9,7 +9,7 @@ testWriteEmptyProject
 	project addPart: part.
 	part addMeasure: measure.
 
-	xml := MNMusicXMLWriter writeProject: project.
+	xml := project asXMLString.
 	parsedProject := MNMusicXMLParser parseFrom: xml.
 
 	self assert: 1 equals: parsedProject parts size.

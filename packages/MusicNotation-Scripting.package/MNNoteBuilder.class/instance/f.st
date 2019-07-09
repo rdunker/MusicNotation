@@ -1,3 +1,3 @@
 arithmetic
 f
-	^ self collect: #setFlat
+	^ self flat

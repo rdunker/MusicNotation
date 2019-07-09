@@ -1,3 +1,3 @@
 accessing
 useCache
-	^ false
+	^ true
