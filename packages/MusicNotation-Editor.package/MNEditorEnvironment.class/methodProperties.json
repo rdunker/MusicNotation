@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"associationAt:ifAbsent:" : "mgjm 7/1/2019 14:55",
+		"at:" : "mgjm 7/1/2019 17:06",
+		"at:put:" : "mgjm 7/1/2019 17:06",
+		"bindingOf:" : "mgjm 7/5/2019 20:51",
+		"bindingOf:ifAbsent:" : "mgjm 7/1/2019 14:40",
+		"bindings" : "mgjm 7/1/2019 14:41",
+		"bindings:" : "mgjm 7/1/2019 14:41",
+		"context" : "mgjm 7/1/2019 14:41",
+		"context:" : "mgjm 7/1/2019 14:41",
+		"hasBindingOf:" : "mgjm 7/1/2019 17:04",
+		"hasBindingThatBeginsWith:" : "mgjm 7/1/2019 17:04",
+		"initialize" : "mgjm 7/1/2019 18:48",
+		"initializePitchBindings" : "mgjm 7/3/2019 16:04",
+		"setPitchBinding:" : "mgjm 7/1/2019 14:47" } }

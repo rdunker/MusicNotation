@@ -1,0 +1,3 @@
+*MusicNotation-Editor
+mnPluggableCustomSpec
+	^ MNPluggableCustomSpec

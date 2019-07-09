@@ -3,4 +3,6 @@ initialize
 	super initialize.
 	
 	self
-		layoutPolicy: TableLayout new.
+		layoutPolicy: TableLayout new;
+		hResizing: #spaceFill;
+		vResizing: #spaceFill.

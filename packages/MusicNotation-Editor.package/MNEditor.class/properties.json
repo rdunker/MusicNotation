@@ -1,0 +1,17 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"doItEnvironment",
+		"name",
+		"project",
+		"status" ],
+	"name" : "MNEditor",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

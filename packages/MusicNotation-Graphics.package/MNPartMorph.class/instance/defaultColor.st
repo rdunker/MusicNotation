@@ -1,3 +1,3 @@
 initialization
 defaultColor
-	^ Color veryVeryLightGray
+	^ Color white

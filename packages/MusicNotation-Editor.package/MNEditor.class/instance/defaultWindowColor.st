@@ -1,0 +1,3 @@
+accessing
+defaultWindowColor
+	^ Color paleRed

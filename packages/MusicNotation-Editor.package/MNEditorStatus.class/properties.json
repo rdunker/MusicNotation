@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MNEditorStatus",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
