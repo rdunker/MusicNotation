@@ -1,11 +1,10 @@
 calculating
 calculateAccidentalDictionaryForNote: aNote
 	| dict |
-	dict := aNote leftSibling
-		ifNil: [ Dictionary new ]
-		ifNotNilDo: [ :s | self calculateAccidentalDictionaryForNote: s ].
+	aNote ifNil: [ ^ Dictionary new ].
+	dict := self calculateAccidentalDictionaryForNote: aNote leftSibling.
 		
 	aNote pitches do: [ :pitch |
-		dict add: (pitch step asSymbol, pitch octave) -> pitch alter ].
+		dict at: pitch step asSymbol, pitch octave put: pitch alter ].
 	
 	^ dict
