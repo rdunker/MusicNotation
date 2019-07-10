@@ -4,10 +4,9 @@ alleMeineEntchen
 		<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 		<score-partwise>
 		  <work>
-		    <work-title>Bruder Jakob</work-title>
+		    <work-title>Alle meine Entchen</work-title>
 		    </work>
 		  <identification>
-		    <creator type="composer">aus Frankreich</creator>
 		    <encoding>
 		      <software>MuseScore 2.0.3</software>
 		      <encoding-date>2017-01-02</encoding-date>

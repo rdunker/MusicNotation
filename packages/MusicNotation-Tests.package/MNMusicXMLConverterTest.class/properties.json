@@ -1,5 +1,5 @@
 {
-	"category" : "MusicNotation-XML",
+	"category" : "MusicNotation-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MNMusicXMLWriter",
+	"name" : "MNMusicXMLConverterTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

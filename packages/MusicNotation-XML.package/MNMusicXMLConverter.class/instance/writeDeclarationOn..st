@@ -7,7 +7,7 @@ writeDeclarationOn: aWriter
 	aWriter stream nextPutAll: 'PUBLIC'; cr.
 	
 	aWriter
-		indentString: '    ';
+		"indentString: '    ';"
 		indent;
 		writeIndent;
 		putAsXMLString: '-//Recordare//DTD MusicXML 3.1 Partwise//EN'.
@@ -16,5 +16,6 @@ writeDeclarationOn: aWriter
 	aWriter
 		writeIndent
 		putAsXMLString: 'http://www.musicxml.org/dtds/partwise.dtd';
-		endDecl: 'DOCTYPE';
-		indentString: '  '.
+		endDecl: 'DOCTYPE'";
+		indentString: '  '".
+	self flag: #todo.

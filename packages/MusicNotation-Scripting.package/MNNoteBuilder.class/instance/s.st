@@ -1,3 +1,3 @@
 arithmetic
 s
-	^ self collect: #setSharp
+	^ self sharp
