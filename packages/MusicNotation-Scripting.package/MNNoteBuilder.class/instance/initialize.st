@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self pitches: OrderedCollection new. 
+	self pitches: Set new. 

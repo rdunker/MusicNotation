@@ -1,0 +1,3 @@
+arithmetic
+min
+	^ self minor
