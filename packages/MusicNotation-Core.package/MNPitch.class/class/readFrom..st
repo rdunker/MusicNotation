@@ -4,7 +4,7 @@ readFrom: aStringOrStream
 	stream := aStringOrStream isString 
 		ifTrue: [ aStringOrStream readStream ]
 		ifFalse: [ aStringOrStream ].
-	pitch := MNPitch new
+	pitch := self new
 		step: stream next;
 		octave: (Integer readFrom: stream);
 		yourself.
