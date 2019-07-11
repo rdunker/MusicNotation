@@ -1,5 +1,5 @@
 tests
-testAddEMajor4
+testAddEMajor
 	| context eBuilder gBuilder bBuilder |
 	context := self createContext.
 	eBuilder := MNNoteBuilder context: context pitchFrom: 'e4'.

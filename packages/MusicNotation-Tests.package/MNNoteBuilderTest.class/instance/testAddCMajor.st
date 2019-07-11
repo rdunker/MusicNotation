@@ -1,5 +1,5 @@
 tests
-testAddCMajor4
+testAddCMajor
 	| context cBuilder eBuilder gBuilder |
 	context := self createContext.
 	cBuilder := MNNoteBuilder context: context pitchFrom: 'c4'.

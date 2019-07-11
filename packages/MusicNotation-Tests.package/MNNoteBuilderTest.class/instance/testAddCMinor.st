@@ -1,19 +1,19 @@
 tests
-testAddGbMajor4
-	| context gBuilder bBuilder dBuilder |
+testAddCMinor
+	| context cBuilder eBuilder gBuilder |
 	context := self createContext.
+	cBuilder := MNNoteBuilder context: context pitchFrom: 'c4'.
+	eBuilder := MNNoteBuilder context: context pitchFrom: 'e4'.
 	gBuilder := MNNoteBuilder context: context pitchFrom: 'g4'.
-	bBuilder := MNNoteBuilder context: context pitchFrom: 'b4'.
-	dBuilder := MNNoteBuilder context: context pitchFrom: 'd5'.
 	
-	(gBuilder + bBuilder + dBuilder) f / 4.
-	gBuilder maj f / 4.
+	cBuilder + eBuilder f + gBuilder / 4.
+	cBuilder min / 4.
 	
 	self assert: 2 equals: context measure notes size.
-	self assert: 1/4 equals: context measure notes first duration.	
+	self assert: 1/4 equals: context measure notes first duration.
 	self assert: 1/4 equals: context measure notes second duration.
-	self assert: 3 equals: context measure notes first pitches size.	
+	self assert: 3 equals: context measure notes first pitches size.
 	self assert: 3 equals: context measure notes second pitches size.
-	#('g4f' 'b4f' 'd5f') do: [ :value |
+	#('c4' 'e4f' 'g4') do: [ :value |
 		self assert: ((context measure notes first pitches) includes: (MNPitch readFrom: value)).
 		self assert: ((context measure notes second pitches) includes: (MNPitch readFrom: value)). ]
