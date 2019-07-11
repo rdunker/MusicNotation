@@ -9,7 +9,5 @@ readFrom: aStringOrStream
 		octave: (Integer readFrom: stream);
 		yourself.
 	alter := #fns indexOf: stream next.
-	alter isZero
-		ifTrue: [ alter := 2 ].
-	pitch alter: alter - 2.
+	alter isZero ifFalse: [ pitch alter: alter - 2 ].
 	^ pitch
