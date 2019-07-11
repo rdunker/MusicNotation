@@ -9,6 +9,5 @@ evaluate: aString in: anEnvironment
 		ifFail: nil.
 	
 	method := methodNode generate.
-	method propertyValueAt: #source put: aString.
 	
 	anEnvironment context executeMethod: method.
