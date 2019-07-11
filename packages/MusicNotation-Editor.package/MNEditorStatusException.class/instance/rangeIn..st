@@ -4,7 +4,7 @@ rangeIn: aContext
 	context := aContext.
 	[
 		context ifNil: [ ^ 1 to: 0 ].
-		context method isKindOf: MNCompiledMethod ]
+		context methodNode selector == #DoIt ]
 		whileFalse: [ context := context sender ].
 	^ [
 		context method debuggerMap

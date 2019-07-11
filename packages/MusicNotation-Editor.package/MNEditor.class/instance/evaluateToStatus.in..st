@@ -1,7 +1,7 @@
 evaluating
-evaluateToStatus: textOrStream in: anEnvironment
+evaluateToStatus: aString in: anEnvironment
 	^ [
-		self evaluate: textOrStream in: anEnvironment.
+		self evaluate: aString in: anEnvironment.
 		MNEditorStatusSuccess new ]
 		
 		on: SyntaxErrorNotification

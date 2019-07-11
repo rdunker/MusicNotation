@@ -1,15 +1,14 @@
 evaluating
-evaluate: textOrStream in: anEnvironment
-	| method methodNode |
+evaluate: aString in: anEnvironment
+	| methodNode method |
 	methodNode := Compiler new
-		compile: textOrStream
+		compile: aString
 		in: anEnvironment context class
 		environment: anEnvironment
 		notifying: nil
 		ifFail: nil.
-	methodNode sourceText: textOrStream.
 	
-	method := methodNode generate: CompiledMethodTrailer empty using: MNCompiledMethod.
-	method methodNode: methodNode.
+	method := methodNode generate.
+	method propertyValueAt: #source put: aString.
 	
 	anEnvironment context executeMethod: method.
