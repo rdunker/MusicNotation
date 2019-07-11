@@ -1,3 +1,3 @@
 accessing
 majorChord
-	^ Set newFrom: { self copy . self atMajorThird . self atPerfectFifth }
+	^ Set newFrom: { self copy . MNInterval majorThird transpose: self . MNInterval perfectFifth transpose: self }

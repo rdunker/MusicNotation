@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"isPerfect:" : "fb 7/11/2019 15:21",
+		"majorThird" : "fb 7/11/2019 15:33",
+		"minorThird" : "fb 7/11/2019 15:33",
+		"perfectFifth" : "fb 7/11/2019 15:33" },
+	"instance" : {
+		"halfSteps" : "fb 7/11/2019 15:12",
+		"halfSteps:" : "fb 7/11/2019 15:12",
+		"major:" : "fb 7/11/2019 15:40",
+		"minor:" : "fb 7/11/2019 15:28",
+		"perfect:" : "fb 7/11/2019 15:39",
+		"steps" : "fb 7/11/2019 15:12",
+		"steps:" : "fb 7/11/2019 15:12",
+		"transpose:" : "fb 7/11/2019 15:32" } }
