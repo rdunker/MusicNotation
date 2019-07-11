@@ -1,19 +1,24 @@
 {
 	"class" : {
+		"augmentedFifth" : "fb 7/11/2019 18:44",
+		"diminishedFifth" : "fb 7/11/2019 18:44",
 		"isPerfect:" : "fb 7/11/2019 15:21",
+		"majorNinth" : "fb 7/11/2019 18:51",
+		"majorSecond" : "fb 7/11/2019 18:55",
 		"majorSeventh" : "fb 7/11/2019 18:25",
 		"majorThird" : "fb 7/11/2019 15:33",
 		"minorSeventh" : "fb 7/11/2019 18:25",
 		"minorThird" : "fb 7/11/2019 15:33",
-		"perfectFifth" : "fb 7/11/2019 15:33" },
+		"perfectFifth" : "fb 7/11/2019 15:33",
+		"perfectFourth" : "fb 7/11/2019 18:57" },
 	"instance" : {
 		"augmented:" : "fb 7/11/2019 18:21",
 		"diminished:" : "fb 7/11/2019 18:24",
 		"halfSteps" : "fb 7/11/2019 15:12",
 		"halfSteps:" : "fb 7/11/2019 15:12",
-		"major:" : "fb 7/11/2019 15:40",
+		"major:" : "fb 7/11/2019 19:12",
 		"minor:" : "fb 7/11/2019 15:28",
-		"perfect:" : "fb 7/11/2019 15:39",
+		"perfect:" : "fb 7/11/2019 19:18",
 		"steps" : "fb 7/11/2019 15:12",
 		"steps:" : "fb 7/11/2019 15:12",
 		"transpose:" : "fb 7/11/2019 15:32" } }
