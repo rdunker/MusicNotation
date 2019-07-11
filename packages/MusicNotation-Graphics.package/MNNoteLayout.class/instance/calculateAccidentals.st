@@ -1,6 +1,6 @@
 calculating
 calculateAccidentals
-	| collection dict accidentalDict |
+	| collection dict accidentalDict lineBlock |
 	dict := self note parent
 		ifNil: [ Dictionary new ]
 		ifNotNilDo: [ :p | p key accidentals as: Dictionary ].
@@ -9,8 +9,10 @@ calculateAccidentals
 	
 	collection := OrderedCollection new.
 	
-	self note pitches with: self lines do: [ :pitch :line |
+	lineBlock := self lineConverterBlock.
+	
+	self note pitches do: [ :pitch |
 		pitch alter = (accidentalDict at: pitch step asSymbol, pitch octave ifAbsent: [ dict at: pitch step ifAbsent: 0 ])
-			ifFalse: [ collection add: line -> pitch alter ]].
+			ifFalse: [ collection add: (lineBlock value: pitch) -> pitch alter ]].
 	
 	^ collection
