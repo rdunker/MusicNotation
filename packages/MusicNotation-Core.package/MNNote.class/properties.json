@@ -6,7 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"duration" ],
+		"duration",
+		"tieStart",
+		"tieStop",
+		"slurStart",
+		"slurStop" ],
 	"name" : "MNNote",
 	"pools" : [
 		 ],
