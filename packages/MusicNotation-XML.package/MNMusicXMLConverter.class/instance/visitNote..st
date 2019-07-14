@@ -14,19 +14,18 @@ visitNote: aNote
 		[ xml addElement: (self stringNamed: #tie attributeAt: #type put: 'start') ].
 	xml addElement: (self stringNamed: #type content: (self noteTypeOf: aNote)).
 	
+	aNote numDots timesRepeat: [ xml addElement: (XMLElement named: #dot) ].
+	
 	notations := XMLElement named: #notations.
 	aNote tieStop ifTrue:
 		[ notations addElement: (self stringNamed: #tied attributeAt: #type put: 'stop') ].
 	aNote tieStart ifTrue:
 		[ notations addElement: (self stringNamed: #tied attributeAt: #type put: 'start') ].
 	
-	Transcript show: aNote slurStop.
 	aNote slurStop ifTrue:
 		[ notations addElement: (self stringNamed: #slur attributeAt: #type put: 'stop') ].
 	aNote slurStart ifTrue:
 		[ notations addElement: (self stringNamed: #slur attributeAt: #type put: 'start') ].
 	notations elements isEmpty ifFalse: [ xml addElement: notations ].
-	
-	aNote numDots timesRepeat: [ xml addElement: (XMLElement named: #dot) ].
 	
 	^ xml

@@ -6,9 +6,14 @@
 		"accept:" : "mgjm 5/15/2019 20:32",
 		"addPitch:" : "mgjm 4/18/2019 16:34",
 		"baseDuration" : "mgjm 5/26/2019 19:05",
+		"createCopiesForDuration:" : "fb 7/14/2019 23:24",
+		"createCopiesForDuration:withBlock:" : "fb 7/14/2019 23:49",
+		"createCopiesRecursivelyForDuration:" : "fb 7/14/2019 23:55",
+		"createCopiesRecursivelyForDuration:withBlock:" : "fb 7/14/2019 23:57",
 		"duration" : "mgjm 4/18/2019 16:31",
 		"duration:" : "aw 5/6/2019 23:14",
 		"durationNumerator2" : "mgjm 5/26/2019 18:48",
+		"hasValidDuration" : "fb 7/14/2019 23:45",
 		"hash" : "mgjm 6/18/2019 21:45",
 		"initialize" : "fb 7/14/2019 17:01",
 		"isDotted" : "mgjm 5/26/2019 18:40",
@@ -24,4 +29,4 @@
 		"tieStart:" : "fb 7/14/2019 16:14",
 		"tieStop" : "fb 7/14/2019 16:15",
 		"tieStop:" : "fb 7/14/2019 16:15",
-		"validateDuration" : "mgjm 5/26/2019 18:49" } }
+		"validateDuration" : "fb 7/14/2019 23:51" } }

@@ -8,7 +8,8 @@ visitMeasure: aMeasure
 	self addAll: aMeasure notes to: morph.
 	
 	emptyDuration := self emptyDurationInMeasure: aMeasure.
-	self addRestsForDuration: emptyDuration to: morph.
+	(MNNote new createCopiesRecursivelyForDuration: emptyDuration) do: [ :note |
+		self add: note to: morph ].
 	
 	morph addMorphBack: (aMeasure rightSibling
 		ifNil: [ MNBarLineMorph newFinal ]
