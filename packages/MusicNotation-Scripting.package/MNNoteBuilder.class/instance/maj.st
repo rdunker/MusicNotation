@@ -1,0 +1,3 @@
+arithmetic
+maj
+	^ self major

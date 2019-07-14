@@ -4,12 +4,10 @@ readFrom: aStringOrStream
 	stream := aStringOrStream isString 
 		ifTrue: [ aStringOrStream readStream ]
 		ifFalse: [ aStringOrStream ].
-	pitch := MNPitch new
+	pitch := self new
 		step: stream next;
 		octave: (Integer readFrom: stream);
 		yourself.
 	alter := #fns indexOf: stream next.
-	alter isZero
-		ifTrue: [ alter := 2 ].
-	pitch alter: alter - 2.
+	alter isZero ifFalse: [ pitch alter: alter - 2 ].
 	^ pitch

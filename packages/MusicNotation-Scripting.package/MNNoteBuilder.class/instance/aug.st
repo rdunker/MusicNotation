@@ -1,0 +1,3 @@
+arithmetic
+aug
+	^ self augmented
