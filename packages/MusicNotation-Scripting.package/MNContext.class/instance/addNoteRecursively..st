@@ -7,7 +7,7 @@ addNoteRecursively: aNote
 		note tieStart: true;
 			tieStop: true ].
 		
-	overflow := (aNote duration + (self measure notes detectSum: #duration) - self measure time) max: 0.
+	overflow := (aNote duration + self measure noteDuration - self measure time) max: 0.
 	collection := (aNote createCopiesForDuration: aNote duration - overflow withBlock: tiedBlock) reversed.
 	collection first tieStop: aNote tieStop.
 	collection last tieStart: overflow strictlyPositive.

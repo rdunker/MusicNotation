@@ -10,7 +10,8 @@
 		"tieStart",
 		"tieStop",
 		"slurStart",
-		"slurStop" ],
+		"slurStop",
+		"chordPart" ],
 	"name" : "MNNote",
 	"pools" : [
 		 ],

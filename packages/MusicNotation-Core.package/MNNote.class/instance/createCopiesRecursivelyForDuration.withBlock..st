@@ -12,5 +12,5 @@ createCopiesRecursivelyForDuration: aDuration withBlock: aBlock
 	note := self copy.
 	aBlock value: note.
 	note duration: powerOfTwo.
-	^ (self createCopiesForDuration: remainder withBlock: aBlock) add: note;
+	^ (self createCopiesRecursivelyForDuration: remainder withBlock: aBlock) add: note;
 		yourself
