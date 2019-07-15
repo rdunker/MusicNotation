@@ -8,10 +8,11 @@ addNoteRecursively: aNote
 			tieStop: true ].
 		
 	overflow := (aNote duration + self measure noteDuration - self measure time) max: 0.
-	collection := (aNote createCopiesForDuration: aNote duration - overflow withBlock: tiedBlock) reversed.
-	collection first tieStop: aNote tieStop.
-	collection last tieStart: overflow strictlyPositive.
-	collection do: [ :note | self measure addNote: note ].
+	(aNote duration - overflow) strictlyPositive ifTrue: [
+		collection := (aNote createCopiesForDuration: aNote duration - overflow withBlock: tiedBlock) reversed.
+		collection first tieStop: aNote tieStop.
+		collection last tieStart: overflow strictlyPositive.
+		collection do: [ :note | self measure addNote: note ]].
 	
 	overflow strictlyPositive ifTrue: [ 
 		self part addMeasure: self measure copyEmpty.
