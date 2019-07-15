@@ -25,10 +25,6 @@ visitNote: aNote
 	aNote tieStart ifTrue:
 		[ notations addElement: (self stringNamed: #tied attributeAt: #type put: 'start') ].
 	
-	aNote slurStop ifTrue:
-		[ notations addElement: (self stringNamed: #slur attributeAt: #type put: 'stop') ].
-	aNote slurStart ifTrue:
-		[ notations addElement: (self stringNamed: #slur attributeAt: #type put: 'start') ].
 	notations elements isEmpty ifFalse: [ xml addElement: notations ].
 	
 	^ xml

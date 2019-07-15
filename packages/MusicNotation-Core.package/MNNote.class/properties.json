@@ -9,8 +9,6 @@
 		"duration",
 		"tieStart",
 		"tieStop",
-		"slurStart",
-		"slurStop",
 		"chordPart" ],
 	"name" : "MNNote",
 	"pools" : [
