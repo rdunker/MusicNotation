@@ -4,7 +4,8 @@
 	"instance" : {
 		"addAll:to:" : "mgjm 6/16/2019 14:15",
 		"createAttributesFor:" : "mgjm 6/16/2019 13:45",
-		"createNoteCollection:" : "fb 7/15/2019 09:12",
+		"createChordCollectionForNote:" : "fb 7/16/2019 09:43",
+		"createNoteCollection:" : "fb 7/16/2019 09:43",
 		"createPartList:" : "mgjm 6/16/2019 14:19",
 		"createScorePartAt:" : "mgjm 6/16/2019 13:45",
 		"createTime:" : "mgjm 6/16/2019 13:29",
