@@ -5,7 +5,7 @@ testMeasureFifths
 	self assert: 0 equals: measure key asFifths.
 	
 	measure keyAccidentals: { $c -> 1 }.
-	self assert: (measure key asFifths = 0) not.
+	self deny: (measure key asFifths = 0).
 	
 	measure keyAccidentals: {}.
 	self assert: 0 equals: measure key asFifths.

@@ -3,7 +3,7 @@ calculateAccidentals
 	| dict accidentalDict lineBlock |
 	dict := self note parent
 		ifNil: [ Dictionary new ]
-		ifNotNilDo: [ :measure | measure key accidentals asDictionary ].
+		ifNotNilDo: [ :measure | measure key accidentals as: Dictionary ].
 	
 	accidentalDict := self calculateAccidentalDictionaryForNote: self note leftSibling.
 	lineBlock := self lineConverterBlock.

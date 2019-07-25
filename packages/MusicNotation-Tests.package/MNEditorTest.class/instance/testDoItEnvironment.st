@@ -8,4 +8,4 @@ testDoItEnvironment
 	
 	old := editor doItEnvironment.
 	editor resetDoItEnvironment.
-	self deny: old equals: editor doItEnvironment.
+	self deny: (old = editor doItEnvironment).

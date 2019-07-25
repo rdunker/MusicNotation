@@ -5,7 +5,7 @@
 		"addSpace:to:withOffset:" : "fb 7/25/2019 15:00",
 		"alterChangedAt:withAccidentals:andKeyDictionary:" : "fb 7/25/2019 14:48",
 		"calculateAccidentalDictionaryForNote:" : "fb 7/9/2019 19:58",
-		"calculateAccidentals" : "fb 7/25/2019 14:56",
+		"calculateAccidentals" : "fb 7/25/2019 19:32",
 		"calculateDenseNoteheads:" : "mgjm 6/12/2019 16:05",
 		"calculateDots" : "mgjm 6/19/2019 01:44",
 		"calculateFlag" : "mgjm 5/26/2019 02:13",
