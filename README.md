@@ -5,3 +5,4 @@ Group 13
 ## Documentation 
 - [Getting Started](./docs/getting-started.md)
 - [Object Structure](./docs/object-structure.md)
+- [Scripting](./docs/scripting.md)
