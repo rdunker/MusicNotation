@@ -3,7 +3,8 @@
 		 },
 	"instance" : {
 		"addAll:to:" : "mgjm 6/16/2019 14:15",
-		"createAttributesFor:" : "mgjm 6/16/2019 13:45",
+		"createAttributeForMeasure:AtSymbol:" : "fb 7/25/2019 14:22",
+		"createAttributesFor:" : "fb 7/25/2019 14:22",
 		"createChordCollectionForNote:" : "fb 7/16/2019 09:43",
 		"createNoteCollection:" : "fb 7/16/2019 09:43",
 		"createPartList:" : "mgjm 6/16/2019 14:19",

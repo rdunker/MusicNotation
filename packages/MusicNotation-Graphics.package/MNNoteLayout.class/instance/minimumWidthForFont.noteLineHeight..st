@@ -1,6 +1,5 @@
 calculating
 minimumWidthForFont: aFont noteLineHeight: aNumber
-	"Calculate the min width of the note"
 	| width |
 	self updateIfNeeded.
 	

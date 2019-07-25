@@ -1,16 +1,11 @@
 converting
 createAttributesFor: aMeasure
-	| xml leftSibling value |
+	| xml |
 	xml := XMLElement named: #attributes.
 	xml addElement: (self stringNamed: #divisions content: self divisions / 4).
 	
-	leftSibling := aMeasure leftSibling.
-	
 	#(key time clef) do: [ :each |
-		value := each value: aMeasure.
-		value = (leftSibling ifNotNilDo: each)
-			ifFalse: [ xml addElement: (each == #time
-				ifTrue: [ self createTime: value ]
-				ifFalse: [ value accept: self ]) ]].
+		(aMeasure valueChanged: each)
+			ifTrue: [ xml addElement: (self createAttributeForMeasure: aMeasure AtSymbol: each) ]].
 	
 	^ xml
