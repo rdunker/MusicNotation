@@ -4,6 +4,5 @@ Music Notation
 
 Entrypoints: 
 
-
-
-Demo/Example Usage:
+- [Getting Started](./getting-started.md)
+- [Object Structure](./object-structure.md)
