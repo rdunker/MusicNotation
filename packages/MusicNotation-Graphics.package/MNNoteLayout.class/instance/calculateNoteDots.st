@@ -3,16 +3,12 @@ calculateNoteDots
 	| spaces dotSet offset |
 	dotSet := Set new.
 	spaces := self lines collect: [ :line | line + (1/2) ].
-	spaces sort: [ :a :b |
-		(a isInteger = b isInteger)
-			ifTrue: [ a <= b]
-			ifFalse: [ a isInteger ]].
+	self sortSpaces: spaces.
 	
 	offset := 0.
 	[ spaces isEmpty ] whileFalse: [
-		spaces := spaces reject: [ :space |
-			(dotSet ifAbsentAdd: space floor - offset)
-			or: [ dotSet ifAbsentAdd: space ceiling + offset ]].
+		spaces := spaces reject: [ :space | 
+			self addSpace: space to: dotSet withOffset: offset ].
 		offset := offset + 1 ].
 	
 	^ dotSet collect: [ :space | space - (1/2) ] as: OrderedCollection

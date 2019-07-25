@@ -6,4 +6,4 @@ testCsLessThanOrEqualToDb
 	pitch2 := MNPitch readFrom: 'd4f'.
 	
 	self assert: pitch1 <= pitch2.
-	self assert: (pitch2 <= pitch1) not.
+	self deny: pitch2 <= pitch1.

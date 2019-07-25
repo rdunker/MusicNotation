@@ -7,6 +7,6 @@ visitMeasure: aMeasure
 	self divisions: (self divisionsOf: aMeasure).
 	xml addElement: (self createAttributesFor: aMeasure).
 	
-	self addAll: aMeasure notes to: xml.
+	self addAll: (self createNoteCollection: aMeasure notes) to: xml.
 	
 	^ xml
