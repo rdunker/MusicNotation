@@ -1,1 +1,9 @@
-Here is our readme :)
+Music Notation
+--------------
+
+
+Entrypoints: 
+
+
+
+Demo/Example Usage:
