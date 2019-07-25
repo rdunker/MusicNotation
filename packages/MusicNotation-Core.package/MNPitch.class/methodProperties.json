@@ -1,8 +1,10 @@
 {
 	"class" : {
-		"fromHalfSteps:atStep:" : "fb 7/11/2019 13:27",
+		"fromHalfSteps:atStep:" : "fb 7/25/2019 19:05",
+		"halfStepCollection" : "fb 7/25/2019 19:04",
 		"parentClass" : "mgjm 6/11/2019 03:36",
-		"readFrom:" : "fb 7/11/2019 12:52" },
+		"readFrom:" : "fb 7/11/2019 12:52",
+		"stepCollection" : "fb 7/25/2019 19:05" },
 	"instance" : {
 		"<=" : "mgjm 5/25/2019 02:06",
 		"=" : "mgjm 5/25/2019 02:02",
@@ -14,8 +16,8 @@
 		"diminishedChord" : "fb 7/11/2019 18:45",
 		"dominantNinthChord" : "fb 7/11/2019 18:52",
 		"dominantSeventhChord" : "fb 7/11/2019 18:28",
-		"frequency" : "mgjm 5/6/2019 22:13",
-		"halfSteps" : "fb 7/11/2019 10:50",
+		"frequency" : "fb 7/25/2019 19:18",
+		"halfSteps" : "fb 7/25/2019 19:05",
 		"hash" : "mgjm 5/25/2019 19:42",
 		"initialize" : "mgjm 4/18/2019 17:18",
 		"isFlat" : "mgjm 4/18/2019 12:04",
@@ -33,6 +35,6 @@
 		"setSharp" : "fb 7/11/2019 13:09",
 		"step" : "mgjm 4/18/2019 12:03",
 		"step:" : "mgjm 5/22/2019 18:05",
-		"steps" : "mgjm 5/26/2019 16:45",
+		"steps" : "fb 7/25/2019 19:05",
 		"suspendedFourthChord" : "fb 7/11/2019 18:58",
 		"suspendedSecondChord" : "fb 7/11/2019 18:55" } }
