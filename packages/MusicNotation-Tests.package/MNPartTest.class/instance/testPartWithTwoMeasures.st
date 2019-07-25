@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPartWithTwoMeasures
 
 	| pitch note measure1 part measure2 |

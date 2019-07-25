@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 read_l
 	| end |
 	end := self readRelativePoint.
