@@ -2,7 +2,7 @@ I am a MNMusicVisitor used to visit MNNotes and convert them to a FMSound playin
 
 Instance Variables
 	baseSound:				FMSound
-	soundSequence:		OrderedCollection
+	soundSequence:		SequentialSound
 
 baseSound
 	- This is my base sound I modify for each MNPitch to represent the right sound.

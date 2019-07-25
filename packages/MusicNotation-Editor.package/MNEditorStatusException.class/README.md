@@ -2,7 +2,7 @@ I am an MNEditorStatus that notifies about an exeption the code throwed at execu
 
 Instance Variables
 	message:		String
-	range:			Interval
+	range:			Interval (Interger)
 
 message
 	- This is the message about the error I deliver.

@@ -1,7 +1,7 @@
 I am providing methods to test whether a class reacts as expected to a method call. Therefore I am catching the calls to the myself (the invoker) made by the tested class and evaluate them. 
 
 Instance Variables
-	calls:		OrderedCollection
+	calls:		OrderedCollection of Messages
 	depth:		Integer
 
 calls

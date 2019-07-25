@@ -1,7 +1,8 @@
 I am an environment that evaluates and executes the code given to me.
+Hint: I replace the scripting messages with MNNoteBuilders through the bindings setted in MNEnvironment>>setPitchBindings: if possible.
 
 Instance Variables
-	bindings:		IdentityDictionary
+	bindings:		IdentityDictionary (Symbol -> MNNoteBuilder)
 	context:		MNContext
 
 bindings

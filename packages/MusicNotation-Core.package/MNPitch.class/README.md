@@ -2,7 +2,7 @@ I am the pitch of a MNNote. I am part of a MNNote and present its sound.
 
 Instance Variables
 	alter:		Integer
-	octave:		<Object>
+	octave:		Integer
 	step:		Character
 
 alter
