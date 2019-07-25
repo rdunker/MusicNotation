@@ -1,3 +1,3 @@
 accessing
-partIdAt: index
-	^ #P, index
+partIdAt: anIndex
+	^ #P, anIndex

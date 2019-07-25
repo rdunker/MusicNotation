@@ -1,9 +1,9 @@
 converting
-createScorePartAt: index
+createScorePartAt: anIndex
 	| xml |
 	xml := XMLElement named: #'score-part'.
-	xml attributeAt: #id put: (self partIdAt: index).
+	xml attributeAt: #id put: (self partIdAt: anIndex).
 	
-	xml addElement: (self stringNamed: #'part-name' content: 'Part ', index).
+	xml addElement: (self stringNamed: #'part-name' content: 'Part ', anIndex).
 	
 	^ xml
