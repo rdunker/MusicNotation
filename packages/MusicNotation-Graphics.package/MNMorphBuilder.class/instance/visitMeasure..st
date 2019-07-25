@@ -3,7 +3,7 @@ visitMeasure: aMeasure
 	| morph emptyDuration |
 	morph := MNMeasureMorph measure: aMeasure.
 		
-	self addPrefixOfMeasure: aMeasure after: aMeasure leftSibling to: morph.
+	self addPrefixOfMeasure: aMeasure to: morph.
 	
 	self addAll: aMeasure notes to: morph.
 	
