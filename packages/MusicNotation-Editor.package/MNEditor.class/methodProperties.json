@@ -11,7 +11,7 @@
 		"buildEditorWith:" : "mgjm 7/1/2019 15:12",
 		"buildPreviewWith:" : "mgjm 7/1/2019 14:16",
 		"buildProjectWith:" : "mgjm 6/25/2019 18:19",
-		"buildStatusPaneWith:" : "mgjm 7/1/2019 15:17",
+		"buildStatusPaneWith:" : "mgjm 7/25/2019 15:02",
 		"codeFrame" : "mgjm 7/5/2019 20:53",
 		"codeTextMorphs" : "mgjm 7/1/2019 16:26",
 		"contents:" : "mgjm 7/1/2019 18:29",
@@ -42,4 +42,5 @@
 		"statusFrame" : "mgjm 7/5/2019 20:52",
 		"statusMessage" : "mgjm 7/1/2019 15:10",
 		"statusPaneHeight" : "mgjm 7/1/2019 15:14",
+		"statusPaneMenu:" : "mgjm 7/25/2019 15:15",
 		"textContents:" : "mgjm 7/1/2019 14:24" } }
