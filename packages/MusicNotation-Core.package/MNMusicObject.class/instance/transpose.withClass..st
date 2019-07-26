@@ -1,4 +1,4 @@
-as yet unclassified
+transposing
 transpose: halfSteps withClass: aTransposerClass
 	| transpose |
 	transpose := aTransposerClass new.

@@ -1,5 +1,5 @@
 tests
-testFs4
+testCs4
 	| pitch |
 	pitch := MNPitch new
 		octave: 4;

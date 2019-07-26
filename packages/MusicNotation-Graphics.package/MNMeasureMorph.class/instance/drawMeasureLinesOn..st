@@ -4,7 +4,7 @@ drawMeasureLinesOn: aCanvas
 	origin := self leftCenter - (0 @ (self lineWidth // 2)).
 	extent := self width @ self lineWidth.
 	-2 to: 2 do: [ :index |
-		offset := 0@(index * self noteLineHeight).
+		offset := 0 @ (index * self noteLineHeight).
 		aCanvas
 			drawRectangle: (origin + offset extent: extent)
 			color: Color gray

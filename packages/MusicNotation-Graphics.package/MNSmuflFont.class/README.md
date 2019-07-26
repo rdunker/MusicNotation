@@ -1,0 +1,1 @@
+I am an implementatin of MNFont for the SMuFL fonts, in particular for bravura. I am used to draw the MNMusicObjects needed for the MusicNotation project.

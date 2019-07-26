@@ -1,0 +1,1 @@
+I am an MNMorph for displaying the displaying the actual symbols from the MNFont some MNMusicObjects require (e.g.: MNNote, MNClef, ...).

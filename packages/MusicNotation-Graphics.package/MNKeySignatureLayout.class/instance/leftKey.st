@@ -1,3 +1,5 @@
 accessing
 leftKey
-	^ self leftParent ifNotNilDo: #key
+	^ self leftParent 
+		ifNil: [ MNEmptyKey new ]
+		ifNotNilDo: #key

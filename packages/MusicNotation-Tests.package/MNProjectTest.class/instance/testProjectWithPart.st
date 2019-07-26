@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testProjectWithPart
 
 	| pitch note measure part project |

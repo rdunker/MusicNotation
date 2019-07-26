@@ -1,4 +1,4 @@
-as yet unclassified
+fixtures
 createC4
 	^ MNNote new
 		duration: 1/4;

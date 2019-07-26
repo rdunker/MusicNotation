@@ -1,0 +1,1 @@
+I am a hash builder for the MusicNotation project providing a few convenience methods.

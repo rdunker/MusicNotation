@@ -3,7 +3,7 @@ drawWith: aDrawer
 	| bottom top |
 	top := self topWidthUnits.
 	bottom := top + self bottomWidthUnits / 2.
-	top < bottom ifTrue: [ top := bottom ].
+	top := top max: bottom.
 	
 	aDrawer move: top.
 	self draw: self numerator at: -1 with: aDrawer.

@@ -1,3 +1,3 @@
-as yet unclassified
+transposing
 transposeSharp: halfSteps
 	self transpose: halfSteps withClass: MNSharpTransposer.

@@ -1,0 +1,1 @@
+I am a status for a MNEditor that gives information about the code the editor contains.

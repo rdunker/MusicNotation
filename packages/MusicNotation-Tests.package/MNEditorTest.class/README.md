@@ -1,0 +1,1 @@
+I am a class to test the MNEditor class.

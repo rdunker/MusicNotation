@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNumDots
 	| note |
 	note := MNNote new.
