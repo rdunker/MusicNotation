@@ -8,11 +8,13 @@ To open the corresponding Preview Window click on `open preview` in the scriptin
 
 Whenever the script is saved, it is run automatically and the preview window is updated.
 
-The basic syntax for adding notes in a script is *name of pitch* / *duration* where *name of pitch* consists of the step, octave and optionally the alter (e.g. `c3f`, `g4`, `a5s`) and *duration* is the inverse of the note's duration. This should be a power of 2 and can be modified by the dot method. Notes can be repeated using the * operator (e.g. `c4 / 8 * 4`). The alter can also be set
+The basic syntax for adding notes in a script is *name of pitch* / *duration* where *name of pitch* consists of the step, octave and optionally the alter (e.g. `c3f`, `g4`, `a5s`) and *duration* is the inverse of the note's duration. This should be a power of 2 and can be modified by the dot method. Notes can be repeated using the * operator (e.g. `c4 / 8 * 4`). The alter can also be set via the messages `f`, `n` and `s`.
+
+Rests can be created in a similar fashion by using `r` instead of the name of a pitch (e.g. `r / 4`).
 
 To create chords you can either put them together manually by combining pitches with the + operator (e.g. `c4 + e4 + g4`) or by using chord messages (e.g.`c maj`).
 
-Each measure can have a key which can be set with the `keyFifths:` message using the circle of fifths. Alternatively, `keyCustom:` or `key:` can be used to set a custom key manually. If the key of a measure is not set then it will use the key of the previous measure.
+Each measure can have a key which can be set with the `keyFifths:` message using the circle of fifths. Alternatively, `keyCustom:` or `key:` can be used to set a custom key manually. If the key of a measure is not set then it will use the key of the previous measure. By default, the time signature is set to 4/4 but can be changed with the message `timeNumerator:denominator:` (e.g. `self measure timeNumerator: 5 denominator: 4.`).
 
 To add a new part, put in the following code:
 ```smalltalk
