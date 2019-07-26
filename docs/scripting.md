@@ -33,7 +33,7 @@ The resulting music can be played by adding the line `project asSound play.` (No
 a3  / 1.
 self measure keyFifths: 5.
 c4 / 4 * 4.
-self measure keyAccidentals: {$d -> -1}.
+self measure keyCustom: {$d -> -1}.
 
 project addPart: (MNPart new addMeasure: MNMeasure new).  
 a4 + a3 / 4.  
