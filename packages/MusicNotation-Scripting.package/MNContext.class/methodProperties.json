@@ -2,10 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addMeasure" : "fb 7/26/2019 14:49",
 		"addNote:" : "fb 7/14/2019 23:04",
-		"addNoteRecursively:" : "fb 7/15/2019 12:42",
+		"addNote:withOverflow:" : "fb 7/26/2019 14:48",
+		"addNoteRecursively:" : "fb 7/26/2019 14:50",
 		"initialize" : "mgjm 6/19/2019 21:18",
 		"measure" : "mgjm 6/19/2019 21:18",
 		"part" : "mgjm 6/19/2019 21:18",
 		"project" : "mgjm 6/19/2019 21:17",
-		"project:" : "mgjm 6/19/2019 21:17" } }
+		"project:" : "mgjm 6/19/2019 21:17",
+		"tiedBlock" : "fb 7/26/2019 14:45" } }
