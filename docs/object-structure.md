@@ -1,9 +1,15 @@
 # Here is an overview of our overall structure
 
-## Object structure
-![object structure](images/object-structure.png)
+> This is a logical overview of our overall structure and not an exact representation of our class hierarchy
+
+## Structure Overview
+![structure overview](images/structure-overview.png)
 
 
-## Morph structure
-![morph structure](images/morph-structure.png)
+## Music Objects 
+![music objects](images/music-objects.png)
+
+
+## Morphs
+![morphs](images/morph-structure.png)
 
