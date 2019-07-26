@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testValidateDurationWithInvalidDenominator
 	| note |
 	note := MNNote new.

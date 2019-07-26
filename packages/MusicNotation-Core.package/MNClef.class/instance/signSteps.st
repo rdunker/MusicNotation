@@ -1,6 +1,5 @@
 accessing
 signSteps
-	"number of half tone steps of the sign (when placed on line zero)"
 	| index |
 	index := #gfc indexOf: self sign.
 	index isZero

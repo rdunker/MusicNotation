@@ -1,4 +1,4 @@
 converting
-addAll: aCollection to: xml
+addAll: aCollection to: anXMLElement
 	aCollection do: [ :each |
-		xml addElement: (each accept: self) ].
+		anXMLElement addElement: (each accept: self) ].

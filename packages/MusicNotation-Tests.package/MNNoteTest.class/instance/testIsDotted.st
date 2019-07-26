@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testIsDotted
 	| note |
 	note := MNNote new.

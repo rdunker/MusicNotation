@@ -1,12 +1,9 @@
 calculating
 calculateAccidentals
 	| newAccidentals oldAccidentals |
-	newAccidentals := self key accidentals.
-	self clef = self leftClef
-		ifFalse: [ ^ newAccidentals collect: [ :each | self lineAndAlterOf: each ]].
-	
+	newAccidentals := self key accidentals.	
 	oldAccidentals := self leftKey accidentals.
-	newAccidentals
-		ifEmpty: [ ^ oldAccidentals collect: [ :each | (self lineOf: each) -> 0 ]].
+	(self clefChanged)
+		ifTrue: [ oldAccidentals := OrderedCollection new ].
 	
 	^ self calculateAccidentalChanges: newAccidentals since: oldAccidentals

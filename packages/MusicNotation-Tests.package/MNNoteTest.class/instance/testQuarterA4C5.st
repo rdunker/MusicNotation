@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testQuarterA4C5
 
 	| note pitchA4 pitchC5 |

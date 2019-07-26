@@ -1,0 +1,1 @@
+I am a MNTransposer interpreting my offset as a negative value and as a result transposing the MNPitches as flat.
