@@ -4,4 +4,4 @@ Instance Variables
 	divisions:		Integer
 
 divisions
-	- This is a helper I use to read pitches and work with how they are represented by MusicXML.
+	- This is a helper variable I use to read note durations and work with how they are represented by MusicXML.

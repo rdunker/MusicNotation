@@ -5,7 +5,7 @@ Instance Variables
 	duration:		Fraction
 
 chordPart
-	- This tells, if I am part of a chord.
+	- This indicates if I am part of a chord.
 	
 duration
-	- This is my duration, aka. how long I play.
+	- This is my duration, indicating how long I play for.

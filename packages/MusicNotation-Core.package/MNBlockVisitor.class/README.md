@@ -1,4 +1,4 @@
-I am a MNMusicVisitor with a BlockClosure.
+I am an MNMusicVisitor with a BlockClosure.
 
 Instance Variables
 	block:		BlockClosure

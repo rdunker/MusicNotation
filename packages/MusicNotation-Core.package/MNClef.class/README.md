@@ -8,4 +8,4 @@ line
 	- This is the note line I should be drawn on to be represented correctly.
 
 sign
-	- This is the name of the clef I am (e.g. g for g-clef).
+	- This is the name of the clef I am (e.g. $g for g-clef).

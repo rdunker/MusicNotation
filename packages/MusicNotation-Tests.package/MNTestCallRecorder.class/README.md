@@ -5,7 +5,7 @@ Instance Variables
 	depth:		Integer
 
 calls
-	- This is a collection of all calls catched by the tested class.
+	- This is a collection of all calls caught by the tested class.
 
 depth
 	- This is the number of catched calls.

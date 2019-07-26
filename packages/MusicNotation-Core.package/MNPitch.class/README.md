@@ -6,10 +6,10 @@ Instance Variables
 	step:		Character
 
 alter
-	- This represents the offset I have from my actual value because of accidentals, etc.
+	- This represents the offset I have from my actual value because of accidentals.
 
 octave
-	- This is together with the step my actual value.
+	- This, together with the step, forms my actual value.
 
 step
-	- This is together with the octave my actual value.
+	- This, together with the octave, forms my actual value. It denotes my step within the octave.

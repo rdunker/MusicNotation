@@ -1,1 +1,1 @@
-I am a MNError for invalid values.
+I am an MNError for invalid values.
