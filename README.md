@@ -3,6 +3,8 @@
 
 Group 13
 
+> We disabled code coverage because the executor used by the Smalltalk VM for debugging and code coverage crashed with a segmentation fault. [See issue #67](https://github.com/hpi-swa-teaching/MusicNotation/issues/67).
+
 ## Installation
 
 To install this project in your Squeak image, choose one of the following methods:
@@ -25,5 +27,5 @@ To find out what's next check out the documentation.
 ## Documentation 
 - [Getting Started](./docs/getting-started.md)
 - [Entry Points](./docs/entry-points.md)
-- [Object Structure](./docs/object-structure.md)
+- [Architectural Information](./docs/object-structure.md)
 - [Scripting](./docs/scripting.md)
