@@ -12,8 +12,8 @@ This will open the editor and you can start scripting. More details can be found
 
 ## Understanding the project
 We know it can be quite difficult to understand a project with ~12.000 lines of code by just reading all of it. So here is some help:
-- [Architectural information](./object-structure.md)
--  [Entrypoints](./entry-points.md)
+- [Architectural Information](./architectural-information.md)
+- [Entry Points](./entry-points.md)
 
 ## Enhancing the project
 You want to add new features, fix bugs or restructure the project to make it a better fit for you and others? 

@@ -1,4 +1,4 @@
-# Architectural information
+# Architectural Information
 
 > This is a logical overview of our overall structure and not an exact representation of our class hierarchy.
 

@@ -27,5 +27,5 @@ To find out what's next check out the documentation.
 ## Documentation 
 - [Getting Started](./docs/getting-started.md)
 - [Entry Points](./docs/entry-points.md)
-- [Architectural Information](./docs/object-structure.md)
+- [Architectural Information](./docs/architectural-information.md)
 - [Scripting](./docs/scripting.md)
