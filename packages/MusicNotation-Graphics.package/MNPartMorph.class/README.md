@@ -1,4 +1,4 @@
-I am a MNMorph for displaying  MNParts.
+I am an MNMorph for displaying MNParts.
 
 Instance Variables
 	part:		MNPart

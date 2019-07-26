@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"DefaultScale" ],
-	"commentStamp" : "mm 7/26/2019 12:13",
+	"commentStamp" : "mm 7/26/2019 12:25",
 	"instvars" : [
 		"font",
 		"scale" ],

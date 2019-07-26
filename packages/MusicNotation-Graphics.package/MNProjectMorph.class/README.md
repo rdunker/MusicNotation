@@ -1,4 +1,4 @@
-I am a MNMorph for displaying  MNProjects.
+I am an MNMorph for displaying MNProjects.
 
 Instance Variables
 	project:		MNProject

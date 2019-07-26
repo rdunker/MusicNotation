@@ -1,4 +1,4 @@
-I am a MNMorph for displaying  MNMeasures.
+I am an MNMorph for displaying MNMeasures.
 
 Instance Variables
 	measure:		MNMeasure

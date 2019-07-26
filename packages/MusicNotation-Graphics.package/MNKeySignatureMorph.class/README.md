@@ -1,4 +1,4 @@
-I am a MNSymbolMorph used to display 
+I am an MNSymbolMorph used to display 
 
 Instance Variables
 	key:		<Object>

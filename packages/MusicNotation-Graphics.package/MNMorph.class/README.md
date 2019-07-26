@@ -1,4 +1,4 @@
-I am a MNMorph that supports MNFlexLayout and I have some other useful properties used to display MNMusicObjects.
+I am an MNMorph that supports MNFlexLayout and I have some other useful properties used to display MNMusicObjects.
 
 Instance Variables
 	font:		MNFont
