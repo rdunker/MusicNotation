@@ -4,4 +4,4 @@ Instance Variables
 	parent:		MNMusicObject
 
 parent
-	- This is the parent, all the MNMusicObjects I contain have.
+	- This is the parent that all the MNMusicObjects I contain have.

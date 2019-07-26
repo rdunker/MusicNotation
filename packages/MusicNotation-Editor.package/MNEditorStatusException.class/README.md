@@ -1,4 +1,4 @@
-I am an MNEditorStatus that notifies about an exeption the code throwed at execution. I contain a status message with the error and information about the error itself.
+I am an MNEditorStatus that notifies about an exeption the code threw at execution. I contain a status message with the error and information about the error itself.
 
 Instance Variables
 	message:		String

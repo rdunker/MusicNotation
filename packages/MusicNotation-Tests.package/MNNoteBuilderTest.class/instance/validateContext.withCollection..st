@@ -1,4 +1,4 @@
-as yet unclassified
+fixtures
 validateContext: aContext withCollection: aCollection
 	| notes |
 	notes := aContext measure notes.

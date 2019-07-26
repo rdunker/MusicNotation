@@ -1,4 +1,4 @@
-I am a subclass of MNMusicObjectWithSiblings that can have children. An example would be the measure, that can have siblings and also contains notes.
+I am a subclass of MNMusicObjectWithSiblings that can have children. An example would be the measure, which can have siblings and also contain notes.
 
 Instance Variables
 	children:		MNChildCollection of MNMusicObjects

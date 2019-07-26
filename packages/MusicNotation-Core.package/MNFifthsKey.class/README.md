@@ -1,4 +1,4 @@
-I am a fifith key which means I always need to be a key that is part of the circle of fifth. I can be created from the class method fifth: that makes sure I am valid. I am a subclass of MNKey.
+I am a fifith key which means I always represent a key that is part of the circle of fifths. I can be created from the class method fifth: that ensures I am valid. I am a subclass of MNKey.
 
 Instance Variables
 	fifths:		Integer

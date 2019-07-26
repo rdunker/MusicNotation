@@ -1,4 +1,4 @@
-I am a MNMusicVisitor used to visit MNNotes and convert them to a FMSound playing there MNPitch. I can also visit MNProjects to create a sound sequence and play a complete music piece.
+I am a MNMusicVisitor used to visit MNNotes and convert them to a FMSound, playing their MNPitches. I can also visit MNProjects to create a sound sequence and play a complete music piece.
 
 Instance Variables
 	baseSound:				FMSound

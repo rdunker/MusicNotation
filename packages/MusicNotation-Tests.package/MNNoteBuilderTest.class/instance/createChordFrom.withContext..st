@@ -1,4 +1,4 @@
-as yet unclassified
+fixtures
 createChordFrom: aCollection withContext: aContext
 	| noteBuilder |
 	noteBuilder := MNNoteBuilder context: aContext.
