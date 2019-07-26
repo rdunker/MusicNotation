@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testProjectAccept
 	| project |
 	project := MNProject new.

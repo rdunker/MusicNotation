@@ -5,4 +5,4 @@ testParseEmptyProject
 	xmlProject := self parseXML: '<score-partwise></score-partwise>'.
 	project :=  self xmlParser parseScorePartwise: xmlProject.
 	
-	self assert: 0 equals: (project parts) size.
+	self assert: 0 equals: project parts size.

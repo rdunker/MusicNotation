@@ -1,6 +1,5 @@
 calculating
-widthForFont: aFont noteLineHeight: aNumber
-	"Calculate the min width of the key signature"
+minimumWidthForFont: aFont noteLineHeight: aNumber
 	| width |
 	self updateIfNeeded.
 	

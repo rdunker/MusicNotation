@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testQuarterA4
 
 	| pitch note |

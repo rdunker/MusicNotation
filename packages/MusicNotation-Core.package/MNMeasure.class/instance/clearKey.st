@@ -1,3 +1,3 @@
 accessing
 clearKey
-	self key: MNKey new.
+	self key: MNEmptyKey new.

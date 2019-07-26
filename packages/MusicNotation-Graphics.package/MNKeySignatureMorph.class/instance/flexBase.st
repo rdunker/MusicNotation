@@ -1,3 +1,3 @@
 accessing
 flexBase
-	^ self keySignatureLayout widthForFont: self font noteLineHeight: self noteLineHeight
+	^ self keySignatureLayout minimumWidthForFont: self font noteLineHeight: self noteLineHeight

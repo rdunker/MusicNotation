@@ -8,7 +8,7 @@ drawNoteWith: aDrawer
 	self drawNoteheads: self leftNoteheads with: aDrawer.
 	self moveLeftWidthWith: aDrawer.
 	
-	self note baseDuration < 1
+	(self note baseDuration < 1)
 		ifTrue: [ self drawStemWith: aDrawer ].
 	self drawFlagWith: aDrawer.
 	

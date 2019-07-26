@@ -1,3 +1,3 @@
-as yet unclassified
+transposing
 transpose: halfSteps
 	self transposeSharp: halfSteps.

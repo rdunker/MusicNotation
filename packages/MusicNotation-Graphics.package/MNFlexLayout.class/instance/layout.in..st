@@ -5,16 +5,9 @@ layout: aMorph in: newBounds
 	
 	base := aMorph submorphs detectSum: #flexBase.
 	width := bounds width - base.
-	width strictlyPositive
-		ifFalse: [ ^ self layoutWithoutGrow: aMorph in: bounds ].
 	
 	grow := aMorph submorphs detectSum: #flexGrow.
-	grow isZero
-		ifTrue: [ ^ self layoutWithoutGrow: aMorph in: bounds ].
-	grow := width / grow.
+	width strictlyPositive ifFalse: [ grow := 0 ].
+	grow isZero ifFalse: [ grow := width / grow ].
 	
-	bounds := bounds withWidth: 0.
-	aMorph submorphsDo: [ :each | 
-		width := grow * each flexGrow + each flexBase.
-		each bounds: (bounds withWidth: width).
-		bounds := bounds translateBy: width @ 0 ].
+	self layoutSubmorphsOf: aMorph in: bounds withGrowth: grow
