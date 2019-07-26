@@ -9,5 +9,6 @@ To find out what's next check out the documentation.
 
 ## Documentation 
 - [Getting Started](./docs/getting-started.md)
+- [Entry Points](./docs/entry-points.md)
 - [Object Structure](./docs/object-structure.md)
 - [Scripting](./docs/scripting.md)
