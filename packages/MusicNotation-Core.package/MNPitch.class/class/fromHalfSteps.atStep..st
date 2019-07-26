@@ -2,7 +2,7 @@ instance creation
 fromHalfSteps: aNumber atStep: aStep
 	-2 to: 2 do: [ :alter |
 		| step |
-		step := #c_d_ef_g_a_b at: ((aNumber - alter + 12 rem: 12) + 1).
+		step := self halfStepCollection at: ((aNumber - alter + 12 rem: 12) + 1).
 		step == aStep ifTrue: [ ^ self new
 			step: step;
 			octave: (aNumber - alter) // 12;

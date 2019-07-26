@@ -1,4 +1,4 @@
-as yet unclassified
+building
 applyCustomPropsTo: anObject
 	self customProps ifNotNil: [
 		self customProps keysAndValuesDo: [ :selector :value |

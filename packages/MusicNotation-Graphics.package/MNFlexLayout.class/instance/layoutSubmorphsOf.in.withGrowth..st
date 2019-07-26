@@ -1,8 +1,8 @@
 layout
-layoutWithoutGrow: aMorph in: newBounds
+layoutSubmorphsOf: aMorph in: newBounds withGrowth: aGrowth
 	| width bounds |
 	bounds := newBounds withWidth: 0.
 	aMorph submorphsDo: [ :each | 
-		width := each flexBase.
+		width := aGrowth * each flexGrow + each flexBase.
 		each bounds: (bounds withWidth: width).
 		bounds := bounds translateBy: width @ 0 ].

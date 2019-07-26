@@ -2,10 +2,10 @@ tests
 testDoItEnvironment
 	| editor old |
 	editor := MNEditor new.
-	self assert: editor environment isNil not.
-	self assert: editor doItEnvironment isNil not.
-	self assert: editor doItReceiver isNil not.
+	self deny: editor environment isNil.
+	self deny: editor doItEnvironment isNil.
+	self deny: editor doItReceiver isNil.
 	
 	old := editor doItEnvironment.
 	editor resetDoItEnvironment.
-	self assert: (old == editor doItEnvironment) not.
+	self deny: (old = editor doItEnvironment).

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNoteAccept
 	| note |
 	note := MNNote new.

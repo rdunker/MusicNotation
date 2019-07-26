@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testValidateDurationWithInvalidDotFactor
 	| note |
 	note := MNNote new.

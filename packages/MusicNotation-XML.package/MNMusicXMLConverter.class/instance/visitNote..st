@@ -3,6 +3,9 @@ visitNote: aNote
 	| xml |
 	xml := XMLElement named: #note.
 	
+	aNote chordPart
+		ifTrue: [ xml addElement: (XMLElement named: #chord) ].
+	
 	aNote pitches
 		ifEmpty: [ xml addElement: (XMLElement named: #rest) ]
 		ifNotEmptyDo: [ :pitches | self addAll: pitches to: xml ].
