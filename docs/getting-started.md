@@ -17,6 +17,6 @@ We know it can be quite difficult to understand a project with ~12.000 lines of 
 
 ## Enhancing the project
 You want to add new features, fix bugs or restructure the project to make it a better fit for you and others? 
-#### Check out our issues and pull requests! 
+#### Check out our [issues](https://github.com/hpi-swa-teaching/MusicNotation/issues) and [pull requests](https://github.com/hpi-swa-teaching/MusicNotation/pulls)! 
 We added a few things there that might be cool to add. Those are labeled with "proposal". Also, we didn't remove the old ones, maybe they help you to understand what we did.
 Furthermore, the open pull requests are features that are already partly implemented but not quite finished. Feel free to have a look!
