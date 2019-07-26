@@ -7,11 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"duration",
-<<<<<<< HEAD
 		"tieStart",
 		"tieStop",
-=======
->>>>>>> master
 		"chordPart" ],
 	"name" : "MNNote",
 	"pools" : [
