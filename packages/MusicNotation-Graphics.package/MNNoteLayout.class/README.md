@@ -1,4 +1,4 @@
-I am an MNLayoutWithAccidentals used to organize and layout MNNotes including there accidentals, chords, dotted notes, ...
+I am an MNLayoutWithAccidentals used to organize and lay out MNNotes, including their accidentals, chords, dots, etc.
 
 Instance Variables
 	dots:					OrderedCollection of Integers
@@ -11,7 +11,7 @@ Instance Variables
 	up:						Boolean
 
 dots
-	- These are the note lines of all dots the MNNote I layout has (for dotted notes).
+	- These are the note lines of all dots the MNNote I layout has. It is used for dotted notes.
 	
 flagCodePoint
 	- This is the code point that gives the SVG path in the used MNFont for the flag the MNNote I layout has.
@@ -20,7 +20,7 @@ leftNoteheads
 	- These are all note lines of pitches displayed on the left side of the stem of the MNNote I layout.
 
 lines
-	- These are all note lines where pitches are for the MNNote I layout.
+	- These are all the note lines with pitches for the MNNote I layout.
 
 note
 	- This is the MNNote I layout.
@@ -32,4 +32,4 @@ rightNoteheads
 	- These are all note lines of pitches displayed on the right side of the stem of the MNNote I layout.
 
 up
-	- This tells, if the stem is pointing up (true) or down (false).
+	- This indicates if the stem is pointing up (true) or down (false).

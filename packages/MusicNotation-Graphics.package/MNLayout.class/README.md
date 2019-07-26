@@ -1,4 +1,4 @@
-I am used to layout those MNMorphs consisting of multiple symbols need to organize those. I am telling them, how to organize and layout them.
+I am used to layout MNMorphs consisting of multiple symbols which are needed to organize them. I tell them how to organize and layout them.
 
 Instance Variables
 	lastHash:		SmallInteger
