@@ -1,0 +1,1 @@
+I am the key of a music piece. My subclasses implement common forms of keys. I am a subclass of MNMusicObject.

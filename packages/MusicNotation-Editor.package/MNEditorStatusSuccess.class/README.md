@@ -1,0 +1,1 @@
+I am a MNEditorStatus that notifies about a successful code execution.

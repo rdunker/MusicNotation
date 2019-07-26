@@ -1,4 +1,4 @@
-tests
+fixtures
 testChord: aCollection forBlock: aBlock
 	| context builder |
 	context := self createContext.
