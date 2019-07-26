@@ -1,11 +1,11 @@
-I am an MNSymbolMorph used to display 
+I am an MNSymbolMorph for displaying MNKeys.
 
 Instance Variables
-	key:		<Object>
-	keySignatureLayout:		<Object>
+	key:						MNKey
+	keySignatureLayout:		MNKeySignatureLayout
 
 key
-	- xxxxx
+	- This is the MNKey I display.
 
 keySignatureLayout
-	- xxxxx
+	- This is the MNLayout I should apply on the MNKey.
