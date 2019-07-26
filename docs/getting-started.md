@@ -1,6 +1,6 @@
 # Getting started
 
-## Installation
+## Installing the project
 Installation instructions can be found in the [README.md](../README.md).
 
 ## Finding the project
@@ -13,7 +13,7 @@ This will open the editor and you can start scripting. More details can be found
 ## Understanding the project
 We know it can be quite difficult to understand a project with ~12.000 lines of code by just reading all of it. So here is some help:
 - [Architectural information](./object-structure.md)
--  [Entrypoints](./entrypoints.md)
+-  [Entrypoints](./entry-points.md)
 
 ## Enhancing the project
 You want to add new features, fix bugs or restructure the project to make it a better fit for you and others? 
