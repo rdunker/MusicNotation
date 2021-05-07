@@ -2,7 +2,8 @@
 	"class" : {
 		"open" : "mgjm 7/1/2019 18:02",
 		"openAlleMeineEntchen" : "mgjm 7/1/2019 18:06",
-		"openContents:" : "mgjm 7/1/2019 18:04" },
+		"openContents:" : "mgjm 7/1/2019 18:04",
+		"openTutorial" : "ld 5/7/2021 12:14" },
 	"instance" : {
 		"aboutToStyle:" : "mgjm 7/1/2019 14:59",
 		"addModelItemsToWindowMenu:" : "mgjm 7/1/2019 18:57",
