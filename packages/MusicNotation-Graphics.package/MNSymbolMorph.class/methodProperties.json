@@ -2,7 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"clickedMessage" : "RAD 5/7/2021 13:37",
 		"defaultBounds" : "mm 6/5/2019 15:08",
 		"defaultColor" : "mm 6/5/2019 15:08",
 		"drawOn:" : "mgjm 6/18/2019 16:21",
-		"drawable" : "mgjm 6/18/2019 16:21" } }
+		"drawable" : "mgjm 6/18/2019 16:21",
+		"handlesMouseDown:" : "RAD 5/7/2021 13:36",
+		"initialize" : "RAD 5/7/2021 13:40",
+		"showClickedMessage" : "RAD 5/7/2021 13:37" } }

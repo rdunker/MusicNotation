@@ -1,0 +1,4 @@
+accessing
+clickedMessage
+
+	^ self key
