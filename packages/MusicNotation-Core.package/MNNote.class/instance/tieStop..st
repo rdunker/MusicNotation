@@ -1,3 +1,3 @@
 accessing
-tieStop: anObject
-	tieStop := anObject
+tieStop: Boolean
+	tieStop := Boolean

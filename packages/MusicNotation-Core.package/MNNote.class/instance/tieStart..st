@@ -1,3 +1,3 @@
 accessing
-tieStart: anObject
-	tieStart := anObject
+tieStart: Boolean
+	tieStart := Boolean
