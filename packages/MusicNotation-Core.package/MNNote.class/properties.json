@@ -9,7 +9,8 @@
 		"duration",
 		"tieStart",
 		"tieStop",
-		"chordPart" ],
+		"chordPart",
+		"morph" ],
 	"name" : "MNNote",
 	"pools" : [
 		 ],
