@@ -11,7 +11,7 @@ testAddNoteOverflow
 	
 	self assert: 2 equals: context part measures size.
 	self assert: 2 equals: context part measures first notes size.
-	self assert: firstMeasure noteDuration equals: firstMeasure time.
+	self assert: firstMeasure noteDuration equals: firstMeasure time asInteger.
 	self assert: firstMeasure notes last tieStart.
 	self deny: firstMeasure notes last tieStop.
 	self assert: 1 equals: context measure notes size.

@@ -2,4 +2,4 @@ accessing
 drawOn: aCanvas
 	
 	super drawOn: aCanvas.
-	canvas := aCanvas.
+	self canvas: aCanvas.
