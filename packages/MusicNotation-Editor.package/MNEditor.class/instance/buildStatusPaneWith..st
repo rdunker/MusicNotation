@@ -4,6 +4,7 @@ buildStatusPaneWith: aBuilder
 		model: self;
 		textColor: #statusColor;
 		getText: #statusMessage;
+		menu: #statusPaneMenu:;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
 		frame: self statusFrame;
