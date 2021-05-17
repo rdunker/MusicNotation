@@ -1,4 +1,0 @@
-accessing
-clickedMessage
-
-	^ self key

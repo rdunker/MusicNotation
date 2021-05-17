@@ -1,3 +1,3 @@
 updating
 updateEditor
-	self model contents: self model contents,'"Note selected"'.
+	self model updateSelectedSymbol: self selectedSymbol note.

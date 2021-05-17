@@ -7,7 +7,8 @@
 	"commentStamp" : "fb 7/26/2019 12:13",
 	"instvars" : [
 		"message",
-		"range" ],
+		"range",
+		"statementNumber" ],
 	"name" : "MNEditorStatusException",
 	"pools" : [
 		 ],

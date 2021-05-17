@@ -13,3 +13,4 @@ evaluate: textOrStream in: anEnvironment
 	method methodNode: methodNode.
 	
 	anEnvironment context executeMethod: method.
+	self addToStatementMapping: anEnvironment context lastNote.
