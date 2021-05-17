@@ -2,10 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addMeasure" : "fb 7/26/2019 14:49",
+		"addNote:" : "fb 7/14/2019 23:04",
+		"addNote:withOverflow:" : "fb 7/26/2019 14:48",
+		"addNoteRecursively:" : "LH 5/14/2021 16:46",
 		"addFClef" : "ld 5/7/2021 12:44",
-		"addNote:" : "mgjm 6/19/2019 21:31",
 		"initialize" : "mgjm 6/19/2019 21:18",
+		"lastNote" : "NH 5/8/2021 17:17",
 		"measure" : "mgjm 6/19/2019 21:18",
 		"part" : "mgjm 6/19/2019 21:18",
 		"project" : "mgjm 6/19/2019 21:17",
-		"project:" : "mgjm 6/19/2019 21:17" } }
+		"project:" : "mgjm 6/19/2019 21:17",
+		"startTie" : "NH 5/8/2021 17:17",
+		"stopTie" : "NH 5/8/2021 17:18",
+		"tiedBlock" : "fb 7/26/2019 14:45" } }

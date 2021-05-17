@@ -1,3 +1,6 @@
 visiting
 visitNote: aNote
-	^ MNNoteMorph note: aNote
+	| noteMorph |
+	noteMorph := MNNoteMorph note: aNote.
+	aNote morph: noteMorph.
+	^ noteMorph

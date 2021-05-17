@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "mm 7/26/2019 12:25",
+	"commentStamp" : "",
 	"instvars" : [
-		"project",
 		"canvas" ],
-	"name" : "MNProjectMorph",
+	"name" : "MNMultiObjectDrawer",
 	"pools" : [
 		 ],
-	"super" : "MNMorph",
+	"super" : "Object",
 	"type" : "normal" }
