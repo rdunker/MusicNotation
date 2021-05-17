@@ -5,6 +5,7 @@ c/8.
 d/8.
 e/8.
 f/8.
+a4s/8.
 g/4 * 2.
 
 2 timesRepeat: [
