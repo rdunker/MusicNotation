@@ -2,4 +2,6 @@ initialize-release
 initialize
 	super initialize.
 	
-	self chordPart: false.
+	self tieStart: false;
+		tieStop: false;
+		chordPart: false.
