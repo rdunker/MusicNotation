@@ -4,6 +4,7 @@
 	"instance" : {
 		"addAttributesTo:from:to:" : "mgjm 7/1/2019 16:24",
 		"applyStyleTo:" : "mgjm 7/1/2019 16:44",
+		"applyStyleTo:statement:" : "RAD 5/20/2021 12:47",
 		"color" : "mgjm 7/1/2019 16:05",
 		"error:in:" : "RAD 5/16/2021 18:09",
 		"fiveRange:in:" : "RAD 5/16/2021 18:12",
@@ -13,6 +14,7 @@
 		"range:" : "mgjm 7/1/2019 16:03",
 		"rangeIn:" : "fb 7/25/2019 12:48",
 		"rangeOffsetIn:" : "RAD 5/16/2021 14:12",
+		"rangeOffsetIn:statement:" : "RAD 5/20/2021 12:58",
 		"reduceContext:" : "fb 7/25/2019 12:47",
 		"statementNumber" : "RAD 5/16/2021 14:01",
 		"statementNumber:" : "RAD 5/16/2021 14:01",

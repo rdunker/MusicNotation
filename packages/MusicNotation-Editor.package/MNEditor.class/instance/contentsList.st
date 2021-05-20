@@ -1,6 +1,10 @@
 as yet unclassified
 contentsList
-	^ (self contents splitBy: '.') 
+	| list newList |
+	
+	list := (self contents splitBy: '.') 
 		asOrderedCollection 
 		removeLast;
-		yourself
+		yourself.
+	newList:= list collect: [:statement | statement, '.'].
+	^ newList

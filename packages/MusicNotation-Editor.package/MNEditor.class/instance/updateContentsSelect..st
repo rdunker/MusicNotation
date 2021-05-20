@@ -8,4 +8,4 @@ updateContentsSelect: aCollection
 		[ :i | statement := contentsList at: i.
 			(aCollection includes: i) 
 				ifTrue: [statement := statement, '*'.].
-			self contents: self contents, statement, '.' ].
+			self contents: self contents, statement].
