@@ -6,8 +6,9 @@
 	"instance" : {
 		"aboutToStyle:" : "mgjm 7/1/2019 14:59",
 		"addModelItemsToWindowMenu:" : "mgjm 7/1/2019 18:57",
+		"addSelectedAttributesTo:from:to:" : "RAD 5/20/2021 14:11",
 		"addToStatementMapping:" : "RAD 5/17/2021 03:45",
-		"applySelectedStyleTo:" : "RAD 5/17/2021 04:41",
+		"applySelectedStyle:" : "RAD 5/20/2021 14:54",
 		"buildCodePaneWith:" : "mgjm 7/1/2019 16:54",
 		"buildEditorPaneWith:" : "mgjm 7/5/2019 20:53",
 		"buildEditorWith:" : "mgjm 7/1/2019 15:12",
@@ -39,6 +40,7 @@
 		"previewLabel" : "mgjm 6/25/2019 17:58",
 		"project" : "mgjm 6/25/2019 16:45",
 		"project:" : "mgjm 6/25/2019 16:45",
+		"rangeOffsetStatement:" : "RAD 5/20/2021 14:30",
 		"resetContents" : "RAD 5/17/2021 05:15",
 		"resetDoItEnvironment" : "mgjm 7/1/2019 18:58",
 		"resetStatementMapping" : "RAD 5/17/2021 03:45",
@@ -54,5 +56,5 @@
 		"statusMessage" : "mgjm 7/1/2019 15:10",
 		"statusPaneHeight" : "mgjm 7/1/2019 15:14",
 		"textContents:" : "mgjm 7/1/2019 14:24",
-		"updateContentsSelect:" : "RAD 5/20/2021 13:27",
-		"updateSelectedSymbol:" : "RAD 5/17/2021 04:21" } }
+		"updateContentsSelect:" : "RAD 5/20/2021 14:37",
+		"updateSelectedSymbol:" : "RAD 5/20/2021 14:22" } }
