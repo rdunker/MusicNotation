@@ -3,7 +3,8 @@
 		"canvas:" : "OS 5/16/2021 19:46" },
 	"instance" : {
 		"calculateMidPointFrom:To:" : "OS 5/16/2021 19:52",
-		"calculateNotePosition:" : "OS 5/16/2021 19:51",
+		"calculateNotePosition:" : "OS 5/22/2021 21:32",
 		"canvas" : "OS 5/16/2021 19:11",
 		"canvas:" : "OS 5/16/2021 19:11",
+		"drawSlurFrom:Till:" : "OS 5/22/2021 11:35",
 		"drawTieFrom:Till:" : "OS 5/16/2021 19:52" } }

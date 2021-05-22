@@ -7,8 +7,15 @@ drawOn: aCanvas
 	drawer := MNMultiObjectDrawer canvas: self projectCanvas.
 	
 	self note tieStart ifTrue: [
-		endNote := self note findNextTieStop.
+		endNote := self findNextTieStop.
 		endNote ifNotNil: [
-			drawer drawTieFrom: self Till: endNote morph.
+			drawer drawTieFrom: self Till: endNote.
+		]
+	].
+
+	self note slurStart ifTrue: [
+		endNote := self findNextSlurStop.
+		endNote ifNotNil: [
+			drawer drawSlurFrom: self Till: endNote.
 		]
 	].
