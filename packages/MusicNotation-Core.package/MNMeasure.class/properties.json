@@ -8,7 +8,8 @@
 	"instvars" : [
 		"key",
 		"time",
-		"clef" ],
+		"clef",
+		"prelude" ],
 	"name" : "MNMeasure",
 	"pools" : [
 		 ],
