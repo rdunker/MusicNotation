@@ -9,7 +9,7 @@ drawOn: aCanvas
 	self note tieStart ifTrue: [
 		endNote := self findNextTieStop.
 		endNote ifNotNil: [
-			drawer drawTieFrom: self Till: endNote.
+			drawer drawSlurFrom: self Till: endNote.
 		]
 	].
 
