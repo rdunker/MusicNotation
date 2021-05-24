@@ -5,4 +5,8 @@
 		"defaultBounds" : "mm 6/5/2019 15:08",
 		"defaultColor" : "mm 6/5/2019 15:08",
 		"drawOn:" : "mgjm 6/18/2019 16:21",
-		"drawable" : "mgjm 6/18/2019 16:21" } }
+		"drawable" : "mgjm 6/18/2019 16:21",
+		"handlesMouseDown:" : "MP 5/20/2021 19:50",
+		"initialize" : "MP 5/20/2021 19:53",
+		"select" : "MP 5/20/2021 19:58",
+		"toggleColor" : "MP 5/20/2021 19:59" } }
