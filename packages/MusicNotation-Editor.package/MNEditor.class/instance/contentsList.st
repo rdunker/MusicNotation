@@ -1,10 +1,22 @@
 as yet unclassified
 contentsList
-	| list newList |
+	| list  statement bool |
 	
-	list := (self contents splitBy: '.') 
-		asOrderedCollection 
-		removeLast;
-		yourself.
-	newList:= list collect: [:statement | statement, '.'].
-	^ newList
+	list:= OrderedCollection new. 
+	statement:=''.
+	
+	bool := false. 
+	self contents do: [ :each | 
+							   statement:= statement,each.
+							  each = $[
+							   ifTrue: [bool := true.].
+							  each = $]
+							   ifTrue: [bool := false.].
+							
+							bool 
+							ifFalse: [
+							   	each = $.
+							   		ifTrue: [list addLast: statement.
+											statement:=''.] ] .
+							].
+	^ list
