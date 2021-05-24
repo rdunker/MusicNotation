@@ -1,3 +1,6 @@
 updating
 updateEditor
-	self model updateSelectedSymbol: self selectedSymbol note.
+	self selectedSymbol
+		ifNotNil: [self model updateSelectedSymbol: self selectedSymbol note]
+		ifNil: [self model updateContents].
+	

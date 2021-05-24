@@ -1,4 +1,4 @@
 as yet unclassified
 select
 	super select. 
-	self previewMorph selectedSymbol: self.
+	self previewMorph updateSelectedSymbol: self.

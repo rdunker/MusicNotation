@@ -8,7 +8,9 @@
 		"addModelItemsToWindowMenu:" : "mgjm 7/1/2019 18:57",
 		"addSelectedAttributesTo:from:to:" : "RAD 5/20/2021 14:11",
 		"addToStatementMapping:" : "RAD 5/17/2021 03:45",
+		"addUnselectedAttributesTo:from:to:" : "RAD 5/24/2021 10:33",
 		"applySelectedStyle:" : "MP 5/20/2021 19:42",
+		"applyUnselectedStyle:" : "RAD 5/24/2021 10:15",
 		"buildCodePaneWith:" : "mgjm 7/1/2019 16:54",
 		"buildEditorPaneWith:" : "mgjm 7/5/2019 20:53",
 		"buildEditorWith:" : "mgjm 7/1/2019 15:12",
@@ -56,5 +58,6 @@
 		"statusMessage" : "mgjm 7/1/2019 15:10",
 		"statusPaneHeight" : "mgjm 7/1/2019 15:14",
 		"textContents:" : "mgjm 7/1/2019 14:24",
-		"updateContentsSelect:" : "RAD 5/20/2021 14:37",
+		"updateContents" : "RAD 5/24/2021 10:46",
+		"updateContentsSelect:" : "RAD 5/24/2021 10:14",
 		"updateSelectedSymbol:" : "RAD 5/20/2021 14:22" } }
