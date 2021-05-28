@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addToStatementMapping:" : "RAD 5/27/2021 14:33",
+		"applyAttributesSelected:to:from:to:" : "RAD 5/27/2021 14:49",
+		"applyStyleSelected:toStatement:toEditor:" : "RAD 5/27/2021 14:53",
+		"contentsList" : "RAD 5/27/2021 14:07",
+		"endOfStatement:" : "RAD 5/27/2021 14:38",
+		"name" : "RAD 5/27/2021 14:28",
+		"pushBracketsToStack:symbol:" : "RAD 5/27/2021 14:08",
+		"rangeOffsetStatement:" : "RAD 5/27/2021 14:38",
+		"resetStatementMapping" : "RAD 5/27/2021 14:48",
+		"selectedAttributes" : "RAD 5/27/2021 14:47",
+		"selectedColor" : "RAD 5/27/2021 14:46",
+		"splitIntoStatements:" : "RAD 5/27/2021 14:08",
+		"startOfStatement:" : "RAD 5/27/2021 14:38",
+		"statementMapping" : "RAD 5/27/2021 14:06",
+		"statementMapping:" : "RAD 5/27/2021 14:31",
+		"statementsOf:" : "RAD 5/27/2021 14:36",
+		"text" : "RAD 5/27/2021 14:06",
+		"text:" : "RAD 5/27/2021 14:31",
+		"updateContents:" : "RAD 5/27/2021 14:17",
+		"updateContentsSelect:toEditor:" : "RAD 5/28/2021 15:51",
+		"updateContentsSelectedSymbol:toEditor:" : "RAD 5/28/2021 15:51" } }

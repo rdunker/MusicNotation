@@ -1,10 +1,9 @@
-accessing
+symbol selection
 updateSelectedSymbol: aMNMusicObject
-	self selectedSymbol
-		ifNotNil: [self selectedSymbol changeToUnselectedColor].
+	self symbolSelected
+		ifTrue: [self selectedSymbol changeToUnselectedColor].
 	self selectedSymbol = aMNMusicObject
-		ifTrue: [self selectedSymbol changeToUnselectedColor.
-				self selectedSymbol: nil]
+		ifTrue: [self selectedSymbol: nil]
 		ifFalse: [aMNMusicObject changeToSelectedColor.
 				self selectedSymbol: aMNMusicObject].
 	self updateEditor.

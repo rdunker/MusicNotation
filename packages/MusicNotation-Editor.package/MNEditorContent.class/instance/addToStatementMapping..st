@@ -1,6 +1,6 @@
 as yet unclassified
-addToStatementMapping: aMNMusicObject
+addToStatementMapping: aCollection
 	self statementMapping: 
 		(self statementMapping 
-			addLast: aMNMusicObject; 
+			addLast: aCollection; 
 			yourself).
