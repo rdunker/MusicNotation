@@ -1,4 +1,4 @@
-as yet unclassified
+updating style
 applyAttributesSelected: aBoolean to: aText from: start to: stop
 	| end |
 	end := aText size min: stop.

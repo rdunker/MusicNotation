@@ -1,5 +1,5 @@
-as yet unclassified
-name
+accessing
+contentName
 	| stream |
 	stream := self text readStream.
 	

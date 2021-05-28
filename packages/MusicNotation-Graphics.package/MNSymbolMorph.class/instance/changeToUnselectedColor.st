@@ -1,3 +1,3 @@
-as yet unclassified
+selection
 changeToUnselectedColor 
 	self color: self unselectedColor.

@@ -1,4 +1,4 @@
-accessing
+updating style
 applyStyleTo: anEditor statement: anInteger
 	| start stop |
 	start := self range start - anEditor methodCodePrefix size + (self rangeOffsetIn: anEditor statement: anInteger).

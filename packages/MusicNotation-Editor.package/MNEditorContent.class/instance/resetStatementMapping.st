@@ -1,3 +1,3 @@
-as yet unclassified
+statement mapping 
 resetStatementMapping
 	self statementMapping: OrderedCollection new.

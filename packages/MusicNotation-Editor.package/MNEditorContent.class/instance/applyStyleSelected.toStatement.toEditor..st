@@ -1,4 +1,4 @@
-as yet unclassified
+updating style
 applyStyleSelected: aBoolean toStatement: anInteger toEditor: anEditor
 	anEditor codeTextMorphs do: 
 		[ :morph |

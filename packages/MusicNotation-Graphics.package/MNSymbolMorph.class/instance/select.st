@@ -1,3 +1,3 @@
-as yet unclassified
+selection
 select 
-	
+	self previewMorph updateSelectedSymbol: self.

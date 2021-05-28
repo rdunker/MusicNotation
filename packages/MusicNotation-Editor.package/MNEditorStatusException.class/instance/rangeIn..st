@@ -1,4 +1,4 @@
-accessing
+range calculation
 rangeIn: aContext
 	| context |
 	context := self reduceContext: aContext.

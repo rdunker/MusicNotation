@@ -1,3 +1,3 @@
-as yet unclassified
+updating style
 updateContents: aStringOrText
 	self text: aStringOrText.
