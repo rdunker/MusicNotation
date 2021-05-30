@@ -1,21 +1,19 @@
 accessing
 drawOn: aCanvas
-	| drawer endNote |
+	| endNote |
 	
 	super drawOn: aCanvas.
-		
-	drawer := MNMultiObjectDrawer canvas: self projectCanvas.
 	
 	self note tieStart ifTrue: [
 		endNote := self findNextTieStop.
 		endNote ifNotNil: [
-			drawer drawSlurFrom: self Till: endNote.
+			MNBowDrawer canvas: self projectCanvas startNote: self endNote: endNote.
 		]
 	].
 
 	self note slurStart ifTrue: [
 		endNote := self findNextSlurStop.
 		endNote ifNotNil: [
-			drawer drawSlurFrom: self Till: endNote.
+			MNBowDrawer canvas: self projectCanvas startNote: self endNote: endNote.
 		]
 	].

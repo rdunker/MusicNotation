@@ -1,0 +1,4 @@
+accessing
+startNote
+
+	^ startNote
