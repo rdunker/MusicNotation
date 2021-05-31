@@ -1,3 +1,3 @@
 accessing
 startTie
-    self lastNote tieStart: true.
+   	self lastNote tieStart: true.

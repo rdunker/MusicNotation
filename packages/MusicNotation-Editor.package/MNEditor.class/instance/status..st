@@ -5,4 +5,4 @@ status: anObject
 	self changed: #statusColor.
 	self changed: #statusMessage.
 	
-	self status applyStyleTo: self.
+	"self status applyStyleTo: self".

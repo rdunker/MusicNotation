@@ -1,0 +1,4 @@
+accessing
+endNote
+
+	^ endNote

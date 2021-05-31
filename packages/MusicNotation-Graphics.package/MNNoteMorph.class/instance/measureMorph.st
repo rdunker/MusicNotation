@@ -1,0 +1,3 @@
+accessing
+measureMorph
+	^ self owner

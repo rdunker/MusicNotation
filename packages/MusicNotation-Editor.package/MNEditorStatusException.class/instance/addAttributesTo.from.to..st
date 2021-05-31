@@ -1,4 +1,4 @@
-accessing
+updating style
 addAttributesTo: aText from: start to: stop
 	| end |
 	end := aText size min: stop.

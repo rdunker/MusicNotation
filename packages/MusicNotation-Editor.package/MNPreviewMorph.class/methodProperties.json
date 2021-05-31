@@ -5,9 +5,16 @@
 		"defaultBorderColor" : "mgjm 6/25/2019 17:53",
 		"defaultBorderWidth" : "mgjm 6/25/2019 17:53",
 		"defaultColor" : "mgjm 6/25/2019 18:14",
-		"initialize" : "mgjm 6/25/2019 17:54",
+		"handlesMouseDown:" : "RAD 5/7/2021 13:10",
+		"initialize" : "RAD 5/17/2021 04:09",
 		"project" : "mgjm 6/25/2019 17:19",
 		"project:" : "mgjm 6/25/2019 17:30",
 		"projectSelector" : "mgjm 6/25/2019 17:19",
+		"projectSelector:" : "RAD 5/17/2021 03:49",
+		"selectedSymbol" : "RAD 5/17/2021 03:49",
+		"selectedSymbol:" : "RAD 5/24/2021 09:44",
+		"symbolSelected" : "RAD 5/26/2021 23:40",
 		"update:" : "mgjm 6/25/2019 17:28",
-		"updateProject" : "mgjm 6/25/2019 18:14" } }
+		"updateEditor" : "MP 5/28/2021 17:35",
+		"updateProject" : "mgjm 6/25/2019 18:14",
+		"updateSelectedSymbol:" : "RAD 5/26/2021 23:41" } }
