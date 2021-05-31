@@ -1,3 +1,3 @@
 updating style
 selectedAttributes
-	^ {TextColor green. TextEmphasis bold. TextEmphasis italic} asCollection
+	^ {TextColor magenta. TextEmphasis bold. TextEmphasis italic} asCollection

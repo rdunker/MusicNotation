@@ -1,3 +1,3 @@
 accessing
 selectedColor
-	^ Color green
+	^ Color magenta
