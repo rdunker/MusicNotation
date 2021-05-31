@@ -9,7 +9,10 @@
 		"key",
 		"time",
 		"clef",
-		"prelude" ],
+		"prelude",
+		"afterPrelude",
+		"testNum",
+		"testDenum" ],
 	"name" : "MNMeasure",
 	"pools" : [
 		 ],
