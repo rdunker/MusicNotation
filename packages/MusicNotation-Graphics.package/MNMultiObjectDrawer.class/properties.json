@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Graphics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"canvas" ],
+	"name" : "MNMultiObjectDrawer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

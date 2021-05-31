@@ -1,8 +1,9 @@
 {
 	"class" : {
 		"open" : "mgjm 7/1/2019 18:02",
-		"openAlleMeineEntchen" : "ld 5/7/2021 12:03",
-		"openContents:" : "RAD 5/27/2021 14:20" },
+		"openAlleMeineEntchen" : "mgjm 7/1/2019 18:06",
+		"openContents:" : "RAD 5/27/2021 14:20",
+		"openTutorial" : "ld 5/7/2021 12:14" },
 	"instance" : {
 		"aboutToStyle:" : "mgjm 7/1/2019 14:59",
 		"addModelItemsToWindowMenu:" : "mgjm 7/1/2019 18:57",
@@ -11,7 +12,7 @@
 		"buildEditorWith:" : "mgjm 7/1/2019 15:12",
 		"buildPreviewWith:" : "mgjm 7/1/2019 14:16",
 		"buildProjectWith:" : "mgjm 6/25/2019 18:19",
-		"buildStatusPaneWith:" : "mgjm 7/1/2019 15:17",
+		"buildStatusPaneWith:" : "mgjm 7/25/2019 15:02",
 		"codeFrame" : "mgjm 7/5/2019 20:53",
 		"codeTextMorphs" : "mgjm 7/1/2019 16:26",
 		"content" : "RAD 5/27/2021 14:24",
@@ -47,6 +48,7 @@
 		"statusFrame" : "mgjm 7/5/2019 20:52",
 		"statusMessage" : "mgjm 7/1/2019 15:10",
 		"statusPaneHeight" : "mgjm 7/1/2019 15:14",
+		"statusPaneMenu:" : "mgjm 7/25/2019 15:15",
 		"textContents:" : "mgjm 7/1/2019 14:24",
 		"updateContents:" : "MP 5/28/2021 16:04",
 		"updateContentsNotSelected" : "RAD 5/27/2021 14:57",

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 lastNote
-	^ self lastMeasure notes last
+    ^ self measure notes last

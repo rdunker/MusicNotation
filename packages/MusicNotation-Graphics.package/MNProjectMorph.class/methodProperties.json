@@ -2,7 +2,10 @@
 	"class" : {
 		"project:" : "mgjm 6/16/2019 20:00" },
 	"instance" : {
+		"canvas" : "OS 5/9/2021 21:42",
+		"canvas:" : "OS 5/16/2021 20:06",
 		"defaultBounds" : "mgjm 6/5/2019 04:22",
+		"drawOn:" : "OS 5/16/2021 20:06",
 		"initialize" : "mgjm 6/25/2019 17:31",
 		"project" : "mgjm 6/5/2019 04:22",
 		"project:" : "mgjm 6/16/2019 19:29" } }

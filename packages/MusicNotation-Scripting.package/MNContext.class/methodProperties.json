@@ -2,13 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addNote:" : "mgjm 6/19/2019 21:31",
+		"addFClef" : "ld 5/7/2021 12:44",
+		"addMeasure" : "fb 7/26/2019 14:49",
+		"addNote:" : "fb 7/14/2019 23:04",
+		"addNote:withOverflow:" : "fb 7/26/2019 14:48",
+		"addNoteRecursively:" : "LH 5/14/2021 16:46",
 		"initialize" : "mgjm 6/19/2019 21:18",
 		"lastMeasure" : "RAD 5/17/2021 03:10",
-		"lastNote" : "RAD 5/17/2021 03:11",
+		"lastNote" : "NH 5/8/2021 17:17",
 		"lastPart" : "RAD 5/17/2021 03:10",
 		"measure" : "mgjm 6/19/2019 21:18",
 		"part" : "mgjm 6/19/2019 21:18",
 		"project" : "mgjm 6/19/2019 21:17",
 		"project:" : "mgjm 6/19/2019 21:17",
-		"symbolsNotIn:" : "RAD 5/27/2021 01:38" } }
+		"startTie" : "NH 5/8/2021 17:17",
+		"stopTie" : "NH 5/8/2021 17:18",
+		"symbolsNotIn:" : "RAD 5/27/2021 01:38",
+		"tiedBlock" : "fb 7/26/2019 14:45" } }
