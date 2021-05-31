@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"allSymbols" : "MP 5/28/2021 16:59",
 		"associationAt:ifAbsent:" : "mgjm 7/1/2019 14:55",
 		"at:" : "mgjm 7/1/2019 17:06",
 		"at:put:" : "mgjm 7/1/2019 17:06",
@@ -10,6 +11,8 @@
 		"bindingOf:ifAbsent:" : "mgjm 7/1/2019 14:40",
 		"bindings" : "mgjm 7/1/2019 14:41",
 		"bindings:" : "mgjm 7/1/2019 14:41",
+		"compile:" : "MP 5/28/2021 17:04",
+		"compileMethod:" : "MP 5/28/2021 17:02",
 		"context" : "mgjm 7/1/2019 14:41",
 		"context:" : "mgjm 7/1/2019 14:41",
 		"hasBindingOf:" : "mgjm 7/1/2019 17:04",

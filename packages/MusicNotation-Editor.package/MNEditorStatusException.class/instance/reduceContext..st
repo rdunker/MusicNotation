@@ -1,4 +1,4 @@
-accessing
+error handling
 reduceContext: aContext
 	| context |
 	context := aContext.

@@ -1,0 +1,3 @@
+accessing
+selectedColor
+	^ Color magenta

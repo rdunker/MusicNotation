@@ -9,7 +9,8 @@
 		"doItEnvironment",
 		"name",
 		"project",
-		"status" ],
+		"status",
+		"content" ],
 	"name" : "MNEditor",
 	"pools" : [
 		 ],
