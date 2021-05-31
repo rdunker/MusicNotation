@@ -1,4 +1,4 @@
-accessing
+updating style
 applyStyleTo: anEditor
 	| start stop |
 	start := self range start - anEditor methodCodePrefix size.

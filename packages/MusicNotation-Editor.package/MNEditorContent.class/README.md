@@ -1,0 +1,1 @@
+Im a MNContent. I´am holding the content of the Editor. I can change the style of the contents. 
