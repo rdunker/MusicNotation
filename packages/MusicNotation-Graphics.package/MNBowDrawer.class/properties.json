@@ -6,8 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"canvas" ],
-	"name" : "MNMultiObjectDrawer",
+		"canvas",
+		"startNote",
+		"endNote",
+		"bowDownwards" ],
+	"name" : "MNBowDrawer",
 	"pools" : [
 		 ],
 	"super" : "Object",
