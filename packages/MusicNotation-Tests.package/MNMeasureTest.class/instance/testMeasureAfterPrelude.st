@@ -7,6 +7,6 @@ testMeasureAfterPrelude
 	context addNote: self createC4.
 	context prelude. 
 	
-	self assert: true equals: context measure afterPrelude.
+	self assert: true equals: context measure isAfterPrelude.
 	
 	

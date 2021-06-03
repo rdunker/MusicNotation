@@ -4,7 +4,7 @@ addPrefixOfMeasure: aMeasure to: aMorph
 		ifTrue: [ self add: aMeasure clef to: aMorph ].
 	((aMeasure valueChanged: #key) or: (aMeasure valueChanged: #clef))
 		ifTrue: [ self add: aMeasure key to: aMorph ].
-	(((aMeasure valueChanged: #time) and: ((aMeasure prelude =  false) or: (aMeasure prelude = nil))) and: ((aMeasure afterPrelude = nil) or: (aMeasure afterPrelude = false)))
+	(((aMeasure valueChanged: #time) and: (aMeasure isPrelude)) and: (aMeasure isAfterPrelude))
 		ifTrue: [ aMorph addMorphBack: (self createTime: aMeasure time) ].
-	((aMeasure valueChanged: #time) and: (aMeasure prelude =  true))
-		ifTrue: [ aMorph addMorphBack: (self createTime: (Fraction numerator: aMeasure testNum denominator: aMeasure testDenum)) ]
+	((aMeasure valueChanged: #time) and: (aMeasure isPrelude))
+		ifTrue: [ aMorph addMorphBack: (self createTime: (Fraction numerator: aMeasure prevNumerator denominator: aMeasure prevDenominator)) ]
