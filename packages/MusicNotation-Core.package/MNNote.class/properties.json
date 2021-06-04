@@ -9,6 +9,7 @@
 		"duration",
 		"tieStart",
 		"tieStop",
+		"forte",
 		"slurStart",
 		"slurStop",
 		"chordPart",
