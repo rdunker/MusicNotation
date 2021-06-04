@@ -1,5 +1,5 @@
 opening
 openContents: aString
 	^ self new 
-		contents: aString;
+		updateContents: aString;
 		openEditor

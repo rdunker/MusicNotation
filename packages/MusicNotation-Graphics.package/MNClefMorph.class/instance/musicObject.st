@@ -1,0 +1,3 @@
+accessing
+musicObject 
+	^ self clef

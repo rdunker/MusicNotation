@@ -3,7 +3,7 @@ buildCodePaneWith: aBuilder
 	^ aBuilder pluggableCodePaneSpec new
 		model: self;
 		getText: #contents;
-		setText: #contents:;
+		setText: #updateContents:;
 		menu: #codePaneMenu:shifted:;
 		frame: self codeFrame;
 		yourself

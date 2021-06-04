@@ -1,4 +1,4 @@
 accessing
 clef: anObject
-	clef privateAbandon.
+	clef ifNotNil: [clef privateAbandon].
 	clef := self privateAdopt: anObject.
