@@ -1,0 +1,17 @@
+{
+	"category" : "MusicNotation-Graphics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"canvas",
+		"startNote",
+		"endNote",
+		"bowDownwards" ],
+	"name" : "MNBowDrawer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

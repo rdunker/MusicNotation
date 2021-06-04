@@ -1,0 +1,3 @@
+accessing
+isPrelude
+	^ isPrelude

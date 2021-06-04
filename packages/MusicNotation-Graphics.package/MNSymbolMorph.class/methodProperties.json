@@ -2,7 +2,24 @@
 	"class" : {
 		 },
 	"instance" : {
+		"changeToSelectedColor" : "RAD 5/24/2021 10:00",
+		"changeToUnselectedColor" : "RAD 5/24/2021 09:58",
 		"defaultBounds" : "mm 6/5/2019 15:08",
 		"defaultColor" : "mm 6/5/2019 15:08",
 		"drawOn:" : "mgjm 6/18/2019 16:21",
-		"drawable" : "mgjm 6/18/2019 16:21" } }
+		"drawable" : "mgjm 6/18/2019 16:21",
+		"findNextSlurStop" : "OS 5/22/2021 20:42",
+		"findNextTieStop" : "OS 5/22/2021 20:36",
+		"handlesMouseDown:" : "MP 5/20/2021 19:50",
+		"initialize" : "MP 5/20/2021 19:53",
+		"measureMorph" : "MP 5/28/2021 17:23",
+		"musicObject" : "MP 5/28/2021 17:33",
+		"nextNote" : "OS 5/22/2021 20:37",
+		"partMorph" : "MP 5/28/2021 17:23",
+		"previewMorph" : "MP 5/28/2021 17:24",
+		"projectMorph" : "MP 5/28/2021 17:24",
+		"rightSibling" : "OS 5/22/2021 20:35",
+		"select" : "MP 5/28/2021 17:20",
+		"selectedColor" : "RAD 5/31/2021 17:07",
+		"siblings" : "OS 5/22/2021 20:36",
+		"unselectedColor" : "RAD 5/24/2021 09:48" } }

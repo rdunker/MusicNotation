@@ -1,0 +1,15 @@
+{
+	"category" : "MusicNotation-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"classes",
+		"classTestObjects" ],
+	"name" : "MNLinterTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

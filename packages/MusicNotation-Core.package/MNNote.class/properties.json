@@ -9,6 +9,8 @@
 		"duration",
 		"tieStart",
 		"tieStop",
+		"slurStart",
+		"slurStop",
 		"chordPart",
 		"morph" ],
 	"name" : "MNNote",

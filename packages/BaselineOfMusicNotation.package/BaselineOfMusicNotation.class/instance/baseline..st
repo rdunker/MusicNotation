@@ -15,6 +15,9 @@ baseline: spec
 					'MusicNotation-Graphics'
 					'MusicNotation-Scripting'
 				)];
+				baseline: 'SwaLint' with: [
+				spec repository: 'github://hpi-swa-teaching/SwaLint:release/packages'];
+			
 				package: 'MusicNotation-Tests' with: [spec requires: #(
 					'MusicNotation-Core'
 					'MusicNotation-XML'
@@ -22,6 +25,7 @@ baseline: spec
 					'MusicNotation-Player'
 					'MusicNotation-Scripting'
 					'MusicNotation-Editor'
+					'SwaLint'
 				)];
 				yourself.
 			spec
