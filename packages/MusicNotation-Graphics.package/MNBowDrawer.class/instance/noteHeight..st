@@ -1,6 +1,5 @@
 accessing
 noteHeight: aMNNoteMorph
-
 	| lineOffset |
 	
 	lineOffset := 1.

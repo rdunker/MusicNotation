@@ -17,3 +17,10 @@ drawOn: aCanvas
 			MNBowDrawer canvas: self projectCanvas startNote: self endNote: endNote.
 		]
 	].
+
+	self note beamStart ifTrue: [
+		endNote := self findNextBeamStop.
+		endNote ifNotNil: [
+				MNBeamDrawer canvas: self partCanvas startNote: self endNote: endNote.
+			]
+		]

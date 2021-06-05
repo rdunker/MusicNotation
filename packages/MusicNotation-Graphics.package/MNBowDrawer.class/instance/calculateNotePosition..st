@@ -1,6 +1,5 @@
 accessing
 calculateNotePosition: aMNNoteMorph
-
 	|positionOffset |
 	
 	positionOffset := 10.

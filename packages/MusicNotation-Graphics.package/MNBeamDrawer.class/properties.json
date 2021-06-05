@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"bowDownwards" ],
-	"name" : "MNBowDrawer",
+		 ],
+	"name" : "MNBeamDrawer",
 	"pools" : [
 		 ],
 	"super" : "MNMultiObjectDrawer",

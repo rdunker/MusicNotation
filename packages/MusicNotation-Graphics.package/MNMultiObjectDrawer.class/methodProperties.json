@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"canvas:startNote:endNote:" : "RAD 6/5/2021 18:09" },
+	"instance" : {
+		"calculateNotePosition:" : "RAD 6/5/2021 17:32",
+		"canvas" : "RAD 6/5/2021 17:30",
+		"canvas:" : "RAD 6/5/2021 17:30",
+		"draw" : "RAD 6/5/2021 17:32",
+		"endNote" : "RAD 6/5/2021 17:30",
+		"endNote:" : "RAD 6/5/2021 17:30",
+		"startNote" : "RAD 6/5/2021 17:30",
+		"startNote:" : "RAD 6/5/2021 17:30" } }

@@ -3,7 +3,7 @@
 		"note:" : "LH 5/12/2021 22:11" },
 	"instance" : {
 		"clickedMessage" : "RAD 5/7/2021 13:39",
-		"drawOn:" : "ld 5/30/2021 18:40",
+		"drawOn:" : "RAD 6/5/2021 17:48",
 		"drawable" : "mgjm 6/18/2019 16:22",
 		"flexBase" : "fb 7/25/2019 13:13",
 		"flexGrow" : "mgjm 6/19/2019 01:44",
@@ -16,6 +16,7 @@
 		"note:" : "mgjm 5/25/2019 19:51",
 		"noteLayout" : "mgjm 5/26/2019 17:24",
 		"noteLayout:" : "mgjm 5/25/2019 19:50",
+		"partCanvas" : "RAD 6/5/2021 17:53",
 		"partMorph" : "RAD 5/17/2021 04:01",
 		"previewMorph" : "RAD 5/17/2021 04:00",
 		"project" : "OS 5/16/2021 19:58",
