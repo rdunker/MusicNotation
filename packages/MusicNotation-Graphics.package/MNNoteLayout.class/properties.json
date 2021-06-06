@@ -8,6 +8,7 @@
 	"instvars" : [
 		"dots",
 		"flagCodePoint",
+		"dynamics",
 		"leftNoteheads",
 		"lines",
 		"note",
