@@ -1,7 +1,7 @@
 as yet unclassified
 findNextBeamStop
 	| note |
-	note := self nextNote.
+	note := self nextSymbol.
 	note ifNotNil: [
 		(note isKindOf: MNNoteMorph) ifTrue: [
 			note note beamStop ifFalse: [ ^ note findNextBeamStop ].
