@@ -1,3 +1,3 @@
 accessing
 updateFontScale
-	fontScale := self font scaleFactorForNoteLineHeight: (self noteLineHeight ifNil: 1).
+	self fontScale: (self font scaleFactorForNoteLineHeight: (self noteLineHeight ifNil: 1)).

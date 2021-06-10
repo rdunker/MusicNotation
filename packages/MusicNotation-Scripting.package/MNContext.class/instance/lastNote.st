@@ -1,3 +1,3 @@
 accessing
 lastNote
-    ^ self measure notes last
+	^ self measure notes last

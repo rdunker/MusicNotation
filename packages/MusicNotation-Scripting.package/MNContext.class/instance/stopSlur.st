@@ -1,3 +1,3 @@
 accessing
 stopSlur
-    self lastNote slurStop: true.
+	self lastNote slurStop: true.

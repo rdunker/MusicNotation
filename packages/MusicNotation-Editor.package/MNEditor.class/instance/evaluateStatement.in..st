@@ -7,4 +7,3 @@ evaluateStatement: anInteger in: aMNEditorEnviroment
 		ifTrue: [ self project: aMNEditorEnviroment context project.
 				self status: newStatus]
 		ifFalse: [ self setException: newStatus statement: anInteger.].
-	

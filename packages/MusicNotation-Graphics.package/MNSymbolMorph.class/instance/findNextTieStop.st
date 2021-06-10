@@ -7,8 +7,6 @@ findNextTieStop
 			note note tieStop ifFalse: [ ^ note findNextTieStop ].
 			note note tieStop ifTrue: [ ^ note ]
 			] ifFalse: [^ note findNextTieStop ].
-		
 	].
 
 	^ nil
-	

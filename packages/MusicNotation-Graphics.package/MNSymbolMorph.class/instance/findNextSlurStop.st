@@ -11,4 +11,3 @@ findNextSlurStop
 	].
 
 	^ nil
-	

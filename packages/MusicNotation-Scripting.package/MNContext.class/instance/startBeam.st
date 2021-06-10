@@ -1,3 +1,3 @@
 accessing
 startBeam
-   	self lastNote beamStart: true.
+	self lastNote beamStart: true.

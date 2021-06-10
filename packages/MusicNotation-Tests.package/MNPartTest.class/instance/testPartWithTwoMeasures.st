@@ -25,4 +25,3 @@ testPartWithTwoMeasures
 			
 	self assert: measure1 equals: part measures first.
 	self assert: 2 equals: part measures size.
-	

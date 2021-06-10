@@ -1,3 +1,3 @@
 private
 privateAbandon
-	parent := nil.
+	self parent: nil.

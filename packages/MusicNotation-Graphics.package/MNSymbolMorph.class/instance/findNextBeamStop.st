@@ -10,4 +10,3 @@ findNextBeamStop
 	].
 
 	^ nil
-	

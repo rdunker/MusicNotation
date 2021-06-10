@@ -1,3 +1,3 @@
 accessing
 stopBeam
-    self lastNote beamStop: true.
+	self lastNote beamStop: true.

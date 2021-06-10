@@ -61,5 +61,3 @@ coolBass := {b2 . e1 . c3 . e1 . c3s . e1 . c3 . e1}.
 
 "play the song"
  project asSound play'
-
-

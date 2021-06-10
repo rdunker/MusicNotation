@@ -7,6 +7,3 @@ configurePreludeMeasureWithTime: aFraction
 	self measure isPrelude: true.
 	self measure prevNumerator: aFraction numerator.
 	self measure prevDenominator: aFraction denominator.
- 
-
-    

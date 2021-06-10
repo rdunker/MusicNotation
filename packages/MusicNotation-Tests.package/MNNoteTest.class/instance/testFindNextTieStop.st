@@ -26,4 +26,3 @@ testFindNextTieStop
 	test := measure notes first findNextTieStop.
 		
 	self assert: test equals: measure notes last.
-	

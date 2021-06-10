@@ -12,4 +12,3 @@ calculateNoteDots
 		offset := offset + 1 ].
 	
 	^ dotSet collect: [ :space | space - (1/2) ] as: OrderedCollection
-	

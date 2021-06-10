@@ -18,5 +18,3 @@ testMeasureWithA4
 		
 	self assert: note equals: measure notes first.
 	self assert: 1 equals: measure notes size.
-	
-	

@@ -8,5 +8,3 @@ testMeasureAfterPrelude
 	context prelude. 
 	
 	self assert: true equals: context measure isAfterPrelude.
-	
-	

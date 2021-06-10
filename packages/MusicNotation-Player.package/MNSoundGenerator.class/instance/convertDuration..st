@@ -1,3 +1,3 @@
 accessing
 convertDuration: aFraction
-	^ aFraction *  2
+	^ aFraction * 2

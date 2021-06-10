@@ -1,6 +1,6 @@
 content list
 splitIntoStatements: aString
-	| list  statement waitingFor |
+	| list statement waitingFor |
 	
 	list := OrderedCollection new. 
 	statement := ''.

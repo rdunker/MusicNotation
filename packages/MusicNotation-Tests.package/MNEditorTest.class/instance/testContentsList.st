@@ -20,6 +20,3 @@ testContentsList
 	
 	editor updateContents: '"Alle meine Entchen"c4/8.'.
 	self assert: editor content contentsList = #('"Alle meine Entchen"' 'c4/8.') asOrderedCollection.
-	
-
-

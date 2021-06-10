@@ -30,5 +30,3 @@ testMeasureWithA4C5
 	self assert: noteA4 equals: measure notes first.
 	self assert: noteC5 equals: measure notes second.
 	self assert: 2 equals: measure notes size.
-	
-	
