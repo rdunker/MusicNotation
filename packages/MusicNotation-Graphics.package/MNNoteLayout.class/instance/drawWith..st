@@ -9,4 +9,4 @@ drawWith: aDrawer
 		ifNote: [ self drawNoteWith: aDrawer ].
 		
 	self drawDotsWith: aDrawer.
-	self drawDynamicsWith: aDrawer.
+	self drawDynamicsWith: aDrawer For: self note.
