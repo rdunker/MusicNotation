@@ -1,6 +1,5 @@
 tests
 testQuarterRest
-
 	| note |
 	note := MNNote new
 		duration: 1/4;

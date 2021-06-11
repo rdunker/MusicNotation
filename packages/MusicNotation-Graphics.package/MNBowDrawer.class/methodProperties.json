@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"accidentalsWidth:" : "ld 5/29/2021 12:48",
-		"bowDownwards" : "ld 5/30/2021 18:13",
-		"bowDownwards:" : "ld 5/30/2021 18:11",
-		"calculateBowHeightFrom:To:" : "ld 5/30/2021 18:20",
-		"calculateMidPointFrom:To:" : "ld 5/30/2021 18:19",
+		"accidentalsWidth:" : "RAD 6/11/2021 17:26",
+		"bowDownwards" : "RAD 6/11/2021 17:26",
+		"bowDownwards:" : "RAD 6/11/2021 17:26",
+		"calculateBowHeightFrom:To:" : "RAD 6/11/2021 17:26",
+		"calculateMidPointFrom:To:" : "RAD 6/11/2021 17:26",
 		"calculateNotePosition:" : "OS 6/10/2021 18:27",
-		"draw" : "OS 6/10/2021 19:26",
-		"isStemUp:" : "OS 6/10/2021 18:28",
-		"noteHeight:" : "OS 6/10/2021 18:28" } }
+		"draw" : "RAD 6/11/2021 17:26",
+		"isStemUp:" : "RAD 6/11/2021 19:38",
+		"noteHeight:" : "RAD 6/11/2021 19:35" } }

@@ -1,6 +1,5 @@
 tests
 testParseEmptyPart
-
 	| xmlPart part |
 	xmlPart := self parseXML: '<part></part>'.
 	part := self xmlParser parsePart: xmlPart.

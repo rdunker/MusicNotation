@@ -1,6 +1,5 @@
 drawing
 draw
-
 	| start end|
 
 	start := (self calculateNotePosition: self startNote).

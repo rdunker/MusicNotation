@@ -1,4 +1,4 @@
-as yet unclassified
+calculating
 findNextSlurStop
 	| note |
 	note := self nextSymbol.
@@ -7,7 +7,6 @@ findNextSlurStop
 			note note slurStop ifFalse: [ ^ note findNextSlurStop ].
 			note note slurStop ifTrue: [ ^ note ]
 			] ifFalse: [^ note findNextSlurStop ].
-		
 	].
 
 	^ nil

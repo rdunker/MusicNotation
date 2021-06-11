@@ -1,6 +1,5 @@
 tests
 testMeasureWithA4
-
 	| pitch note measure |
 	pitch := MNPitch new
 		octave: 4;

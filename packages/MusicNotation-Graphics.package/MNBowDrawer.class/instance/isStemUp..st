@@ -1,4 +1,3 @@
 accessing
-isStemUp: MNNoteMorph
-	
-	^ MNNoteMorph noteLayout up
+isStemUp: aMNNoteMorph
+	^ aMNNoteMorph noteLayout up

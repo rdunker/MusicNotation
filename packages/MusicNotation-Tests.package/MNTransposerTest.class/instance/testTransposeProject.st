@@ -1,5 +1,6 @@
 tests
 testTransposeProject
+	"Ignore while linting"
 	| project pitches pitchesTransposed |
 	project := MNSong furElise project.	
 		

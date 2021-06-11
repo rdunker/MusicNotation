@@ -1,8 +1,8 @@
 drawing
 drawOn: aCanvas
-	| canvas |
-	canvas := aCanvas asBalloonCanvas
+	| balloonCanvas |
+	balloonCanvas := aCanvas asBalloonCanvas
 		aaLevel: 4;
 		copyClipRect: self bounds.
 	
-	self drawMeasureLinesOn: canvas.
+	self drawMeasureLinesOn: balloonCanvas.

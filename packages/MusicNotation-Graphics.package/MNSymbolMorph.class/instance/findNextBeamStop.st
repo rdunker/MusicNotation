@@ -1,4 +1,4 @@
-as yet unclassified
+calculating
 findNextBeamStop
 	| note |
 	note := self nextSymbol.

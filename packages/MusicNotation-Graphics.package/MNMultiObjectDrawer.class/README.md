@@ -1,0 +1,1 @@
+I am a MNMultiObjectDrawer used to draw connections between multiple objects.

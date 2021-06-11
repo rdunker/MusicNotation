@@ -1,6 +1,5 @@
 tests
 testDurationFraction
-
 	| note |
 	note := MNNote new
 		duration: 0.25;

@@ -1,4 +1,3 @@
 tests
 testMethodNameIsLowerCase
-
-	self methodsLinesDo: [:lines | self assert: (lines first first isLowercase or: ['<>=*/+-' includes: lines first first])].
+	self methodsLinesDo: [:lines | lines first first isLowercase or: ['<>=*/+-' includes: lines first first]].

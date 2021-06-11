@@ -11,4 +11,4 @@ noteHeight: aMNNoteMorph
 		].
 	(self isStemUp: aMNNoteMorph) ifFalse: [lineOffset := -1].
 
-	^ aMNNoteMorph noteLineHeight * ((aMNNoteMorph noteLayout lines at: 1) + lineOffset)
+	^ aMNNoteMorph noteLineHeight * ((aMNNoteMorph noteLayout lines first) + lineOffset)

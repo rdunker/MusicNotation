@@ -1,6 +1,5 @@
 tests
 testParseEmptyNote
-
 	| note xmlNote |
 	xmlNote := self parseXML: '<note><duration>1</duration></note>'.
 	note := self xmlParser parseNote: xmlNote.

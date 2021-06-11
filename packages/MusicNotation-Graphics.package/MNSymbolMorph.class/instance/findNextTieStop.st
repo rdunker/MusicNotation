@@ -1,4 +1,4 @@
-as yet unclassified
+calculating
 findNextTieStop
 	| note |
 	note := self nextSymbol.

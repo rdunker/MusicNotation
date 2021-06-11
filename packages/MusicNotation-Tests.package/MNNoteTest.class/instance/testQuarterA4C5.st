@@ -1,6 +1,6 @@
 tests
 testQuarterA4C5
-
+	"Ignore while linting"
 	| note pitchA4 pitchC5 |
 	pitchA4 := MNPitch new
 		octave: 4;

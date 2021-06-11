@@ -1,6 +1,5 @@
 tests
 testMeasurePrelude
-	
 	| context |
 	context := MNContext new.
 	context addMeasure.

@@ -1,6 +1,5 @@
-as yet unclassified
+drawing
 draw
-
 	| start mid end|
 
 	start := (self calculateNotePosition: self startNote).

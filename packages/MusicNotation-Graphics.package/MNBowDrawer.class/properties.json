@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "RAD 6/11/2021 19:08",
 	"instvars" : [
 		"bowDownwards" ],
 	"name" : "MNBowDrawer",

@@ -1,5 +1,6 @@
 tests
 testWriteProjectWithSingleNote
+	"Ignore while linting"
 	| project part measure note parsedProject parsedNote xml |
 
 	project := MNProject new.

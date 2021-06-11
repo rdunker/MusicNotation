@@ -1,5 +1,6 @@
 opening
 openTutorial
+	"Ignore while linting"
 	^ self openContents: '"Tutorial - James Bond"
 	
 | coolBass |

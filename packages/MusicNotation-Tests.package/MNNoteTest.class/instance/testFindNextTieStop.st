@@ -1,6 +1,6 @@
 tests
 testFindNextTieStop
-
+	"Ignore while linting"
 	| measure note1 note2 note3 test |
 		
 	note1 := MNNote new
