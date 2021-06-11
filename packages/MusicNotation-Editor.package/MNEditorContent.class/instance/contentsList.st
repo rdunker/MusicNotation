@@ -1,3 +1,6 @@
 content list
 contentsList
-	^ self splitIntoStatements: self text.
+	| contentSplitter |
+	
+	contentSplitter := MNEditorContentSplitter content: self text.
+	^ contentSplitter splitIntoStatements.

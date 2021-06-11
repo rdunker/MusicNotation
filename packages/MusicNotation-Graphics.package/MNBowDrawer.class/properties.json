@@ -4,14 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "RAD 6/11/2021 19:08",
 	"instvars" : [
-		"canvas",
-		"startNote",
-		"endNote",
 		"bowDownwards" ],
 	"name" : "MNBowDrawer",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "MNMultiObjectDrawer",
 	"type" : "normal" }

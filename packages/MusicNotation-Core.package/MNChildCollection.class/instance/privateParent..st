@@ -1,3 +1,3 @@
 accessing
 privateParent: anObject
-	parent := anObject.
+	self parent: anObject.

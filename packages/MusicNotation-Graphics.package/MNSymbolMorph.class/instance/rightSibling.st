@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 rightSibling
 	^ self siblings after: self ifAbsent: nil

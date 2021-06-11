@@ -1,3 +1,3 @@
 accessing
 notes: aCollection
-	self children: aCollection.
+	self childrenReplaceWith: aCollection.

@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"allSymbols" : "MP 5/28/2021 16:59",
+		"allSymbols" : "OS 6/10/2021 18:38",
 		"associationAt:ifAbsent:" : "mgjm 7/1/2019 14:55",
 		"at:" : "mgjm 7/1/2019 17:06",
 		"at:put:" : "mgjm 7/1/2019 17:06",
@@ -11,12 +11,12 @@
 		"bindingOf:ifAbsent:" : "mgjm 7/1/2019 14:40",
 		"bindings" : "mgjm 7/1/2019 14:41",
 		"bindings:" : "mgjm 7/1/2019 14:41",
-		"compile:" : "MP 5/28/2021 17:04",
+		"compile:" : "OS 6/10/2021 18:23",
 		"compileMethod:" : "MP 5/28/2021 17:02",
 		"context" : "mgjm 7/1/2019 14:41",
-		"context:" : "mgjm 7/1/2019 14:41",
-		"hasBindingOf:" : "mgjm 7/1/2019 17:04",
-		"hasBindingThatBeginsWith:" : "mgjm 7/1/2019 17:04",
+		"context:" : "RAD 6/11/2021 19:29",
+		"hasBindingOf:" : "RAD 6/11/2021 19:29",
+		"hasBindingThatBeginsWith:" : "RAD 6/11/2021 19:29",
 		"initialize" : "mgjm 7/1/2019 18:48",
 		"initializePitchBindings" : "mgjm 7/3/2019 16:04",
 		"setPitchBinding:" : "mgjm 7/1/2019 14:47" } }

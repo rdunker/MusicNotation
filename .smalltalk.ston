@@ -1,7 +1,4 @@
-
- SmalltalkCISpec {
-
-  #preLoading : 'scripts/preLoading.st',
+SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'MusicNotation',
@@ -9,14 +6,5 @@
       #directory : 'packages',
       #load : [ 'tests' ]
     }
-  ],
-   #testing : {
-    #coverage : {
-      #packages : [ 'MusicNotation-Core', 'MusicNotation-Scripting', 'MusicNotation-Editor', 'MusicNotation-Player', 'MusicNotation-XML', 'MusicNotation-Graphics' ]
-    },
-    #exclude : {
-      #classes : [ #MNLinterTests ]
-    },
-    #defaultTimeout : 60
-  }
+  ]
 }

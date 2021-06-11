@@ -6,7 +6,10 @@
 	"instance" : {
 		"baseLineWidth" : "mgjm 5/25/2019 06:57",
 		"baseNoteLineHeight" : "mgjm 5/24/2019 22:20",
+		"canvas" : "RAD 6/5/2021 18:03",
+		"canvas:" : "RAD 6/5/2021 18:03",
 		"defaultScale" : "mgjm 5/24/2019 23:04",
+		"drawOn:" : "RAD 6/5/2021 18:03",
 		"flexBase" : "mgjm 6/4/2019 18:48",
 		"flexGrow" : "mgjm 6/4/2019 18:49",
 		"flexInset" : "mgjm 6/5/2019 04:18",
@@ -17,5 +20,5 @@
 		"noteLineHeight" : "mgjm 5/24/2019 22:24",
 		"scale" : "mgjm 5/24/2019 22:25",
 		"scale:" : "mgjm 6/5/2019 02:21",
-		"scaleChanged" : "mgjm 6/5/2019 02:21",
+		"scaleChanged" : "OS 6/10/2021 18:24",
 		"widthOfCodePoint:" : "mgjm 6/19/2019 01:44" } }

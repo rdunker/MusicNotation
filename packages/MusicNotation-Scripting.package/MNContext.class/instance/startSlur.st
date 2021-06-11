@@ -1,3 +1,3 @@
 accessing
 startSlur
-    self lastNote slurStart: true.
+	self lastNote slurStart: true.

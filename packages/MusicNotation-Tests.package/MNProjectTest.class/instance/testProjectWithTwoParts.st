@@ -1,6 +1,6 @@
 tests
 testProjectWithTwoParts
-
+	"Ignore while linting"
 	| pitch note measure project part1 part2 |
 	pitch := MNPitch new
 		octave: 4;

@@ -1,0 +1,1 @@
+I am a MNBowDrawer used to draw ties and slurs between two notes.

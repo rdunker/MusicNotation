@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mm 7/26/2019 12:37",
+	"instvars" : [
+		"barLineCodePoint" ],
+	"name" : "MNBarLineMorph",
+	"pools" : [
+		 ],
+	"super" : "MNSingleSymbolMorph",
+	"type" : "normal" }

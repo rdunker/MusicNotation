@@ -1,5 +1,6 @@
 opening
 openTutorial
+	"Ignore while linting"
 	^ self openContents: '"Tutorial - James Bond"
 	
 | coolBass |
@@ -50,7 +51,6 @@ e3 + g3 + b3 + f4s / 2.
 self measure timeNumerator: 5 denominator: 4.
 
 "add new track"
-project addPart: (MNPart new addMeasure: MNMeasure new).
 self measure keyFifths: 2.
 
 "change clef"
@@ -58,9 +58,7 @@ self measure clef:( MNClef new sign: $f; line: 4).
 
 "create pattern"
 coolBass := {b2 . e1 . c3 . e1 . c3s . e1 . c3 . e1}.
-2 timesRepeat: [ coolBass / 4].
+"2 timesRepeat: [ coolBass / 4]."
 
 "play the song"
  project asSound play'
-
-

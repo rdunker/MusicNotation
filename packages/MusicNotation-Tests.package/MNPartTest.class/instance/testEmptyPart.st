@@ -1,6 +1,5 @@
 tests
 testEmptyPart
-
 	| part |
 	part := MNPart new.
 	

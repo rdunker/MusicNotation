@@ -1,3 +1,3 @@
 accessing
-withFifths: fifths
-	self fifths: fifths.
+withFifths: anInteger
+	self fifths: anInteger.

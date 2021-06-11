@@ -1,3 +1,3 @@
 accessing
-tieStart: Boolean
-	tieStart := Boolean
+tieStart: aBoolean
+	tieStart := aBoolean

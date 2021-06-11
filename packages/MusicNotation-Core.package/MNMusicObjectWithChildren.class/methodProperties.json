@@ -3,11 +3,12 @@
 		"childClass" : "mgjm 6/12/2019 07:44" },
 	"instance" : {
 		"children" : "mgjm 6/12/2019 07:38",
-		"children:" : "mgjm 6/12/2019 07:39",
+		"children:" : "OS 6/10/2021 19:54",
 		"childrenAccept:" : "mgjm 6/12/2019 07:46",
-		"copy" : "mgjm 6/12/2019 08:33",
+		"childrenReplaceWith:" : "OS 6/10/2021 19:54",
+		"copy" : "OS 6/10/2021 19:55",
 		"copyEmpty" : "mgjm 6/19/2019 21:22",
 		"explorerContents" : "mgjm 6/12/2019 07:59",
-		"initialize" : "mgjm 6/16/2019 12:12",
-		"postCopy" : "mgjm 6/16/2019 12:12",
+		"initialize" : "OS 6/10/2021 20:00",
+		"postCopy" : "OS 6/10/2021 20:00",
 		"privateAdopt:" : "mgjm 6/12/2019 07:49" } }

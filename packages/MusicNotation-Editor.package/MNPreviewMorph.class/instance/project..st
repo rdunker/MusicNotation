@@ -1,4 +1,4 @@
 accessing
 project: aSelector
-	projectSelector := aSelector.
+	self projectSelector: aSelector.
 	self updateProject.

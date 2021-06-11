@@ -1,9 +1,5 @@
 comparing
 = anObject
-	(anObject isKindOf: MNKey) ifFalse: [ ^ false ].
-	
+	(((anObject isKindOf: MNKey) not) or: [anObject isEmpty]) ifTrue: [ ^ false ].
 	self isEmpty ifTrue: [ ^ anObject isEmpty ].
-	
-	anObject isEmpty ifTrue: [ ^ false ].
-	
 	^ self equalTo: anObject
