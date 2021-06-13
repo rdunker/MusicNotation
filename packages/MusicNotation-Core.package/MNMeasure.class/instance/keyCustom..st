@@ -1,3 +1,3 @@
 accessing
 keyCustom: anOrderedCollection
-	self key: (self key accidentals: anOrderedCollection).
+	self key: (self key withAccidentals: anOrderedCollection).
