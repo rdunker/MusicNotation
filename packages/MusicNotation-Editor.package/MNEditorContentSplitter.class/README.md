@@ -1,0 +1,1 @@
+I am a MNEditorContentSplitter used to split the content of a MNEditorContent into statements.

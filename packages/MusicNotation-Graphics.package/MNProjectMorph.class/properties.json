@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "mm 7/26/2019 12:25",
 	"instvars" : [
-		"project",
-		"canvas" ],
+		"project" ],
 	"name" : "MNProjectMorph",
 	"pools" : [
 		 ],

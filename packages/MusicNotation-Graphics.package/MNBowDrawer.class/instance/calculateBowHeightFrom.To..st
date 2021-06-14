@@ -1,6 +1,5 @@
 accessing
 calculateBowHeightFrom: startPoint To: endPoint
-
 	| heightOffset bowHeight|
 	
 	self bowDownwards ifTrue: [ 

@@ -1,5 +1,6 @@
 default songs
 furElise
+	"Ignore while linting"
 	^ self fromMusicXMLString: '<?xml version="1.0" encoding="UTF-8"?>
 		<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN"
 		  "http://www.musicxml.org/dtds/partwise.dtd">

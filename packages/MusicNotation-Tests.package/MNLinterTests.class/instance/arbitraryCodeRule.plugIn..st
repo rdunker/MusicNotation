@@ -1,6 +1,5 @@
 private
 arbitraryCodeRule: aRule plugIn: aPlugIn
-
 	| failures result |
 
 	failures := ((SLTestRunner new

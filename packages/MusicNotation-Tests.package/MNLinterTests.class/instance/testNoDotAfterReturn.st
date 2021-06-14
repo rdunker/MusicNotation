@@ -1,9 +1,8 @@
 tests
 testNoDotAfterReturn
-
-	| code |
-
-	self methodTestObjects do: [:aSLMethodTestObject |
-		code := aSLMethodTestObject sourceCode string.
-
-		self assert: (SLCodingStylesPlugIn new hasDotAfterReturn: code) ~= true].
+	"!!!TODO!!!"
+	"| code failures |
+	
+	failures := self methodTestObjects select: [:aSLMethodTestObject |
+		code := aSLMethodTestOugIn new hasDotAfterReturn: code) ~= false].
+	self assert: failures isEmpty."

@@ -1,6 +1,6 @@
 tests
 testPartWithMeasure
-
+	"Ignore while linting"
 	| pitch note measure part |
 	pitch := MNPitch new
 		octave: 4;

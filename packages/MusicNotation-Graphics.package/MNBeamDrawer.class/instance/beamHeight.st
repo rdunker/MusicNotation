@@ -1,0 +1,3 @@
+constants
+beamHeight
+	^ 5

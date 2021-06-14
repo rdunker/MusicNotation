@@ -1,6 +1,5 @@
 tests
 testEmptyMeasure
-
 	| measure |
 	measure := MNMeasure new.
 

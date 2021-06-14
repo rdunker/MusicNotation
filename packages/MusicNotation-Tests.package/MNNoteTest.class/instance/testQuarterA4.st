@@ -1,6 +1,5 @@
 tests
 testQuarterA4
-
 	| pitch note |
 	pitch := MNPitch new
 		octave: 4;

@@ -1,19 +1,16 @@
 accessing
 drawOn: aCanvas
-	| endNote |
-	
 	super drawOn: aCanvas.
+	self partMorph changed.
 	
 	self note tieStart ifTrue: [
-		endNote := self findNextTieStop.
-		endNote ifNotNil: [
-			MNBowDrawer canvas: self projectCanvas startNote: self endNote: endNote.
-		]
+		self drawMultiObjectEndNote: self findNextTieStop.
 	].
 
 	self note slurStart ifTrue: [
-		endNote := self findNextSlurStop.
-		endNote ifNotNil: [
-			MNBowDrawer canvas: self projectCanvas startNote: self endNote: endNote.
-		]
+		self drawMultiObjectEndNote: self findNextSlurStop.
+	].
+
+	self note beamStart ifTrue: [
+		self drawMultiObjectEndNote: self findNextBeamStop.
 	].

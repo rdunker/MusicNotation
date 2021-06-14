@@ -1,6 +1,5 @@
 tests
 testMeasureAfterPrelude
-	
 	| context |
 	context := MNContext new.
 	context addMeasure.
@@ -8,5 +7,3 @@ testMeasureAfterPrelude
 	context prelude. 
 	
 	self assert: true equals: context measure isAfterPrelude.
-	
-	

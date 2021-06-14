@@ -1,3 +1,3 @@
 accessing
 measures: aCollection
-	self children: aCollection.
+	self childrenReplaceWith: aCollection.

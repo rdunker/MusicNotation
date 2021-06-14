@@ -1,12 +1,12 @@
 drawing
 drawOn: aCanvas
-	| canvas |
-	canvas := aCanvas asBalloonCanvas
+	| balloonCanvas |
+	balloonCanvas := aCanvas asBalloonCanvas
 		aaLevel: 4;
 		copyClipRect: self bounds.
 	
 	MNSmuflDrawer new
-		canvas: canvas;
+		canvas: balloonCanvas;
 		color: self color;
 		font: self font;
 		position: self leftCenter;

@@ -1,5 +1,6 @@
 accessing
 newBravura
+	"Ignore while linting"
 	| font |
 	font := MNSmuflFont new.
 	font bounds: (-434 @ 1951 corner: 2319 @ -1992).

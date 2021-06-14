@@ -1,6 +1,6 @@
 tests
 testQuarterA4C5
-
+	"Ignore while linting"
 	| note pitchA4 pitchC5 |
 	pitchA4 := MNPitch new
 		octave: 4;
@@ -22,4 +22,3 @@ testQuarterA4C5
 	self assert: pitchA4 equals: note pitches first.
 	self assert: pitchC5 equals: note pitches second.
 	self assert: 2 equals: note pitches size.
-	

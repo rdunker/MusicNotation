@@ -2,4 +2,4 @@ copying
 postCopy
 	super postCopy.
 	
-	children := MNChildCollection parent: self.
+	self children: (MNChildCollection parent: self).
