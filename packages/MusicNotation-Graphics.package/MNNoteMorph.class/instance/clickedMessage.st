@@ -1,4 +1,3 @@
 accessing
 clickedMessage
-
 	^ self note

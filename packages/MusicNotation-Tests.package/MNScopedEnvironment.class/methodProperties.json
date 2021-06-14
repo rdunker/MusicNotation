@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"newFor:test:plugIn:" : "RAD 6/11/2021 17:43" },
+	"instance" : {
+		"fetchClasses:" : "RAD 6/11/2021 17:36",
+		"initializeForClasses:test:plugIn:" : "RAD 6/11/2021 17:36",
+		"loadTest:plugIn:" : "RAD 6/11/2021 17:36",
+		"systemClasses:" : "RAD 6/11/2021 17:36" } }

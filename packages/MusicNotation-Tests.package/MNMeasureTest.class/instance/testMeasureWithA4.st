@@ -1,6 +1,5 @@
 tests
 testMeasureWithA4
-
 	| pitch note measure |
 	pitch := MNPitch new
 		octave: 4;
@@ -18,5 +17,3 @@ testMeasureWithA4
 		
 	self assert: note equals: measure notes first.
 	self assert: 1 equals: measure notes size.
-	
-	

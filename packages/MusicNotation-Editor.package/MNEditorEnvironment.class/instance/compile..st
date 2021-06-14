@@ -6,4 +6,3 @@ compile: textOrStream
 		environment: self
 		notifying: nil
 		ifFail: nil.
-	

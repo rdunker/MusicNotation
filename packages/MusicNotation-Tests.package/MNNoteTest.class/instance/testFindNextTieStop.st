@@ -1,6 +1,6 @@
 tests
 testFindNextTieStop
-
+	"Ignore while linting"
 	| measure note1 note2 note3 test |
 		
 	note1 := MNNote new
@@ -26,4 +26,3 @@ testFindNextTieStop
 	test := measure notes first findNextTieStop.
 		
 	self assert: test equals: measure notes last.
-	

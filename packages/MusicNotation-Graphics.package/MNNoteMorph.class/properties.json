@@ -7,9 +7,7 @@
 	"commentStamp" : "mm 7/26/2019 12:30",
 	"instvars" : [
 		"note",
-		"noteLayout",
-		"project",
-		"projectCanvas" ],
+		"noteLayout" ],
 	"name" : "MNNoteMorph",
 	"pools" : [
 		 ],

@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MNScopedEnvironment",
+	"pools" : [
+		 ],
+	"super" : "SLEnvironment",
+	"type" : "normal" }

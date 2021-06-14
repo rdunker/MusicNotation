@@ -1,3 +1,3 @@
 updating
 update
-	lastHash := self hash.
+	self lastHash: self hash.

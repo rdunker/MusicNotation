@@ -1,6 +1,5 @@
 accessing
 accidentalsWidth: aMNNoteMorph
-
 	| widthFactor |
 
 	widthFactor := 0.3.

@@ -1,5 +1,6 @@
 tests
 testContentsList
+	"Ignore while linting"
 	| editor |
 	editor := MNEditor new.
 	editor updateContents: 'g4/8.g4/8.'.
@@ -20,6 +21,3 @@ testContentsList
 	
 	editor updateContents: '"Alle meine Entchen"c4/8.'.
 	self assert: editor content contentsList = #('"Alle meine Entchen"' 'c4/8.') asOrderedCollection.
-	
-
-

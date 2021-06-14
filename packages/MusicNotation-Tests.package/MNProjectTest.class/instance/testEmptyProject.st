@@ -1,6 +1,5 @@
 tests
 testEmptyProject
-
 	| project |
 	project := MNProject new.
 	

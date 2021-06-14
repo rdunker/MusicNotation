@@ -1,6 +1,6 @@
 tests
 testPartWithTwoMeasures
-
+	"Ignore while linting"
 	| pitch note measure1 part measure2 |
 	pitch := MNPitch new
 		octave: 4;
@@ -25,4 +25,3 @@ testPartWithTwoMeasures
 			
 	self assert: measure1 equals: part measures first.
 	self assert: 2 equals: part measures size.
-	

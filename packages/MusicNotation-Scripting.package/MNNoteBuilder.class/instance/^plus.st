@@ -1,8 +1,8 @@
 arithmetic
 + aNoteBuilder
-	| pitches |
+	| notePitches |
 	self context = aNoteBuilder context
 		ifFalse: [ MNInvalidValue for: aNoteBuilder at: #context description: 'contexts must be equal' ].
-	pitches := self pitches copy.
-	pitches addAll: aNoteBuilder pitches.
-	^ self class context: self context pitches: pitches
+	notePitches := self pitches copy.
+	notePitches addAll: aNoteBuilder pitches.
+	^ self class context: self context pitches: notePitches
