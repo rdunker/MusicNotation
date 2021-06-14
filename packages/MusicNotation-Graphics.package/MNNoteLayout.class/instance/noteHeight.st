@@ -1,4 +1,3 @@
 accessing
 noteHeight
-
-	^ self lines at: 1
+	^ self lines first

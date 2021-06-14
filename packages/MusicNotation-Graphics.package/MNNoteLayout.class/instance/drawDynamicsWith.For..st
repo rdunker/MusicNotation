@@ -1,6 +1,5 @@
 drawing
 drawDynamicsWith: aDrawer For: aMNNote
-
 		| xOffset yOffset |
 		
 		xOffset := -250. 

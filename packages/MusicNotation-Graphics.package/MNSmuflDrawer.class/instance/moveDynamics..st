@@ -1,3 +1,3 @@
 drawing
-moveDynamics: offset
-	self position: self position + ((offset) * self fontScale)
+moveDynamics: aPoint
+	self position: self position + ((aPoint) * self fontScale)

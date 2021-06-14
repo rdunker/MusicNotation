@@ -1,3 +1,3 @@
 tests
 testNoUnreferencedVariables
-	self arbitraryCodeRule: #smallLintExcessiveVariables.
+	self arbitraryCodeRule: #smallLintUnreferencedVariables.

@@ -1,3 +1,3 @@
 accessing
 setDynamics: aString
-       self lastNote dynamics: aString.
+	self lastNote dynamics: aString.
