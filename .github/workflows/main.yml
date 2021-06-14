@@ -22,4 +22,3 @@ jobs:
         env:
           # for uploading coverage reports
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-© 2021 GitHub, Inc.
