@@ -28,7 +28,7 @@
 		"testNoDotAfterReturn" : "RAD 6/11/2021 20:23",
 		"testNoUnclassifiedMethods" : "RAD 6/11/2021 17:30",
 		"testNoUnconditionalRecursion" : "RAD 6/11/2021 17:39",
-		"testNoUnreferencedVariables" : "RAD 6/11/2021 17:39",
+		"testNoUnreferencedVariables" : "ld 6/14/2021 19:11",
 		"testSmallLintContains" : "RAD 6/11/2021 17:39",
 		"testTemporaryVariableCapitalization" : "RAD 6/11/2021 20:16",
 		"testsmallLintClassVariableCapitalization" : "RAD 6/11/2021 17:39",
