@@ -7,6 +7,7 @@
 	"commentStamp" : "fb 7/26/2019 12:08",
 	"instvars" : [
 		"duration",
+		"dynamics",
 		"tieStart",
 		"tieStop",
 		"slurStart",
