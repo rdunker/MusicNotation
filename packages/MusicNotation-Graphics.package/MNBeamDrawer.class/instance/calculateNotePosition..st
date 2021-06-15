@@ -1,3 +1,6 @@
 calculation
 calculateNotePosition: aMNNoteMorph
- 	^ (aMNNoteMorph center x + (self noteHeadWith/2) @ ((aMNNoteMorph center y) + (self noteHeight: aMNNoteMorph)))
+ 	| positionOffset |
+	
+	positionOffset := 10.
+	^ (aMNNoteMorph position x + (self noteHeadWith/2) + positionOffset @ ((aMNNoteMorph center y) + (self noteHeight: aMNNoteMorph)))

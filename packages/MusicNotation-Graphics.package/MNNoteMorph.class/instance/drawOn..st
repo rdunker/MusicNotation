@@ -4,13 +4,13 @@ drawOn: aCanvas
 	self partMorph changed.
 	
 	self note tieStart ifTrue: [
-		self drawMultiObjectEndNote: self findNextTieStop.
+		self drawMultiObjectTo: self findNextTieStop type: #tie.
 	].
 
 	self note slurStart ifTrue: [
-		self drawMultiObjectEndNote: self findNextSlurStop.
+		self drawMultiObjectTo: self findNextSlurStop type: #slur.
 	].
 
 	self note beamStart ifTrue: [
-		self drawMultiObjectEndNote: self findNextBeamStop.
+		self drawMultiObjectTo: self findNextBeamStop type: #beam.
 	].
