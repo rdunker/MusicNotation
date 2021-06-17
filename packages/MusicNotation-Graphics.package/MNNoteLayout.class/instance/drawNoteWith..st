@@ -10,7 +10,7 @@ drawNoteWith: aDrawer
 	
 	(self note baseDuration < 1)
 		ifTrue: [ self drawStemWith: aDrawer ].
-	self drawFlagWith: aDrawer.
+	(self drawFlag) ifTrue: [self drawFlagWith: aDrawer].
 	
 	self drawNoteheads: self rightNoteheads with: aDrawer.
 	aDrawer move: (self rightWidthFor: aDrawer font).

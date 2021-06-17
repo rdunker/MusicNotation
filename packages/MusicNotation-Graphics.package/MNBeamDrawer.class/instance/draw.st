@@ -5,7 +5,7 @@ draw
 	start := (self calculateNotePosition: self startNote).
 	end := (self calculateNotePosition: self endNote).
 
-	self canvas drawRectangle: (start extent: (end x - start x)@ self beamHeight)
-		color: Color black
-			borderWidth: 0
-			borderColor: nil.
+	self startNote noteLayout drawFlag: false.
+	self endNote noteLayout drawFlag: false.
+	
+	self canvas line: (start + (2.5@2.5)) to: (end + (-2.5@2.5)) width: (self beamHeight) color: (Color black).

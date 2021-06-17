@@ -11,6 +11,4 @@ drawOn: aCanvas
 		self drawMultiObjectTo: self findNextSlurStop type: #slur.
 	].
 
-	self note beamStart ifTrue: [
-		self drawMultiObjectTo: self findNextBeamStop type: #beam.
-	].
+	self testBeams.
