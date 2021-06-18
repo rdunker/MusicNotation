@@ -1,3 +1,3 @@
 constants
 beamHeight
-	^ 4
+	^ 3

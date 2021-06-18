@@ -8,12 +8,9 @@ drawLines: anInteger
 	
 	self startNote noteLayout drawFlag: false.
 	self endNote noteLayout drawFlag: false.
+	self startNote nextSymbol noteLayout drawFlag: false.
+	self endNote lastSymbol noteLayout drawFlag: false.
 	
 	0 to: anInteger - 1 do: [ :index |
-			self canvas line: (start + ((self beamHeight/2.0)@((self beamHeight/2.0) + (index * startNote noteLineHeight/2)))) to: (end + ((self beamHeight/2.0 * -1)@((self beamHeight/2.0) + (index * endNote noteLineHeight/2)))) width: (self beamHeight) color: (Color black).
+			self canvas line: (start + ((self beamHeight/2.0)@((self beamHeight/2.0) + (index * startNote noteLineHeight/1.5)))) to: (end + ((self beamHeight/2.0 * -1)@((self beamHeight/2.0) + (index * endNote noteLineHeight/1.5)))) width: (self beamHeight) color: (Color black).
 		].
-
-	"self canvas drawRectangle: (start extent: (end x - start x)@ self beamHeight)
-		color: Color black
-			borderWidth: 0
-			borderColor: nil."

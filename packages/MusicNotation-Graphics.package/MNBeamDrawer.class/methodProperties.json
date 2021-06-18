@@ -4,11 +4,11 @@
 		"canvas:startNote:endNote:lines:" : "OS 6/17/2021 20:54",
 		"canvas:startNote:endNote:lines:height:" : "OS 6/17/2021 22:44" },
 	"instance" : {
-		"beamHeight" : "OS 6/17/2021 21:38",
+		"beamHeight" : "NH 6/18/2021 18:03",
 		"calculateNotePosition:" : "OS 6/15/2021 13:22",
 		"draw" : "OS 6/17/2021 22:13",
-		"drawLines:" : "OS 6/17/2021 22:21",
-		"drawLines:height:" : "OS 6/17/2021 23:32",
+		"drawLines:" : "NH 6/18/2021 18:04",
+		"drawLines:height:" : "NH 6/18/2021 16:24",
 		"noteHeadWith" : "RAD 6/5/2021 18:47",
-		"noteHeight:" : "RAD 6/11/2021 19:35",
+		"noteHeight:" : "NH 6/18/2021 16:16",
 		"noteHeightTest:" : "OS 6/17/2021 22:57" } }

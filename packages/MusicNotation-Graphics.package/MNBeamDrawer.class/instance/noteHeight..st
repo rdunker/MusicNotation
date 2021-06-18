@@ -2,5 +2,5 @@ calculation
 noteHeight: aMNNoteMorph
 	| lineOffset |
 	
-	lineOffset := -3.5.
+	lineOffset := aMNNoteMorph noteLayout stemLength.
 	^ aMNNoteMorph noteLineHeight * ((aMNNoteMorph noteLayout lines first) + lineOffset)
