@@ -1,8 +1,9 @@
 evaluating
 evaluateStatement: anInteger in: aMNEditorEnviroment
-	| newStatus |
+	| newStatus statementWithVariables |
 
-	newStatus := self evaluateToStatus: (self statementMethodCode: (self content contentsList at: anInteger)) in: aMNEditorEnviroment.
+	statementWithVariables := self addVariableStatements: (self statementAt: anInteger).
+	newStatus := self evaluateToStatus: (self statementMethodCode:  statementWithVariables) in: aMNEditorEnviroment.
 	newStatus isSuccess
 		ifTrue: [ self project: aMNEditorEnviroment context project.
 				self status: newStatus]
