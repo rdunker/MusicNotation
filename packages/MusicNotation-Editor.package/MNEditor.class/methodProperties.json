@@ -3,7 +3,8 @@
 		"open" : "mgjm 7/1/2019 18:02",
 		"openAlleMeineEntchen" : "ld 5/23/2021 19:55",
 		"openContents:" : "RAD 5/27/2021 14:20",
-		"openTutorial" : "RAD 6/11/2021 18:29" },
+		"openTutorial" : "RAD 6/11/2021 18:29",
+		"openTutorial2" : "LH 6/26/2021 15:03" },
 	"instance" : {
 		"aboutToStyle:" : "mgjm 7/1/2019 14:59",
 		"addModelItemsToWindowMenu:" : "mgjm 7/1/2019 18:57",
@@ -29,7 +30,7 @@
 		"doItReceiver" : "mgjm 7/1/2019 19:03",
 		"editorLabel" : "mgjm 7/1/2019 14:14",
 		"environment" : "mgjm 7/1/2019 19:03",
-		"evaluate:in:" : "LH 6/26/2021 14:57",
+		"evaluate:in:" : "LH 6/26/2021 15:07",
 		"evaluateContentList" : "MP 5/28/2021 16:33",
 		"evaluateStatement:in:" : "LH 6/26/2021 14:58",
 		"evaluateToStatus:in:" : "mgjm 7/1/2019 17:31",

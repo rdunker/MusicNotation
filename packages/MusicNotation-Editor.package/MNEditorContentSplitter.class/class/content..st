@@ -5,4 +5,5 @@ content: aString
 		list: OrderedCollection new;
 		statement: '';
 		waitingFor: Stack new;
+		localVariables: Dictionary new;
 		yourself.
