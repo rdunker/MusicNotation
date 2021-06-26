@@ -7,6 +7,9 @@
 	"instance" : {
 		"aboutToStyle:" : "mgjm 7/1/2019 14:59",
 		"addModelItemsToWindowMenu:" : "mgjm 7/1/2019 18:57",
+		"addNewVariableStatement:" : "LH 6/26/2021 14:53",
+		"addVariableStatement:" : "LH 6/26/2021 14:53",
+		"addVariableStatements:" : "LH 6/26/2021 14:54",
 		"buildCodePaneWith:" : "RAD 5/27/2021 14:19",
 		"buildEditorPaneWith:" : "mgjm 7/5/2019 20:53",
 		"buildEditorWith:" : "mgjm 7/1/2019 15:12",
@@ -18,6 +21,8 @@
 		"content" : "RAD 6/11/2021 17:42",
 		"content:" : "RAD 6/11/2021 17:42",
 		"createEnvironment" : "mgjm 7/1/2019 14:37",
+		"createNewVariableStatement:" : "LH 6/26/2021 14:54",
+		"createVariableStatement:" : "LH 6/26/2021 14:55",
 		"defaultWindowColor" : "mgjm 6/25/2019 18:01",
 		"doItEnvironment" : "mgjm 7/1/2019 19:03",
 		"doItEnvironment:" : "mgjm 7/1/2019 18:52",
