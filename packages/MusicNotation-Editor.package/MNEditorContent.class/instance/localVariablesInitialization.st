@@ -1,4 +1,4 @@
-content list
+local variables
 localVariablesInitialization
 	| localVariablesInitialization |
 

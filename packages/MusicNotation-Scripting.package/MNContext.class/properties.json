@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "fb 7/26/2019 12:15",
 	"instvars" : [
-		"project" ],
+		"project",
+		"localVariables" ],
 	"name" : "MNContext",
 	"pools" : [
 		 ],

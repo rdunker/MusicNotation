@@ -2,4 +2,4 @@ evaluating
 addVariableStatement: aString
 	(aString includesSubstring: '|')
 		ifTrue: [^ aString]
-		ifFalse: [^ (self createVariableStatement: aString), aString].
+		ifFalse: [^ self content localVariablesBlock, aString].

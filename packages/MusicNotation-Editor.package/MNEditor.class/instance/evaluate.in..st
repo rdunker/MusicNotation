@@ -6,6 +6,6 @@ evaluate: textOrStream in: anEnvironment
 	oldSymbols:= anEnvironment allSymbols.
 
 	returnValue := anEnvironment context executeMethod: method.
-	self content localVariables: returnValue.
+	anEnvironment context localVariables: returnValue.
 	Transcript show: returnValue.
 	self content addToStatementMapping: (anEnvironment context symbolsNotIn: oldSymbols).
