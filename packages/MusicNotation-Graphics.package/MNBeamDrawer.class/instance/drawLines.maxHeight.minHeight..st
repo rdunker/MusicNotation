@@ -1,16 +1,16 @@
 drawing
-drawLines: anInteger height: aFloat
+drawLines: anInteger maxHeight: maxFloat minHeight: minFloat
 	| start end|
 
 	
 	self startNote noteLayout drawFlag: false.
 	self endNote noteLayout drawFlag: false.
-	self startNote noteLayout stemLength: (self startNote noteLayout lines first + 100) - (aFloat + 100) + 3.5.
-	self endNote noteLayout stemLength: (self endNote noteLayout lines first + 100) - (aFloat + 100) +  3.5.
+	self startNote noteLayout stemLength: (self stemOffset: self startNote maxHeight: maxFloat minHeight: minFloat).
+	self endNote noteLayout stemLength: (self stemOffset: self endNote maxHeight: maxFloat minHeight: minFloat).
 	self startNote nextSymbol noteLayout drawFlag: false.
 	self endNote lastSymbol noteLayout drawFlag: false.
-	self startNote nextSymbol noteLayout stemLength: (self startNote nextSymbol noteLayout lines first + 100) - (aFloat + 100) + 3.5.
-	self endNote lastSymbol noteLayout stemLength: (self endNote lastSymbol noteLayout lines first + 100) - (aFloat + 100) +  3.5.
+	self startNote nextSymbol noteLayout stemLength: (self stemOffset: self startNote nextSymbol maxHeight: maxFloat minHeight: minFloat).
+	self endNote lastSymbol noteLayout stemLength: (self stemOffset: self endNote lastSymbol maxHeight: maxFloat minHeight: minFloat).
 	start := (self calculateNotePosition: self startNote).
 	end := (self calculateNotePosition: self endNote).	
 
