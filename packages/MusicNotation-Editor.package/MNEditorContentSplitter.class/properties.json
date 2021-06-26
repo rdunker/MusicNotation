@@ -9,7 +9,8 @@
 		"content",
 		"waitingFor",
 		"list",
-		"statement" ],
+		"statement",
+		"localVariables" ],
 	"name" : "MNEditorContentSplitter",
 	"pools" : [
 		 ],

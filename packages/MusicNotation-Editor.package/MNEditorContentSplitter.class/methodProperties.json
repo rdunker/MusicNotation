@@ -2,10 +2,14 @@
 	"class" : {
 		"content:" : "RAD 6/11/2021 18:18" },
 	"instance" : {
+		"addLocalVariable:" : "LH 6/26/2021 14:49",
 		"content" : "RAD 6/11/2021 18:04",
 		"content:" : "RAD 6/11/2021 18:04",
+		"findLocalVariables" : "LH 6/26/2021 14:50",
 		"list" : "RAD 6/11/2021 18:04",
 		"list:" : "RAD 6/11/2021 18:04",
+		"localVariables" : "LH 6/26/2021 14:48",
+		"localVariables:" : "LH 6/26/2021 14:48",
 		"pushBracketsToStack:" : "RAD 6/11/2021 18:13",
 		"splitAfterQuotes" : "RAD 6/11/2021 18:26",
 		"splitAfterSymbol:" : "RAD 6/11/2021 18:55",
