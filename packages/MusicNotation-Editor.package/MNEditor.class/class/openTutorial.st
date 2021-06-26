@@ -58,7 +58,7 @@ self measure clef:( MNClef new sign: $f; line: 4).
 
 "create pattern"
 coolBass := {b2 . e1 . c3 . e1 . c3s . e1 . c3 . e1}.
-"2 timesRepeat: [ coolBass / 4]."
+2 timesRepeat: [ coolBass / 4].
 
 "play the song"
  project asSound play'
