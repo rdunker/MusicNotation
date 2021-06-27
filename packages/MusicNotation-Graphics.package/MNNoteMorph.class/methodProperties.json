@@ -2,9 +2,13 @@
 	"class" : {
 		"note:" : "LH 5/12/2021 22:11" },
 	"instance" : {
+		"addToBeam:position:" : "NH 6/27/2021 20:30",
+		"beam" : "NH 6/27/2021 18:43",
+		"beam:" : "NH 6/27/2021 18:29",
 		"clickedMessage" : "RAD 6/11/2021 17:34",
-		"drawMultiObjectTo:type:" : "OS 6/17/2021 20:56",
-		"drawOn:" : "OS 6/17/2021 21:19",
+		"drawBeam" : "NH 6/27/2021 20:31",
+		"drawBowTo:" : "NH 6/27/2021 20:04",
+		"drawOn:" : "NH 6/27/2021 20:05",
 		"drawable" : "mgjm 6/18/2019 16:22",
 		"flexBase" : "fb 7/25/2019 13:13",
 		"flexGrow" : "mgjm 6/19/2019 01:44",
@@ -12,14 +16,11 @@
 		"ignoreBeam" : "OS 6/17/2021 21:59",
 		"ignoreBeam:" : "OS 6/17/2021 21:58",
 		"initialize" : "MP 5/20/2021 19:53",
-		"maxHeight" : "NH 6/18/2021 01:59",
-		"maxHeight:" : "NH 6/18/2021 01:58",
-		"minNoteHeight" : "OS 6/26/2021 15:39",
-		"minNoteHeight:" : "OS 6/26/2021 15:40",
+		"isPause" : "NH 6/27/2021 20:09",
 		"musicObject" : "MP 5/28/2021 17:34",
 		"note" : "mgjm 5/24/2019 22:01",
 		"note:" : "mgjm 5/25/2019 19:51",
 		"noteLayout" : "mgjm 5/26/2019 17:24",
 		"noteLayout:" : "mgjm 5/25/2019 19:50",
 		"partCanvas" : "RAD 6/11/2021 17:35",
-		"testBeams" : "OS 6/26/2021 16:08" } }
+		"shouldAddToBeam:position:" : "NH 6/27/2021 20:32" } }

@@ -1,11 +1,12 @@
 drawing
 draw
-	| start end|
-
-	start := (self calculateNotePosition: self startNote).
-	end := (self calculateNotePosition: self endNote).
-
-	self startNote noteLayout drawFlag: false.
-	self endNote noteLayout drawFlag: false.
+	| end start |
 	
-	self canvas line: (start + (2.5@2.5)) to: (end + (-2.5@2.5)) width: (self beamHeight) color: (Color black).
+	self removeFlags.
+	self isDiagonal ifFalse: [self growStems].
+	
+	start := (self calculateNotePosition: self notes last).
+	end := (self calculateNotePosition: self notes first).
+	
+	self drawLinesFrom: start to: end.
+

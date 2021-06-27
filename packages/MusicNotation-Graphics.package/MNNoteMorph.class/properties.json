@@ -9,8 +9,7 @@
 		"note",
 		"noteLayout",
 		"ignoreBeam",
-		"maxHeight",
-		"minNoteHeight" ],
+		"beam" ],
 	"name" : "MNNoteMorph",
 	"pools" : [
 		 ],

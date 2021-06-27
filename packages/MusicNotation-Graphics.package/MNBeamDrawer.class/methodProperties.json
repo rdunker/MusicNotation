@@ -1,13 +1,20 @@
 {
 	"class" : {
-		"canvas:startNote:endNote:lines:" : "OS 6/17/2021 20:54",
-		"canvas:startNote:endNote:lines:maxHeight:minHeight:" : "OS 6/26/2021 15:46" },
+		"canvas:notes:" : "NH 6/27/2021 19:05" },
 	"instance" : {
 		"beamHeight" : "OS 6/26/2021 15:53",
+		"beamNumber" : "NH 6/27/2021 19:33",
 		"calculateNotePosition:" : "OS 6/26/2021 15:59",
-		"draw" : "OS 6/17/2021 22:13",
-		"drawLines:" : "NH 6/18/2021 18:04",
-		"drawLines:maxHeight:minHeight:" : "OS 6/26/2021 15:45",
+		"draw" : "NH 6/27/2021 20:40",
+		"drawLinesFrom:to:" : "NH 6/27/2021 19:37",
+		"growStems" : "NH 6/27/2021 19:29",
+		"isDiagonal" : "NH 6/27/2021 20:51",
+		"isDiagonalTill:pitch:" : "NH 6/27/2021 20:51",
+		"maxHeight" : "NH 6/27/2021 20:39",
+		"minHeight" : "NH 6/27/2021 20:39",
 		"noteHeadWith" : "RAD 6/5/2021 18:47",
 		"noteHeight:" : "NH 6/18/2021 16:16",
-		"stemOffset:maxHeight:minHeight:" : "OS 6/26/2021 15:58" } }
+		"notes" : "NH 6/27/2021 19:18",
+		"notes:" : "NH 6/27/2021 19:18",
+		"removeFlags" : "NH 6/27/2021 19:24",
+		"stemOffset:" : "NH 6/27/2021 19:28" } }
