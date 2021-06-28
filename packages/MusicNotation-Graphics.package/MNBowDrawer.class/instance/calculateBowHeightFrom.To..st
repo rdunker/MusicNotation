@@ -1,4 +1,4 @@
-accessing
+calculating
 calculateBowHeightFrom: startPoint To: endPoint
 	| heightOffset bowHeight|
 	

@@ -1,3 +1,3 @@
-calculation
+calculating
 beamNumber
-	^ (self log2: self notes first note duration denominator) - 2.0
+	^ (self log2: self notes last note duration denominator) - 2.0

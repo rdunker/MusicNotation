@@ -1,4 +1,4 @@
-calculation
+calculating
 noteHeight: aMNNoteMorph
 	| lineOffset |
 	

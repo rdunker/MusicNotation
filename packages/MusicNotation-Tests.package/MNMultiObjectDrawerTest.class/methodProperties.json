@@ -3,10 +3,16 @@
 		 },
 	"instance" : {
 		"createC4" : "OS 6/28/2021 12:18",
+		"createC4:" : "OS 6/28/2021 15:26",
 		"createD5" : "OS 6/28/2021 12:20",
 		"createF4" : "OS 6/28/2021 12:18",
 		"createNoteWithDuration:step:octave:" : "OS 6/28/2021 12:23",
+		"drawer" : "OS 6/28/2021 15:19",
+		"drawer:" : "OS 6/28/2021 15:19",
 		"hiddenCanvas" : "OS 6/28/2021 11:50",
-		"testIsDiagonalOrSamePitch" : "OS 6/28/2021 12:40",
+		"setupBasicBeamDrawer" : "OS 6/28/2021 15:20",
+		"testBeamNumber" : "OS 6/28/2021 15:37",
+		"testIsDiagonalOrSamePitch" : "OS 6/28/2021 15:25",
 		"testMaxHeight" : "OS 6/28/2021 12:20",
-		"testMinHeight" : "OS 6/28/2021 12:21" } }
+		"testMinHeight" : "OS 6/28/2021 12:21",
+		"testRemoveFlags" : "OS 6/28/2021 15:23" } }

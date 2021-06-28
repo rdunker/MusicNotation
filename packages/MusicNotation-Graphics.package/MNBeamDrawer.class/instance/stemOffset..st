@@ -1,4 +1,4 @@
-calculation
+calculating
 stemOffset: aMNNoteMorph
 	| offset |
 	

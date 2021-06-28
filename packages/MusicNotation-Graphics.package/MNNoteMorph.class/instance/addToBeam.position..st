@@ -1,4 +1,4 @@
-accessing
+beams & bows
 addToBeam: aMNNoteMorph position: aNumber
 	(aMNNoteMorph beam) add: self.
 	self ignoreBeam: true.

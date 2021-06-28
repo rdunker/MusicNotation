@@ -1,5 +1,12 @@
-calculation
-drawLinesFrom: startMNNoteMorph to: endMNNoteMorph
+drawing
+drawLinesFrom: startPoint to: endPoint
+	| offset |
+	offset := 0.
 	0 to: (self beamNumber - 1) do: [ :index |
-			self canvas line: (startMNNoteMorph + ((self beamHeight/2.0)@((self beamHeight/2.0) + (index * (self notes last) noteLineHeight/2)))) to: (endMNNoteMorph + ((self beamHeight/2.0 * -1)@((self beamHeight/2.0) + (index * (self notes first) noteLineHeight/2)))) width: (self beamHeight) color: (Color black).
-		].
+		offset := (index * (self notes last) noteLineHeight*0.75).
+		self canvas 
+			line: startPoint + self beamExtent + (0@offset)
+			to: endPoint + self beamExtent + (-2* self beamExtent x@offset)
+			width: self beamHeight
+			color: Color black.
+	].

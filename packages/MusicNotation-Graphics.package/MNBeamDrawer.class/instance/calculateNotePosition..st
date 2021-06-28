@@ -1,4 +1,4 @@
-calculation
+calculating
 calculateNotePosition: aMNNoteMorph
  	| positionOffset |
 	

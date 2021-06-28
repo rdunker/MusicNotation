@@ -1,4 +1,4 @@
-calculating
+siblings
 lastSymbol
 	^ self leftSibling
 		ifNotNilDo: [ :symbol | ^ symbol]
