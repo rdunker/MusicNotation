@@ -1,4 +1,4 @@
-drawing
+calculation
 isDiagonalOrSamePitch
 	| previousNote |
 	previousNote := self notes before: self notes last.

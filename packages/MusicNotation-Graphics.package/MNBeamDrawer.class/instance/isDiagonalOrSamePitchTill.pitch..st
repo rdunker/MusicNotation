@@ -1,4 +1,4 @@
-drawing
+calculation
 isDiagonalOrSamePitchTill: aMNNoteMorph pitch: aFloat 
 	| previousNote |
 	
