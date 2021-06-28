@@ -1,5 +1,6 @@
 opening
 openTutorial2
+	"Ignore while linting"
 	^ self openContents: '"Example Script"
 | notes1 |
 

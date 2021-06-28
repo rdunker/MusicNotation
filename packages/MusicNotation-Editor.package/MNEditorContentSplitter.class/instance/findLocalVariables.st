@@ -1,6 +1,5 @@
 local variables
 findLocalVariables
-	
 	self localVariable: ''.
 	self content do: [ :symbol | 
 		((self topOfStack = $|) and: (symbol = $|))

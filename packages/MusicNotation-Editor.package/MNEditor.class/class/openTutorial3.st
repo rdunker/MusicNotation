@@ -1,5 +1,6 @@
 opening
 openTutorial3
+	"Ignore while linting"
 	^ self openContents: '"Example Script"
 | coolBass |
 

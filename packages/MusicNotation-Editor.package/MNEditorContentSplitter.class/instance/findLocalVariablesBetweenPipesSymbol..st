@@ -4,4 +4,3 @@ findLocalVariablesBetweenPipesSymbol: aCharacter
 		ifTrue: [self findLocalVariablesAfterSpace].
 	(((aCharacter = $ ) or: (aCharacter = $| )) not)
 		ifTrue: [self findLocalVariablesBetweenPipesAfterSymbol: aCharacter].
-	
