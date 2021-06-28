@@ -2,4 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testMaxHeight" : "NH 6/27/2021 19:17" } }
+		"createC4" : "OS 6/28/2021 12:18",
+		"createD5" : "OS 6/28/2021 12:20",
+		"createF4" : "OS 6/28/2021 12:18",
+		"createNoteWithDuration:step:octave:" : "OS 6/28/2021 12:23",
+		"hiddenCanvas" : "OS 6/28/2021 11:50",
+		"testIsDiagonalOrSamePitch" : "OS 6/28/2021 12:40",
+		"testMaxHeight" : "OS 6/28/2021 12:20",
+		"testMinHeight" : "OS 6/28/2021 12:21" } }
