@@ -1,4 +1,4 @@
-evaluating
+statements
 addVariableStatement: aString
 	(aString includesSubstring: '|')
 		ifTrue: [^ aString]

@@ -2,19 +2,9 @@ local variables
 replaceLocalVariable: variableString in: statementString
 	| newStatement |
 
-	newStatement := statementString 
-		copyWithRegex: (variableString, ' *\:=') 
-		matchesReplacedWith: self placeHolder1.
-	newStatement := newStatement 
-		copyWithRegex: ('\|.*', variableString, '.*\|' )
-		matchesReplacedWith: self placeHolder2.
-	newStatement := newStatement
-		copyWithRegex: variableString
-		matchesReplacedWith: '(self localVariables at: ''', variableString, ''')'.
-	newStatement := newStatement
-		copyWithRegex: self placeHolder1
-		matchesReplacedWith: (variableString, ' :=').
-	newStatement := newStatement 
-		copyWithRegex: self placeHolder2 
-		matchesReplacedWith: self localVariablesBlock.
+	newStatement := self replaceRegex: (variableString, ' *\:=') with: self placeHolder1 in: statementString.
+	newStatement := self replaceRegex: ('\|.*', variableString, '.*\|' ) with: self placeHolder2 in: newStatement.
+	newStatement := self replaceRegex: variableString with: '(self localVariables at: ''', variableString, ''')' in: newStatement.
+	newStatement := self replaceRegex: self placeHolder1 with: (variableString, ' :=') in: newStatement.
+	newStatement := self replaceRegex: self placeHolder2 with: self localVariablesBlock in: newStatement.
 	^ newStatement

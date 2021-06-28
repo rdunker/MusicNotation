@@ -1,4 +1,4 @@
-evaluating
+statements
 createNewVariableStatement: aString
 	| newVariableStatement |
 
