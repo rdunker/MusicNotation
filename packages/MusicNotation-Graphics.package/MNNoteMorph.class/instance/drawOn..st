@@ -1,16 +1,15 @@
-accessing
+drawing
 drawOn: aCanvas
 	super drawOn: aCanvas.
 	self partMorph changed.
+	self beam: (OrderedCollection new add: self; yourself).
 	
 	self note tieStart ifTrue: [
-		self drawMultiObjectTo: self findNextTieStop type: #tie.
+		self drawBowTo: self findNextTieStop.
 	].
 
 	self note slurStart ifTrue: [
-		self drawMultiObjectTo: self findNextSlurStop type: #slur.
+		self drawBowTo: self findNextSlurStop.
 	].
 
-	self note beamStart ifTrue: [
-		self drawMultiObjectTo: self findNextBeamStop type: #beam.
-	].
+	self drawBeam.

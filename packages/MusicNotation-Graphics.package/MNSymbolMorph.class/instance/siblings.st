@@ -1,4 +1,4 @@
-accessing
+siblings
 siblings
 	^ self owner
 		ifNil: [ { self } ]

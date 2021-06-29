@@ -1,4 +1,4 @@
-accessing
+calculating
 accidentalsWidth: aMNNoteMorph
 	| widthFactor |
 

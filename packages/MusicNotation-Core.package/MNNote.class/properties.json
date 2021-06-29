@@ -12,8 +12,6 @@
 		"tieStop",
 		"slurStart",
 		"slurStop",
-		"beamStart",
-		"beamStop",
 		"chordPart",
 		"morph" ],
 	"name" : "MNNote",

@@ -2,17 +2,25 @@
 	"class" : {
 		"note:" : "LH 5/12/2021 22:11" },
 	"instance" : {
+		"addToBeam:position:" : "NH 6/27/2021 20:30",
+		"beam" : "OS 6/28/2021 11:29",
+		"beam:" : "NH 6/27/2021 18:29",
 		"clickedMessage" : "RAD 6/11/2021 17:34",
-		"drawMultiObjectTo:type:" : "OS 6/15/2021 13:17",
-		"drawOn:" : "OS 6/15/2021 13:18",
+		"drawBeam" : "OS 6/29/2021 16:52",
+		"drawBowTo:" : "NH 6/27/2021 20:04",
+		"drawOn:" : "NH 6/27/2021 20:05",
 		"drawable" : "mgjm 6/18/2019 16:22",
 		"flexBase" : "fb 7/25/2019 13:13",
 		"flexGrow" : "mgjm 6/19/2019 01:44",
 		"handlesMouseDown:" : "RAD 5/17/2021 03:51",
+		"ignoreBeam" : "OS 6/17/2021 21:59",
+		"ignoreBeam:" : "OS 6/28/2021 11:25",
 		"initialize" : "MP 5/20/2021 19:53",
+		"isPause" : "NH 6/27/2021 20:09",
 		"musicObject" : "MP 5/28/2021 17:34",
 		"note" : "mgjm 5/24/2019 22:01",
 		"note:" : "mgjm 5/25/2019 19:51",
 		"noteLayout" : "mgjm 5/26/2019 17:24",
 		"noteLayout:" : "mgjm 5/25/2019 19:50",
-		"partCanvas" : "RAD 6/11/2021 17:35" } }
+		"partCanvas" : "RAD 6/11/2021 17:35",
+		"shouldAddToBeam:position:" : "OS 6/28/2021 11:25" } }

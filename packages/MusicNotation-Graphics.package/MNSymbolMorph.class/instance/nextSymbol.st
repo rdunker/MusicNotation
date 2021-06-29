@@ -1,4 +1,4 @@
-calculating
+siblings
 nextSymbol
 	^ self rightSibling
 		ifNotNilDo: [ :symbol | ^ symbol]

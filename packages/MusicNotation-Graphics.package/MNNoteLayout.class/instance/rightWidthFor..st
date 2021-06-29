@@ -1,6 +1,7 @@
 accessing
 rightWidthFor: aFont
-	| width |
+	| width|
+
 	width := aFont lineWidthUnits.
 	self rightNoteheads
 		ifNotEmpty: [width := width max: (aFont codePoint: self notehead) width].

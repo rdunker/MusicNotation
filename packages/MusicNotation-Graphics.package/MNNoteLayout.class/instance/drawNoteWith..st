@@ -4,7 +4,6 @@ drawNoteWith: aDrawer
 
 	aDrawer resetPositionAfter: [
 		self drawLedgerLinesWith: aDrawer ].
-
 	self leftNoteheads ifNotEmpty: [
 		self drawNoteheads: self leftNoteheads with: aDrawer.
 		self moveLeftWidthWith: aDrawer.].
@@ -15,4 +14,4 @@ drawNoteWith: aDrawer
 
 	(self note baseDuration < 1)
 		ifTrue: [ self drawStemWith: aDrawer ].
-	self drawFlagWith: aDrawer.
+	(self drawFlag) ifTrue: [self drawFlagWith: aDrawer].
