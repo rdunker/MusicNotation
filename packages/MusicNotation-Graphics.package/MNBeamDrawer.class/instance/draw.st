@@ -1,6 +1,6 @@
 drawing
 draw
-	| end start |
+	| start end |
 	
 	self removeFlags.
 	self isDiagonalOrSamePitch ifFalse: [self growStems].

@@ -1,6 +1,6 @@
 calculating
 calculateBowHeightFrom: startPoint To: endPoint
-	| heightOffset bowHeight|
+	| heightOffset bowHeight |
 	
 	self bowDownwards ifTrue: [ 
 		bowHeight := (startPoint y) max: (endPoint y).

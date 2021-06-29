@@ -1,3 +1,5 @@
 calculating
 beamExtent
-	^ (self beamHeight/2.0)@(self beamHeight/2.0)
+	| radius |
+	radius := self beamHeight/2.0.
+	^ radius@radius

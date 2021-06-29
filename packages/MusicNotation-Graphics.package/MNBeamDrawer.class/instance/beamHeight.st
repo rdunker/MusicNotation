@@ -1,3 +1,5 @@
 constants
 beamHeight
-	^ 4
+	self isDiagonal 
+		ifTrue: [^ 4];
+		ifFalse: [^ 5].

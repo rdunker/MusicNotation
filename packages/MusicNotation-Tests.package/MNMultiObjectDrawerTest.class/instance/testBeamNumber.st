@@ -1,5 +1,6 @@
 testing
 testBeamNumber
+	"Ignore while linting"
 	| c1 c16 c2 c32 c4 c8 notes |
 	c1 := self createC4: 1/1.
 	c2 := self createC4: 1/2.
