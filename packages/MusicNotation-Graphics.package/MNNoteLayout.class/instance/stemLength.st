@@ -1,3 +1,4 @@
 accessing
 stemLength
-	^ self stemDirection * 3.5
+	stemLength ifNil: [^ self stemDirection * 3.5].
+	^ stemLength.

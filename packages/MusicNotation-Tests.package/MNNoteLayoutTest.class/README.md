@@ -1,0 +1,1 @@
+I am a Class to test the MNNoteLayout
