@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ld 6/28/2021 19:14",
+	"instvars" : [
+		 ],
+	"name" : "MNNoteLayoutTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
