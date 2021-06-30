@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createNoteWithDuration:step:octave:" : "LH 6/30/2021 21:08",
+		"testFirstLedgerLine" : "LH 6/30/2021 21:52",
+		"testLastLedgerLine" : "LH 6/30/2021 21:52",
+		"testNeedsLedgerLine" : "LH 6/30/2021 21:58" } }

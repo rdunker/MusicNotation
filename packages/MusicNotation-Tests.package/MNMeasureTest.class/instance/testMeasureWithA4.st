@@ -10,7 +10,7 @@ testMeasureWithA4
 		duration: 1/4;
 		addPitch: pitch;
 		yourself.
-		
+	
 	measure := MNMeasure new
 		addNote: note;
 		yourself.
