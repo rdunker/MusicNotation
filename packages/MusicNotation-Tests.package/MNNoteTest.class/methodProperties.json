@@ -3,9 +3,12 @@
 		 },
 	"instance" : {
 		"baseDurations" : "mgjm 5/26/2019 19:28",
+		"createNoteWithDuration:step:octave:" : "LH 6/30/2021 22:37",
 		"dotFactors" : "mgjm 5/26/2019 19:17",
 		"invalidDotFactors" : "mgjm 5/26/2019 19:24",
 		"testBaseDuration" : "mgjm 5/26/2019 19:20",
+		"testBowDownwards" : "LH 6/30/2021 23:27",
+		"testCalculateMidPointFromTo" : "LH 6/30/2021 22:45",
 		"testDurationFraction" : "RAD 6/11/2021 17:32",
 		"testFindNextTieStop" : "RAD 6/11/2021 17:47",
 		"testIsDotted" : "mgjm 5/26/2019 19:20",
