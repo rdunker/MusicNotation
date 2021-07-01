@@ -9,6 +9,7 @@
 		"testBaseDuration" : "mgjm 5/26/2019 19:20",
 		"testBowDownwards" : "LH 6/30/2021 23:27",
 		"testCalculateMidPointFromTo" : "LH 6/30/2021 22:45",
+		"testCalculateNotePosition" : "LH 7/1/2021 13:09",
 		"testDurationFraction" : "RAD 6/11/2021 17:32",
 		"testFindNextSlurStop" : "LH 7/1/2021 01:13",
 		"testFindNextTieStop" : "RAD 6/11/2021 17:47",
