@@ -2,6 +2,6 @@ calculating
 isDiagonalOrSamePitch
 	| previousNote |
 	
-	previousNote := self notes before: self notes last.
+	previousNote := self notes after: self startNote.
 	
-	^ self isDiagonalOrSamePitchTill: previousNote pitch: (self notes last noteLayout noteHeight - previousNote noteLayout noteHeight)
+	^ self isDiagonalOrSamePitchTill: previousNote pitch: (self startNote noteLayout noteHeight - previousNote noteLayout noteHeight)

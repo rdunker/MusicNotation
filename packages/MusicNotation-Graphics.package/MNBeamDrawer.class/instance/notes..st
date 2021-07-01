@@ -1,3 +1,4 @@
 accessing
-notes: anObject
-	notes := anObject.
+notes: anOrderedCollection
+	notes := anOrderedCollection.
+	self update.

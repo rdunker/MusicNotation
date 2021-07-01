@@ -1,10 +1,10 @@
 calculating
 isDiagonalOrSamePitchTill: aMNNoteMorph pitch: aFloat 
-	| previousNote |
+	| previousNote pitchDiff |
 	
-	previousNote := self notes before: aMNNoteMorph ifAbsent: [^ true].
-	((aMNNoteMorph noteLayout noteHeight - previousNote noteLayout noteHeight) = aFloat)
-		ifTrue: [^ (self isDiagonalOrSamePitchTill: previousNote pitch: aFloat)];
+	previousNote := self notes after: aMNNoteMorph ifAbsent: [^ true].
+	pitchDiff := aMNNoteMorph noteLayout noteHeight - previousNote noteLayout noteHeight.
+	(pitchDiff = aFloat)
+		ifTrue: [^ self isDiagonalOrSamePitchTill: previousNote pitch: aFloat];
 		ifFalse: [^ false].
-		
 	^ true
