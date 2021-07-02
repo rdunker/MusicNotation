@@ -1,3 +1,3 @@
 calculating
 isDiagonal
-	^ self isDiagonalOrSamePitch and: [(self notes first noteLayout noteHeight = self notes last noteLayout noteHeight) not]
+	^ self isDiagonalOrSamePitch and: [(self endNote noteLayout noteHeight = self startNote noteLayout noteHeight) not]

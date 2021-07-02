@@ -5,7 +5,7 @@ draw
 	self removeFlags.
 	self isDiagonalOrSamePitch ifFalse: [self growStems].
 	
-	start := (self calculateNotePosition: self notes last).
-	end := (self calculateNotePosition: self notes first).
+	start := self calculateNotePosition: self startNote.
+	end := self calculateNotePosition: self endNote.
 	
 	self drawLinesFrom: start to: end.

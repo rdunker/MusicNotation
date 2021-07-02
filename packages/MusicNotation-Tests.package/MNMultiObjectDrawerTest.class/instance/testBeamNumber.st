@@ -14,13 +14,18 @@ testBeamNumber
 	self drawer: (MNBeamDrawer canvas: self hiddenCanvas notes: notes).
 	self assert: [self drawer beamNumber = -2].
 	notes add: c2.
+	self drawer update.
 	self assert: [self drawer beamNumber = -1].
 	notes add: c4.
+	self drawer update.
 	self assert: [self drawer beamNumber = 0].
 	notes add: c8.
+	self drawer update.
 	self assert: [self drawer beamNumber = 1].
 	notes add: c16.
+	self drawer update.
 	self assert: [self drawer beamNumber = 2].
 	notes add: c32.
+	self drawer update.
 	self assert: [self drawer beamNumber = 3].
 	
