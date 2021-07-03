@@ -1,6 +1,6 @@
-as yet unclassified
+tests
 testVisitProject
-	"ignore while liniting"
+	"Ignore while linting"
 	| generator project part1 part2 measure1 measure2 note1 note2 pitch1 pitch2 |
 	generator := MNSoundGenerator new.
 	project := MNProject new.

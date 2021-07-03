@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 createNoteWithDuration: aFraction step: aSymbol octave: aNumber
 	| pitch note noteMorph |
 

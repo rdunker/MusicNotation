@@ -1,7 +1,8 @@
-as yet unclassified
+tests
 testAddSounds
-	"ignore while liniting"
+	"Ignore while linting"
 	| generator note pitch testWithNote testWithPitch |
+	
 	generator := MNSoundGenerator new.
 	pitch := MNPitch new
 		octave: 4;
