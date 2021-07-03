@@ -1,6 +1,7 @@
 tests
 testSmuflFontDisplay
 	| drawer |
+	
 	drawer := MNSmuflDrawer new
 			canvas: self hiddenCanvas asBalloonCanvas;
 			color: Color red;

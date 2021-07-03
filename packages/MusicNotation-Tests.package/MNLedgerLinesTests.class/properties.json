@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RAD 7/3/2021 12:24",
+	"instvars" : [
+		 ],
+	"name" : "MNLedgerLinesTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
