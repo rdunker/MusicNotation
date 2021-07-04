@@ -12,6 +12,8 @@
 		"tieStop",
 		"slurStart",
 		"slurStop",
+		"trioleStart",
+		"trioled",
 		"chordPart",
 		"morph" ],
 	"name" : "MNNote",

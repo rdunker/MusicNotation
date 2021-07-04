@@ -10,3 +10,4 @@ drawWith: aDrawer
 		
 	self drawDotsWith: aDrawer.
 	self drawDynamicsWith: aDrawer For: self note.
+	(self number isInteger) ifTrue: [self drawNumberWith: aDrawer For: self note].
