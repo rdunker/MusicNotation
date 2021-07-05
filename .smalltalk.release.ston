@@ -1,0 +1,20 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'MusicNotation',
+      #platforms : [ #squeak ],
+      #directory : 'packages',
+      #load : [ 'tests' ]
+    }
+  ],
+  #preLoading : [
+    'scripts/preLoading.st'
+  ],
+  #postLoading : [
+    'scripts/create_sar.st'
+  ],
+  #testing : { 
+    #categories : [],
+    #failOnZeroTests : false
+  }
+}
