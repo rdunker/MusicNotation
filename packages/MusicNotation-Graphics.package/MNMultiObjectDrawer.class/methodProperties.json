@@ -2,6 +2,7 @@
 	"class" : {
 		"canvas:startNote:endNote:" : "RAD 6/5/2021 18:09" },
 	"instance" : {
+		"accidentalsWidth:" : "OS 7/5/2021 11:43",
 		"calculateNotePosition:" : "RAD 6/5/2021 17:32",
 		"canvas" : "RAD 6/11/2021 17:36",
 		"canvas:" : "RAD 6/11/2021 17:36",
