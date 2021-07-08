@@ -2,9 +2,12 @@ tests
 testSymbolSelection
 	| editor preview noteMorph |
 	
-	editor := MNEditor new updateContents: 'c3/8.'.
+	editor := MNEditor new.
+	editor updateContents: 'c4/8.'.
 	preview := (editor buildPreviewWith: ToolBuilder default) submorphs first.
 	preview projectSelector: #project.
+	self assert: (preview project = editor project).
+	self assert: (preview project isNil = false).
 	noteMorph := self firstNoteOfPreview: preview.
 	self assert: (preview selectedSymbol isNil).
 	noteMorph select.

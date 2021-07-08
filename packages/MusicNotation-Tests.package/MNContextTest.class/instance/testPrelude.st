@@ -14,4 +14,3 @@ testPrelude
 	self assert: (context part measures first isAfterPrelude = false).
 	self assert: (context measure isPrelude = false).
 	self assert: (context part measures first isPrelude = true).
-	
