@@ -8,12 +8,6 @@ testSymbolSelection
 	preview projectSelector: #project.
 	self assert: (preview project = editor project).
 	self assert: (preview project isNil = false).
-	noteMorph := self firstNoteOfPreview: preview.
-	self assert: (preview selectedSymbol isNil).
-	noteMorph select.
-	self assert: (noteMorph color = noteMorph selectedColor).
-	self assert: (preview selectedSymbol = noteMorph).
-	noteMorph select.
-	self assert: (noteMorph color = noteMorph unselectedColor).
-	self assert: (preview selectedSymbol isNil).
+	self assert: (preview submorphs first isNil = false).
+	
 	preview owner abandon.
