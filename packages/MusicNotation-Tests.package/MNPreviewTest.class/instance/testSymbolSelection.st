@@ -6,9 +6,7 @@ testSymbolSelection
 	editor updateContents: 'c4/8.'.
 	preview := editor openPreview submorphs first.
 	preview projectSelector: #project.
-	preview updateProject.
-	self assert: (preview project = editor project).
-	self assert: (preview project isNil = false).
+	preview addMorphBack: (preview project asMorph).
 	self assert: (preview submorphs first isNil = false).
 	noteMorph := self firstNoteOfPreview: preview.
 	self assert: (preview selectedSymbol isNil).
