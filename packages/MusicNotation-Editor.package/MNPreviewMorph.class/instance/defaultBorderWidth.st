@@ -1,3 +1,3 @@
-initialization
+accessing
 defaultBorderWidth
 	^ 1
