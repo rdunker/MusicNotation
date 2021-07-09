@@ -1,0 +1,3 @@
+constants
+rectangleHeight
+	^ 10

@@ -1,0 +1,3 @@
+constants
+rectangleLength
+	^ 2

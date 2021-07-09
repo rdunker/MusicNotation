@@ -1,0 +1,3 @@
+constants
+squareLength
+	^ 10

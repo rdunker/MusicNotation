@@ -18,7 +18,9 @@
 		"rightNoteheads",
 		"up",
 		"drawFlag",
-		"stemLength" ],
+		"stemLength",
+		"tupletStart",
+		"tupletEnd" ],
 	"name" : "MNNoteLayout",
 	"pools" : [
 		 ],
