@@ -1,12 +1,17 @@
 {
 	"class" : {
+		"canvas:notes:" : "OS 7/11/2021 12:59",
 		"canvas:startNote:endNote:" : "RAD 6/5/2021 18:09" },
 	"instance" : {
+		"accidentalsWidth:" : "OS 7/5/2021 11:43",
 		"calculateNotePosition:" : "RAD 6/5/2021 17:32",
 		"canvas" : "RAD 6/11/2021 17:36",
 		"canvas:" : "RAD 6/11/2021 17:36",
 		"draw" : "RAD 6/5/2021 17:32",
 		"endNote" : "RAD 6/11/2021 17:37",
 		"endNote:" : "RAD 6/11/2021 17:37",
+		"notes" : "OS 7/11/2021 12:59",
+		"notes:" : "OS 7/11/2021 12:59",
 		"startNote" : "RAD 6/11/2021 17:37",
-		"startNote:" : "RAD 6/11/2021 17:37" } }
+		"startNote:" : "RAD 6/11/2021 17:37",
+		"update" : "OS 7/11/2021 13:00" } }

@@ -1,7 +1,7 @@
 generating
 generateNote: aNote
 	| time |
-	aNote tieStop ifTrue: [ ^ RestSound dur: 0 ].
+	(aNote tieStop and: [aNote lastNote tieStart]) ifTrue: [ ^ RestSound dur: 0 ].
 	time := self convertDuration: aNote durationWithTies.
 	
 	aNote pitches
