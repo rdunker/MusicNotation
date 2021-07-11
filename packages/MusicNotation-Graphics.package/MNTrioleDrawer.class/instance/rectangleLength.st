@@ -1,3 +1,0 @@
-constants
-rectangleLength
-	^ 2

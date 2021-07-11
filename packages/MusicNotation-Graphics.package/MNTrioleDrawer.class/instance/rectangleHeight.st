@@ -1,3 +1,0 @@
-constants
-rectangleHeight
-	^ 10

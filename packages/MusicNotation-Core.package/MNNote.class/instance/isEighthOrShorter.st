@@ -1,3 +1,5 @@
 validating
 isEighthOrShorter
-	^ self duration denominator >= 8
+	self triole isEmpty 
+		ifFalse: [^ self duration denominator * (2/3) >= 8]
+		ifTrue: [^ self duration denominator >= 8].

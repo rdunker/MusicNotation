@@ -1,3 +1,0 @@
-constants
-noteHeadWith
-	^ 10

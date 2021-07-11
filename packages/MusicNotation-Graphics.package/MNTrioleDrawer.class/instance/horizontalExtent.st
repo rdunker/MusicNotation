@@ -1,3 +1,3 @@
 constants
-rectangle2Extent
+horizontalExtent
 	^ 15@2

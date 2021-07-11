@@ -6,6 +6,4 @@ initialize
 		slurStart:false;
 		tieStop: false;
 		slurStop:false;
-		trioleStart:false;
-		trioled:false;
 		chordPart: false.
