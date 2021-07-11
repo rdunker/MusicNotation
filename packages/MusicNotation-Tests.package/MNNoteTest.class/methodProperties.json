@@ -3,8 +3,10 @@
 		 },
 	"instance" : {
 		"baseDurations" : "mgjm 5/26/2019 19:28",
+		"createEighth" : "RAD 7/11/2021 15:32",
 		"createNoteWithDuration:step:octave:" : "LH 6/30/2021 22:37",
 		"dotFactors" : "mgjm 5/26/2019 19:17",
+		"hiddenCanvas" : "RAD 7/11/2021 16:02",
 		"invalidDotFactors" : "mgjm 5/26/2019 19:24",
 		"testBaseDuration" : "mgjm 5/26/2019 19:20",
 		"testBowDownwards" : "LH 6/30/2021 23:27",
@@ -14,6 +16,7 @@
 		"testFindNextSlurStop" : "LH 7/1/2021 01:13",
 		"testFindNextTieStop" : "RAD 6/11/2021 17:47",
 		"testFindNextTieStopNew" : "LH 7/1/2021 01:19",
+		"testIgnoreBeam" : "RAD 7/11/2021 16:15",
 		"testIsDotted" : "mgjm 5/26/2019 19:20",
 		"testIsEighthOrShorter" : "OS 7/1/2021 22:45",
 		"testNoteAccept" : "mgjm 5/22/2019 22:41",
