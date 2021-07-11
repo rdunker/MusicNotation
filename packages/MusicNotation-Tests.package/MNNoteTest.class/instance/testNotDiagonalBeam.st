@@ -1,5 +1,6 @@
 tests
 testNotDiagonalBeam
+	"Ignore while linting"
 	| beamDrawer measure measureMorph note1 note2 note3 |
 	
 	beamDrawer := MNBeamDrawer new.
