@@ -1,5 +1,7 @@
 opening
 openTutorial
+"Ignore while linting"
+
   ^ self openContents: '"Smoke On The Water"
   
 | lickOne |
