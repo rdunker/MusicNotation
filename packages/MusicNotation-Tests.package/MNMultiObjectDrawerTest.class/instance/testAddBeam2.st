@@ -20,7 +20,7 @@ testAddBeam2
 		
 	part canvas: self hiddenCanvas.
 	
-	
-	f4 drawOn: self hiddenCanvas.
+	f4 beam: (OrderedCollection new add: f4; yourself).
+	f4 checkForMultiObjects.
 	
 	self assert: f4 beam size = 2.

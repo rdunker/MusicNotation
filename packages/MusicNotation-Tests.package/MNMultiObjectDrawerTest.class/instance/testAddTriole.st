@@ -26,7 +26,7 @@ testAddTriole
 		
 	part canvas: self hiddenCanvas.
 	
-	
-	f4 drawOn: self hiddenCanvas.
+	f4 triole: (OrderedCollection new add: f4; yourself).
+	f4 checkForMultiObjects.
 	
 	self assert: f4 triole size = 3.
