@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "RAD 6/11/2021 19:07",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "MNBeamDrawer",
+	"name" : "MNTrioleDrawer",
 	"pools" : [
 		 ],
 	"super" : "MNMultiObjectDrawer",

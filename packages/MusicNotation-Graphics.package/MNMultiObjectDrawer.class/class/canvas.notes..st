@@ -1,4 +1,4 @@
-as yet unclassified
+class initialization
 canvas: aCanvas notes: anOrderedCollection
 	^ self new
 		canvas: aCanvas;
