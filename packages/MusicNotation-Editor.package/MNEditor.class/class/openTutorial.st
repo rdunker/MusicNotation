@@ -1,55 +1,81 @@
 opening
 openTutorial
-	"Ignore while linting"
-	^ self openContents: '"Tutorial - James Bond"
-	
-		| coolBass |
-		
-		"set key"
-		
-		self measure keyFifths: 2.
-		"enter notes"
-		e4 / 8.
-		f4s / 16 * 2.
-		f4s / 8.
-		f4s / 4.
-		e4 / 8* 3.
-		e4 / 8.
-		g4 / 16 * 2.
-		g4 / 8.
-		g4 / 4.
-		f4s / 8* 3.
-		e4 / 8.
-		f4s / 16 * 2.
-		f4s / 8.
-		f4s / 4.
-		e4 / 8* 3.
-		e4 / 8.
-		g4 / 16 * 2.
-		g4 / 8.
-		g4 / 4.
-		g4 / 8.
-		f4s / 8.
-		f4 / 8.
-		f5 / 8.
-		e5 / 4 dot.
-		e5 / 8.
-		b4 / 8.
-		a4 / 8.
-		b4 / 2.
-		"easy way to create chords"
-		e3 + g3 + b3 + f4s / 1.
-		e3 + g3 + b3 + f4s / 2.
-		"change time signature"
-		self measure timeNumerator: 5 denominator: 4.
-		"add new track"
-		project addPart: MNPart new.
-		self addMeasure: MNMeasure new.
-		self measure keyFifths: 2.
-		"change clef"
-		self measure clef:( MNClef new sign: $f; line: 4).
-		"create pattern"
-		coolBass := {b2 . e1 . c3 . e1 . c3s . e1 . c3 . e1}.
-		2 timesRepeat: [ coolBass / 4].
-		"play the song"
-		 project asSound play'
+"Ignore while linting"
+
+  ^ self openContents: '"Smoke On The Water"
+  
+| lickOne |
+
+"set key"
+self measure keyFifths: 1.
+
+"easy way to create chords"
+d4 + g4 / 4.
+
+"set dynamics"
+self setDynamics: ''mf''.
+
+"enter notes"
+f4 + a4s / 4.
+g4 + c5 / 4 dot.
+d4 + g4 / 8.
+
+"create tie"
+self startTie.
+d4 + g4 / 8.
+self stopTie.
+
+f4 + a4s / 4.
+g4s + c5s / 8.
+g4 + c5 / 2.
+
+d4 + g4 / 4.
+f4 + a4s / 4.
+g4 + c5 / 4 dot.
+f4 + a4s / 8.
+self startTie.
+
+f4 + a4s / 8.
+self stopTie.
+d4 + g4 / 2 dot dot.
+
+"add new track"
+project addPart: (MNPart new addMeasure: MNMeasure new).
+
+"change clef"
+self addFClef.
+self measure keyFifths: 1.
+
+"enter notes"
+g1 / 8.
+self setDynamics: ''ff''.
+g1 / 8.
+
+"create pattern"
+lickOne := { g1 . g1 . g1 . g1 . g1 . g1 }.
+2 timesRepeat: [ lickOne / 8 ].
+g1 / 8 * 2.
+g1 / 8 * 2.
+
+"create slur"
+self startSlur.
+a1s / 8.
+self stopSlur.
+
+self startSlur.
+a1s / 8.
+self stopSlur.
+c2 / 8 * 2.
+c2 / 8.
+a1s / 8.
+self startTie.
+
+a1s / 8.
+self stopTie.
+g1 / 8 * 4.
+e1 / 8.
+f1 / 8.
+f1s / 8.
+
+"play the song"
+project asSound play.'
