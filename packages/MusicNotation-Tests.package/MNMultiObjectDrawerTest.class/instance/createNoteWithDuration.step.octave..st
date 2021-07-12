@@ -13,6 +13,7 @@ createNoteWithDuration: aFraction step: aSymbol octave: aNumber
 		yourself.
 		
 	noteMorph := 	MNNoteMorph note: note.
+	note morph: noteMorph.
 	noteMorph noteLayout update.
 		
 	^ noteMorph

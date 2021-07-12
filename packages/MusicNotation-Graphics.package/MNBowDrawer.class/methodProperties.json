@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"canvas:startNote:endNote:" : "OS 7/11/2021 13:08" },
 	"instance" : {
 		"bowDownwards" : "RAD 6/11/2021 17:26",
 		"calculateBowHeightFrom:To:" : "OS 6/29/2021 16:49",

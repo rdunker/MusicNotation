@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"canvas:notes:" : "OS 6/28/2021 15:31" },
+		 },
 	"instance" : {
 		"beamExtent" : "OS 6/29/2021 16:58",
 		"beamHeight" : "OS 6/28/2021 16:50",
@@ -13,12 +13,7 @@
 		"isDiagonalOrSamePitch" : "OS 7/1/2021 15:17",
 		"isDiagonalOrSamePitchTill:pitch:" : "OS 7/1/2021 15:17",
 		"log2:" : "OS 6/28/2021 12:50",
-		"maxHeight" : "NH 6/27/2021 20:39",
 		"minHeight" : "NH 6/27/2021 20:39",
-		"noteHeadWith" : "RAD 6/5/2021 18:47",
 		"noteHeight:" : "NH 6/18/2021 16:16",
-		"notes" : "OS 6/28/2021 11:23",
-		"notes:" : "OS 7/1/2021 15:28",
 		"removeFlags" : "OS 6/28/2021 11:23",
-		"stemOffset:" : "OS 6/29/2021 16:50",
-		"update" : "OS 7/1/2021 15:28" } }
+		"stemOffset:" : "OS 6/29/2021 16:50" } }

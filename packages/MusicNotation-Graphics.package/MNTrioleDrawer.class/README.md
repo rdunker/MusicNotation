@@ -1,0 +1,1 @@
+I am a MNBeamDrawer used to draw beams between two notes.
