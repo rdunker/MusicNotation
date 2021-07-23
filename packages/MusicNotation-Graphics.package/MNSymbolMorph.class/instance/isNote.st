@@ -1,3 +1,3 @@
 accessing
 isNote
- ^ self isKindOf: MNNoteMorph
+ 	^ self isKindOf: MNNoteMorph
