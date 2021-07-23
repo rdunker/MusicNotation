@@ -13,7 +13,8 @@
 		"slurStart",
 		"slurStop",
 		"chordPart",
-		"morph" ],
+		"morph",
+		"triole" ],
 	"name" : "MNNote",
 	"pools" : [
 		 ],

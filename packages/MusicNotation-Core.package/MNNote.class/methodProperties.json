@@ -21,9 +21,10 @@
 		"findNextTieStop" : "OS 6/10/2021 20:05",
 		"hasValidDuration" : "fb 7/14/2019 23:45",
 		"hash" : "mgjm 6/18/2019 21:45",
-		"initialize" : "OS 6/17/2021 22:00",
+		"initialize" : "OS 7/11/2021 18:26",
 		"isDotted" : "mgjm 5/26/2019 18:40",
-		"isEighthOrShorter" : "OS 7/1/2021 22:40",
+		"isEighthOrShorter" : "OS 7/11/2021 18:24",
+		"isTriole" : "OS 7/11/2021 18:25",
 		"lastNote" : "OS 7/5/2021 11:21",
 		"morph" : "RAD 6/11/2021 17:25",
 		"morph:" : "RAD 6/11/2021 17:25",
@@ -32,6 +33,7 @@
 		"pitches" : "mgjm 6/12/2019 07:39",
 		"pitches:" : "OS 6/10/2021 19:59",
 		"printOn:" : "mgjm 6/12/2019 07:05",
+		"setTriole:" : "OS 7/11/2021 18:26",
 		"slurStart" : "RAD 6/11/2021 17:25",
 		"slurStart:" : "RAD 6/11/2021 17:25",
 		"slurStop" : "RAD 6/11/2021 17:25",
@@ -40,4 +42,6 @@
 		"tieStart:" : "RAD 6/11/2021 20:14",
 		"tieStop" : "fb 7/14/2019 16:15",
 		"tieStop:" : "RAD 6/11/2021 20:14",
-		"validateDuration" : "fb 7/14/2019 23:51" } }
+		"triole" : "OS 7/11/2021 17:38",
+		"triole:" : "OS 7/11/2021 17:39",
+		"validateDuration" : "OS 7/11/2021 18:25" } }
