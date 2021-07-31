@@ -1,4 +1,4 @@
-accessing
+auxiliary
 addNote: aNote withOverflow: aNumber
 	| collection |
 	collection := (aNote createCopiesForDuration: aNote duration - aNumber withBlock: self tiedBlock) reversed.

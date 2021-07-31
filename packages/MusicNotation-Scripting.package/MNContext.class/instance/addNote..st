@@ -1,4 +1,4 @@
-accessing
+auxiliary
 addNote: aNote
 	self addNoteRecursively: aNote.
 	
