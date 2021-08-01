@@ -1,5 +1,5 @@
 statements
-createNewVariableStatement: aString
+createNewVariableStatement
 	| newVariableStatement |
 
 	newVariableStatement := '(Dictionary new)'.

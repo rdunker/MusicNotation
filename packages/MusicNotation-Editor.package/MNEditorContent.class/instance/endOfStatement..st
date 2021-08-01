@@ -1,3 +1,5 @@
 statement mapping 
 endOfStatement: anInteger
-	^ (self startOfStatement: anInteger) + ((self contentsList at: anInteger) size) - 1
+	| offset |
+	offset := 1.
+	^ (self startOfStatement: anInteger) + ((self contentsList at: anInteger) size) - offset
