@@ -1,3 +1,3 @@
 accessing
 musicObject
-	^self note
+	^ self note
