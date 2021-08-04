@@ -11,7 +11,7 @@ checkForMultiObjects
 
 	self note triole isEmpty ifFalse: [
 		notesPerTriole := 3.0.
-		self addNotesToTriole: self position: notesPerTriole.
+		self addNotesToObject: #triole fromNote: self position: notesPerTriole.
 		self drawTriole.
 		].
 
