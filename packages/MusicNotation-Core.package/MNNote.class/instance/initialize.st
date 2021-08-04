@@ -6,6 +6,4 @@ initialize
 		slurStart:false;
 		tieStop: false;
 		slurStop:false;
-		beamStart: false;
-		beamStop: false;
 		chordPart: false.

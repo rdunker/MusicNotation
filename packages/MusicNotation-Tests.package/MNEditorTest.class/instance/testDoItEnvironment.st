@@ -1,6 +1,7 @@
 tests
 testDoItEnvironment
 	| editor old |
+	
 	editor := MNEditor new.
 	self deny: editor environment isNil.
 	self deny: editor doItEnvironment isNil.

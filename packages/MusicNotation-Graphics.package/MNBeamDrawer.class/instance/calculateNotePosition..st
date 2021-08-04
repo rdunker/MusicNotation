@@ -1,6 +1,8 @@
-calculation
+calculating
 calculateNotePosition: aMNNoteMorph
  	| positionOffset |
 	
-	positionOffset := 10.
-	^ (aMNNoteMorph position x + (self noteHeadWith/2) + positionOffset @ ((aMNNoteMorph center y) + (self noteHeight: aMNNoteMorph)))
+	aMNNoteMorph noteLayout lines first >= 0 
+		ifTrue: [positionOffset := 10.]
+		ifFalse: [positionOffset := -2.5].
+	^ ((aMNNoteMorph position x + (self noteHeadWith/2) + positionOffset + (self accidentalsWidth: aMNNoteMorph)) @ ((aMNNoteMorph center y) + (self noteHeight: aMNNoteMorph)))

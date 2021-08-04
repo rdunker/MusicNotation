@@ -1,4 +1,4 @@
-accessing
+auxiliary
 configurePreludeMeasureWithTime: aFraction
 	| noteNumerator noteDenominator |
 	noteNumerator := self lastNote duration numerator.

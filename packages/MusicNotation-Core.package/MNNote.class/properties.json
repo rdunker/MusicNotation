@@ -12,10 +12,9 @@
 		"tieStop",
 		"slurStart",
 		"slurStop",
-		"beamStart",
-		"beamStop",
 		"chordPart",
-		"morph" ],
+		"morph",
+		"triole" ],
 	"name" : "MNNote",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
-accessing
+auxiliary
 addNoteRecursively: aNote
 	| totalDuration overflow |
 	aNote duration strictlyPositive

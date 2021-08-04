@@ -1,6 +1,7 @@
 tests
 testStatementMapping
 	| editor |
+	
 	editor := MNEditor new.
 	editor updateContents: 'g4/8.g4/4.'.
 	editor evaluateContentList.
