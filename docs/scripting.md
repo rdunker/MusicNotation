@@ -61,7 +61,7 @@ self measure transposeSharp: 2.
 ```
 ![preview of example script](images/example_script_result.png "result of example script")
 
-This is an example song, which implements mostly newer functionalities:
+This is an example song, which implements mostly newer functionalities (you can also see it when you execute `MNEditor openTutorial` in a workspace):
 
 ```smalltalk
 "Smoke On The Water"
