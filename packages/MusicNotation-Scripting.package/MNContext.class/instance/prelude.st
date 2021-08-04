@@ -1,4 +1,4 @@
-accessing
+scripting
 prelude
 	| numerator denominator time |
 	
