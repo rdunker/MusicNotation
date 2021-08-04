@@ -37,6 +37,9 @@ You can use local variables just like in every smalltalk method after declaring 
 
 The resulting music can be played by adding the line `project asSound play.` (Note: This will result in the project playing whenever it is saved) and converted into MusicXML with `project asXMLString` or `project asXMLElement` or  directly saved with `project writeXMLWithFileChooser`.
 
+
+As another feature, you can click on the symbols in the preview. They will be highlighted both in the editor and the preview then, so you can easily see, which code lines create which symbols in the preview.
+
 This is a short example script:
 
 ```smalltalk
@@ -143,5 +146,3 @@ f1s / 8.
 project asSound play.
 ```
 ![preview of smoke on the water](images/smoke_on_the_water_result.png "result of smoke on the water")
-
-As another feature, you can click on the symbols in the preview. They will be highlighted both in the editor and the preview then, so you can easily see, which code lines create which symbols in the preview.
