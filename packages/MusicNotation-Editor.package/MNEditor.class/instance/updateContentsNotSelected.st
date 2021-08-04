@@ -1,4 +1,4 @@
 symbol selection
 updateContentsNotSelected
 	(1 to: self content contentsList size) do:
-		[ :i | self content applyStyleSelected: false toStatement: i toEditor: self].
+		[ :each | self content applyStyleSelected: false toStatement: each toEditor: self].

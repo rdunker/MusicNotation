@@ -20,11 +20,24 @@ To add a new part, put in the following code:
 ```smalltalk
 self project addPart: (MNPart new addMeasure: MNMeasure new).
 ```
-All following notes will be added in the new part.
+All following notes will be added in the new part. To make the clef of the new part into a bass clef, use: `self addFClef`.
 
 Notes, measures, parts and projects can be transposed using the `transpose:`, `transposeFlat:` and `transposeSharp:` messages.
 
+To add a tie, type `self startTie` after the note from which it shall start and `self stopTie` after the note, at which it shall end.
+Analougly, to add a slur, type `self startSlur` after the note from which it shall start and `self stopSlur` after the note, at which it shall end.
+
+To add a prelude, type `self prelude` after the notes that shall belong to the prelude.
+
+Eights are automatically grouped together. If you want to make three notes a triplet, type `self triole` after the creation of the three notes.
+
+To add volume notation, like piano (p), forte (f), mezzoforte (mf), ... , write `self setDynamics: 'mf'`. The implemented volume signs reach from 'ppp' to 'fff'.
+
+You can use local variables just like in every smalltalk method after declaring them in pipes in the beginning.
+
 The resulting music can be played by adding the line `project asSound play.` (Note: This will result in the project playing whenever it is saved) and converted into MusicXML with `project asXMLString` or `project asXMLElement` or  directly saved with `project writeXMLWithFileChooser`.
+
+This is a short example script:
 
 ```smalltalk
 "Example Script"
@@ -47,3 +60,88 @@ notes1 := {c4 . d4 . e4 . f4}.
 self measure transposeSharp: 2.
 ```
 ![preview of example script](images/example_script_result.png "result of example script")
+
+This is an example song, which implements mostly newer functionalities:
+
+```smalltalk
+"Smoke On The Water"
+  
+| lickOne |
+
+"set key"
+self measure keyFifths: 1.
+
+"easy way to create chords"
+d4 + g4 / 4.
+
+"set dynamics"
+self setDynamics: 'mf'.
+
+"enter notes"
+f4 + a4s / 4.
+g4 + c5 / 4 dot.
+d4 + g4 / 8.
+
+"create tie"
+self startTie.
+d4 + g4 / 8.
+self stopTie.
+
+f4 + a4s / 4.
+g4s + c5s / 8.
+g4 + c5 / 2.
+
+d4 + g4 / 4.
+f4 + a4s / 4.
+g4 + c5 / 4 dot.
+f4 + a4s / 8.
+self startTie.
+
+f4 + a4s / 8.
+self stopTie.
+d4 + g4 / 2 dot dot.
+
+"add new track"
+project addPart: (MNPart new addMeasure: MNMeasure new).
+
+"change clef"
+self addFClef.
+self measure keyFifths: 1.
+
+"enter notes"
+g1 / 8.
+self setDynamics: 'ff'.
+g1 / 8.
+
+"create pattern"
+lickOne := { g1 . g1 . g1 . g1 . g1 . g1 }.
+2 timesRepeat: [ lickOne / 8 ].
+g1 / 8 * 2.
+g1 / 8 * 2.
+
+"create slur"
+self startSlur.
+a1s / 8.
+self stopSlur.
+
+self startSlur.
+a1s / 8.
+self stopSlur.
+c2 / 8 * 2.
+c2 / 8.
+a1s / 8.
+self startTie.
+
+a1s / 8.
+self stopTie.
+g1 / 8 * 4.
+e1 / 8.
+f1 / 8.
+f1s / 8.
+
+"play the song"
+project asSound play.
+```
+![preview of smoke on the water](images/smoke_on_the_water_result.png "result of smoke on the water")
+
+As another feature, you can click on the symbols in the preview. They will be highlighted both in the editor and the preview then, so you can easily see, which code lines create which symbols in the preview.

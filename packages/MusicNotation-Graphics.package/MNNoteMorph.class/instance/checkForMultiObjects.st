@@ -1,5 +1,6 @@
 beams & bows
 checkForMultiObjects
+	| notesPerTriole |
 	self note tieStart ifTrue: [
 		self drawBowTo: self findNextTieStop.
 	].
@@ -9,7 +10,8 @@ checkForMultiObjects
 	].
 
 	self note triole isEmpty ifFalse: [
-		self addNotesToTriole: self position: 3.0.
+		notesPerTriole := 3.0.
+		self addNotesToObject: #triole fromNote: self position: notesPerTriole.
 		self drawTriole.
 		].
 

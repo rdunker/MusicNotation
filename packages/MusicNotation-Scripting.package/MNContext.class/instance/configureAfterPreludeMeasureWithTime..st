@@ -1,4 +1,4 @@
-accessing
+auxiliary
 configureAfterPreludeMeasureWithTime: aFraction
 	self part addMeasure: self measure copyEmpty.
 	self measure isPrelude: false.

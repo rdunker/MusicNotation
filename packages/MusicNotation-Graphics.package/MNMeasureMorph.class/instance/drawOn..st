@@ -2,7 +2,7 @@ drawing
 drawOn: aCanvas
 	| balloonCanvas |
 	balloonCanvas := aCanvas asBalloonCanvas
-		aaLevel: 4;
+		aaLevel: self aaLevel;
 		copyClipRect: self bounds.
 	self submorphs do: [:morph | (morph isKindOf: MNNoteMorph) ifTrue: [morph ignoreBeam: false]].
 	
