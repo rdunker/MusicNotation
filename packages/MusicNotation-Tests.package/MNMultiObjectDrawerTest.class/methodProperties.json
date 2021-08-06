@@ -15,6 +15,7 @@
 		"testAddBeam2" : "OS 7/12/2021 13:21",
 		"testAddTriole" : "OS 7/12/2021 13:22",
 		"testBeamNumber" : "OS 7/1/2021 15:29",
+		"testCheckForEdgeCases" : "OS 7/23/2021 19:30",
 		"testIsDiagonal" : "OS 6/29/2021 17:10",
 		"testIsDiagonalOrSamePitch" : "OS 6/28/2021 15:25",
 		"testMaxHeight" : "OS 6/29/2021 17:05",

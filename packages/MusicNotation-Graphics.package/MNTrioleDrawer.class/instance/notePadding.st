@@ -1,3 +1,0 @@
-constants
-notePadding
-	^ -10

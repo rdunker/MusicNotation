@@ -2,8 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addNotesToBeam:position:" : "OS 6/28/2021 16:12",
-		"addNotesToTriole:position:" : "OS 7/4/2021 11:03",
+		"addNotesToObject:fromNote:position:" : "OS 7/23/2021 19:06",
 		"changeToSelectedColor" : "RAD 5/24/2021 10:00",
 		"changeToUnselectedColor" : "RAD 5/24/2021 09:58",
 		"defaultBounds" : "mm 6/5/2019 15:08",

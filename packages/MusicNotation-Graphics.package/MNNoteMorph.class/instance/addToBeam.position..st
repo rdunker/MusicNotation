@@ -4,4 +4,4 @@ addToBeam: aMNNoteMorph position: aNumber
 	offset := 1.0.
 	(aMNNoteMorph beam) add: self.
 	self ignoreBeam: true.
-	self addNotesToBeam: (aMNNoteMorph) position: (aNumber - offset)
+	self addNotesToObject: #beam fromNote: aMNNoteMorph position: (aNumber - offset).

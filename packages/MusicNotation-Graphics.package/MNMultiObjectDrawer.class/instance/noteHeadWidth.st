@@ -1,3 +1,3 @@
 constants
-noteHeadWith
+noteHeadWidth
 	^ 10
