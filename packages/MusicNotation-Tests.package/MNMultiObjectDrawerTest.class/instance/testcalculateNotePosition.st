@@ -1,14 +1,10 @@
 testing
 testcalculateNotePosition
 	"Ignore while linting"
-	| noteC4 noteD5 noteMorphC4 noteMorphD5 trioleDrawer positionC4 positionD5 |
+	| noteC4 noteD5 trioleDrawer positionC4 positionD5 |
 	
 	noteC4 := self createC4.
 	noteD5 := self createD5.
-	
-	noteMorphC4 := MNNoteMorph note: noteC4.
-	noteMorphD5 := MNNoteMorph note: noteD5.
-
 	trioleDrawer := MNTrioleDrawer new.
 	
 	positionC4 := trioleDrawer calculateNotePosition: noteC4.
