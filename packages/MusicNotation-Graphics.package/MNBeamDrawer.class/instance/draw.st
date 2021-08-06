@@ -2,6 +2,7 @@ drawing
 draw
 	| start end |
 	
+	self checkForEdgeCases.
 	self removeFlags.
 	self isDiagonalOrSamePitch ifFalse: [self growStems].
 	

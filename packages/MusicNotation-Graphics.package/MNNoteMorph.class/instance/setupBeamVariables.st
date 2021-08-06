@@ -3,4 +3,4 @@ setupBeamVariables
 	| notesPerBeam |
 	notesPerBeam := 4.0.
 	(self ignoreBeam or: [self isPause]) ifFalse: [
-		self addNotesToBeam: self position: notesPerBeam].
+		self addNotesToObject: #beam fromNote: self position: notesPerBeam].
