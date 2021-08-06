@@ -2,11 +2,11 @@
 	"class" : {
 		"note:" : "LH 5/12/2021 22:11" },
 	"instance" : {
+		"addToBeam:position:" : "ld 8/1/2021 14:35",
 		"addToObject:fromNote:position:" : "OS 7/23/2021 19:09",
+		"addToTriole:position:" : "ld 8/1/2021 14:36",
 		"beam" : "OS 6/28/2021 11:29",
 		"beam:" : "NH 6/27/2021 18:29",
-		"addToBeam:position:" : "ld 8/1/2021 14:35",
-		"addToTriole:position:" : "ld 8/1/2021 14:36",
 		"checkForMultiObjects" : "ld 8/1/2021 14:46",
 		"clickedMessage" : "RAD 6/11/2021 17:34",
 		"drawBeam" : "RAD 7/11/2021 16:13",
@@ -29,9 +29,8 @@
 		"note:" : "mgjm 5/25/2019 19:51",
 		"noteLayout" : "OS 7/11/2021 19:03",
 		"noteLayout:" : "mgjm 5/25/2019 19:50",
-		"setupBeamVariables" : "OS 7/23/2021 19:11",
-		"shouldAddToObject:fromNote:position:" : "OS 7/23/2021 19:06",
 		"partCanvas" : "ld 8/1/2021 14:54",
 		"setupBeamVariables" : "ld 8/1/2021 14:50",
+		"shouldAddToObject:fromNote:position:" : "OS 7/23/2021 19:06",
 		"triole" : "OS 7/4/2021 10:48",
 		"triole:" : "OS 7/4/2021 10:48" } }

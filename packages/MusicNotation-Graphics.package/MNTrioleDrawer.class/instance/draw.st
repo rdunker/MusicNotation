@@ -4,5 +4,4 @@ draw
 	
 	(self startNote note isEighthOrShorter) ifFalse: [
 		self drawLeftCorner.
-		self drawRightCorner.
-		].
+		self drawRightCorner].
