@@ -6,7 +6,7 @@
 		"createC4:" : "OS 6/28/2021 15:26",
 		"createD5" : "OS 6/28/2021 12:20",
 		"createF4" : "OS 6/28/2021 12:18",
-		"createNoteWithDuration:step:octave:" : "OS 7/11/2021 19:46",
+		"createNoteWithDuration:step:octave:" : "OS 8/6/2021 21:50",
 		"drawer" : "OS 6/28/2021 15:19",
 		"drawer:" : "OS 6/28/2021 15:19",
 		"hiddenCanvas" : "OS 6/28/2021 11:50",
@@ -20,4 +20,6 @@
 		"testIsDiagonalOrSamePitch" : "OS 6/28/2021 15:25",
 		"testMaxHeight" : "OS 6/29/2021 17:05",
 		"testMinHeight" : "OS 6/29/2021 17:05",
-		"testRemoveFlags" : "OS 6/28/2021 15:23" } }
+		"testRemoveFlags" : "OS 6/28/2021 15:23",
+		"testTrioleOffset" : "LH 8/6/2021 19:00",
+		"testcalculateNotePosition" : "OS 8/6/2021 21:56" } }

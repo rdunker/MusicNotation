@@ -12,7 +12,7 @@ createNoteWithDuration: aFraction step: aSymbol octave: aNumber
 		addPitch: pitch;
 		yourself.
 		
-	noteMorph := 	MNNoteMorph note: note.
+	noteMorph := MNNoteMorph note: note.
 	note morph: noteMorph.
 	noteMorph noteLayout update.
 		
