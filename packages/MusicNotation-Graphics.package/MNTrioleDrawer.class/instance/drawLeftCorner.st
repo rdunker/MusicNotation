@@ -1,8 +1,7 @@
 drawing
 drawLeftCorner
-	| offset extent |
+	| offset |
 	
-	extent := self horizontalExtent.
-	offset := -5@self notePadding.
-	self startNote noteLayout up ifFalse: [offset := offset + (self noteHeadWith/2@20)].
-	self drawCornerAt: self startNote offset: offset extent: extent.
+	offset := self upNotePadding - (self halfNoteHeadWidth@0).
+	self startNote noteLayout up ifFalse: [offset := self downNotePadding].
+	self drawCornerAt: self startNote offset: offset extent: self horizontalExtent.
