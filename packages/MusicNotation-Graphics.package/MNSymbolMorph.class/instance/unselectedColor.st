@@ -1,0 +1,3 @@
+accessing
+unselectedColor
+	^ self defaultColor

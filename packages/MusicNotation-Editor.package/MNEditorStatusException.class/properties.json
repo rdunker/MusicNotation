@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "fb 7/26/2019 12:13",
 	"instvars" : [
+		"exception",
 		"message",
 		"range" ],
 	"name" : "MNEditorStatusException",

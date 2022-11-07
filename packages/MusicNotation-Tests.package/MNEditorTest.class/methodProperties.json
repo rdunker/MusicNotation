@@ -4,10 +4,14 @@
 	"instance" : {
 		"ensureAbandonOf:do:" : "mgjm 7/5/2019 20:47",
 		"hiddenCanvas" : "mgjm 7/5/2019 20:06",
-		"testDoItEnvironment" : "fb 7/25/2019 19:32",
-		"testMenuItems" : "mgjm 7/5/2019 20:23",
-		"testOpenEditor" : "mgjm 7/5/2019 20:45",
+		"testDoItEnvironment" : "RAD 7/3/2021 12:21",
+		"testLocalVariableStatement" : "RAD 7/3/2021 12:21",
+		"testMenuItems" : "RAD 7/3/2021 12:21",
+		"testMethodCode" : "RAD 7/11/2021 15:06",
+		"testOpenEditor" : "RAD 7/3/2021 12:21",
 		"testOpenEditorClass" : "mgjm 7/5/2019 20:44",
-		"testOpenPreview" : "mgjm 7/5/2019 20:47",
-		"testSmuflFontDisplay" : "mgjm 7/5/2019 20:43",
-		"testTextContents" : "mgjm 7/5/2019 20:30" } }
+		"testOpenPreview" : "RAD 7/3/2021 12:21",
+		"testSmuflFontDisplay" : "RAD 7/3/2021 12:21",
+		"testStatementMapping" : "RAD 7/3/2021 12:21",
+		"testStatements" : "RAD 7/11/2021 15:07",
+		"testTextContents" : "RAD 7/3/2021 12:21" } }

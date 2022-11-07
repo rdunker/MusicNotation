@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"accidentalSpaceUnits" : "mgjm 6/5/2019 04:54",
-		"dotSpaceUnits" : "mgjm 6/5/2019 03:18",
+		"accidentalSpaceUnits" : "RAD 6/11/2021 19:30",
+		"dotSpaceUnits" : "RAD 6/11/2021 19:30",
 		"lineWidthForNoteLineHeight:" : "mgjm 6/5/2019 02:50",
-		"lineWidthUnits" : "mgjm 6/5/2019 02:09",
-		"noteLineHeightUnits" : "mgjm 6/5/2019 02:08",
+		"lineWidthUnits" : "MP 6/21/2021 14:51",
+		"noteLineHeightUnits" : "RAD 6/11/2021 19:30",
 		"scaleFactorForNoteLineHeight:" : "mgjm 6/5/2019 02:08" } }

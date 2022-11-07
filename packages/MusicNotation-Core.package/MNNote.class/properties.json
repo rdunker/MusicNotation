@@ -7,7 +7,14 @@
 	"commentStamp" : "fb 7/26/2019 12:08",
 	"instvars" : [
 		"duration",
-		"chordPart" ],
+		"dynamics",
+		"tieStart",
+		"tieStop",
+		"slurStart",
+		"slurStop",
+		"chordPart",
+		"morph",
+		"triole" ],
 	"name" : "MNNote",
 	"pools" : [
 		 ],

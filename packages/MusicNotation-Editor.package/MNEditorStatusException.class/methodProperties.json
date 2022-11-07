@@ -3,13 +3,19 @@
 		 },
 	"instance" : {
 		"addAttributesTo:from:to:" : "mgjm 7/1/2019 16:24",
+		"addMenuItems:" : "mgjm 7/25/2019 15:13",
 		"applyStyleTo:" : "mgjm 7/1/2019 16:44",
+		"applyStyleTo:statement:" : "RAD 5/20/2021 12:47",
 		"color" : "mgjm 7/1/2019 16:05",
-		"error:in:" : "mgjm 7/2/2019 14:41",
+		"error:in:" : "mgjm 7/25/2019 14:53",
+		"exception" : "mgjm 7/25/2019 14:51",
+		"exception:" : "mgjm 7/25/2019 14:51",
+		"fiveRange:in:" : "RAD 5/16/2021 18:12",
 		"message" : "mgjm 7/1/2019 16:03",
 		"message:" : "mgjm 7/1/2019 16:03",
 		"range" : "mgjm 7/1/2019 16:03",
 		"range:" : "mgjm 7/1/2019 16:03",
 		"rangeIn:" : "fb 7/25/2019 12:48",
-		"reduceContext:" : "fb 7/25/2019 12:47",
-		"syntaxError:in:" : "mgjm 7/1/2019 16:44" } }
+		"rangeOffsetIn:statement:" : "ld 8/1/2021 13:48",
+		"reduceContext:" : "OS 6/10/2021 19:18",
+		"syntaxError:in:" : "RAD 5/16/2021 20:01" } }

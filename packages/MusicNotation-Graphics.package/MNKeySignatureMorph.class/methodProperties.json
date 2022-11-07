@@ -4,7 +4,9 @@
 	"instance" : {
 		"drawable" : "mgjm 6/18/2019 16:23",
 		"flexBase" : "fb 7/25/2019 13:13",
+		"handlesMouseDown:" : "MP 5/20/2021 19:50",
 		"key" : "mgjm 6/18/2019 16:23",
 		"key:" : "mgjm 6/18/2019 16:24",
 		"keySignatureLayout" : "mgjm 6/18/2019 16:24",
-		"keySignatureLayout:" : "mgjm 6/18/2019 16:23" } }
+		"keySignatureLayout:" : "mgjm 6/18/2019 16:23",
+		"musicObject" : "ld 8/1/2021 14:34" } }

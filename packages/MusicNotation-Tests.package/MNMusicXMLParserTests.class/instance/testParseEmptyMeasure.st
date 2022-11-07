@@ -1,6 +1,5 @@
 tests
 testParseEmptyMeasure
-
 	| measure xmlMeasure |
 	xmlMeasure := self parseXML: '<measure></measure>'.
 	measure := self xmlParser parseMeasure: xmlMeasure.

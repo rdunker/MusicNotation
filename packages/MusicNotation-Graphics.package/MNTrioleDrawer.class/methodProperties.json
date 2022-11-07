@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"calculateNotePosition:" : "OS 8/6/2021 09:40",
+		"downNotePadding" : "OS 8/6/2021 10:56",
+		"downNumberOffset" : "OS 8/6/2021 10:37",
+		"downOffset" : "OS 8/6/2021 10:28",
+		"draw" : "OS 8/6/2021 10:16",
+		"drawCornerAt:offset:extent:" : "OS 8/6/2021 10:50",
+		"drawLeftCorner" : "OS 8/6/2021 11:05",
+		"drawNumber" : "OS 8/6/2021 10:37",
+		"drawNumberAt:codePoint:" : "OS 8/6/2021 10:20",
+		"drawRectangleFrom:To:" : "OS 7/11/2021 19:03",
+		"drawRightCorner" : "OS 8/6/2021 11:06",
+		"horizontalExtent" : "OS 7/11/2021 13:48",
+		"maxHeightOffset:" : "OS 8/6/2021 10:51",
+		"noteHeight:" : "NH 6/18/2021 16:16",
+		"upNotePadding" : "OS 8/6/2021 11:04",
+		"upNumberOffset" : "OS 8/6/2021 10:51",
+		"update" : "OS 7/1/2021 15:28",
+		"verticalExtent" : "OS 7/11/2021 13:48" } }

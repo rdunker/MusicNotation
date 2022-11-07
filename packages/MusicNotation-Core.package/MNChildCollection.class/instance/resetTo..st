@@ -1,4 +1,4 @@
 removing
 resetTo: index
-	firstIndex ifNotNil: [ self privateUnsetParentsOf: self ].
+	self firstIndex ifNotNil: [ self privateUnsetParentsOf: self ].
 	^ super resetTo: index

@@ -1,0 +1,3 @@
+accessing
+slurStop
+	^ slurStop

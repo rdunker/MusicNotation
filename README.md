@@ -1,9 +1,8 @@
 
-# Music Notation [![Build Status](https://travis-ci.org/hpi-swa-teaching/MusicNotation.svg)](https://travis-ci.org/hpi-swa-teaching/MusicNotation) [![Coverage Status](https://img.shields.io/badge/coverage-disabled-red)](https://github.com/hpi-swa-teaching/MusicNotation/issues/67)
 
-Group 13
+# Music Notation [![Build Status](https://travis-ci.org/hpi-swa-teaching/MusicNotation.svg)](https://travis-ci.org/hpi-swa-teaching/MusicNotation) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/MusicNotation/badge.svg?branch=development)](https://coveralls.io/github/hpi-swa-teaching/MusicNotation?branch=development) [![CI](https://github.com/hpi-swa-teaching/MusicNotation/actions/workflows/main.yml/badge.svg?branch=development)](https://github.com/hpi-swa-teaching/MusicNotation/actions/workflows/main.yml) [![CI-Lint](https://github.com/hpi-swa-teaching/MusicNotation/actions/workflows/ci-linter.yml/badge.svg?branch=development)](https://github.com/hpi-swa-teaching/MusicNotation/actions/workflows/ci-linter.yml)
 
-> We disabled code coverage because the executor used by the Smalltalk VM for debugging and code coverage crashed with a segmentation fault. [See issue #67](https://github.com/hpi-swa-teaching/MusicNotation/issues/67).
+Group 7
 
 ## Installation
 
@@ -29,3 +28,4 @@ To find out what's next check out the documentation.
 - [Entry Points](./docs/entry-points.md)
 - [Architectural Information](./docs/architectural-information.md)
 - [Scripting](./docs/scripting.md)
+

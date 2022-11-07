@@ -2,4 +2,4 @@ initialize-release
 initialize
 	super initialize.
 	
-	children := MNChildCollection parent: self.
+	self children: (MNChildCollection parent: self).

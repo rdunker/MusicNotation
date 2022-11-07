@@ -8,12 +8,15 @@
 	"instvars" : [
 		"dots",
 		"flagCodePoint",
+		"dynamics",
 		"leftNoteheads",
 		"lines",
 		"note",
 		"notehead",
 		"rightNoteheads",
-		"up" ],
+		"up",
+		"drawFlag",
+		"stemLength" ],
 	"name" : "MNNoteLayout",
 	"pools" : [
 		 ],

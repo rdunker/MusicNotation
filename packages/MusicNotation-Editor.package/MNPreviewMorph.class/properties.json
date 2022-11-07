@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "mm 7/25/2019 23:32",
 	"instvars" : [
-		"projectSelector" ],
+		"projectSelector",
+		"selectedSymbol" ],
 	"name" : "MNPreviewMorph",
 	"pools" : [
 		 ],

@@ -1,5 +1,7 @@
 drawing
 drawLedgerLinesWith: aDrawer
-	self drawLedgerLines: self leftNoteheads other: self rightNoteheads with: aDrawer.
-	self moveLeftWidthWith: aDrawer.
-	self drawLedgerLines: self rightNoteheads other: self leftNoteheads with: aDrawer.
+	self needsLedgerLines ifTrue: [
+		self firstLedgerLine to: self lastLedgerLine do: [:index |
+			 self drawLedgerLine: index With: aDrawer.
+		]
+	].

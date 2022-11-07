@@ -1,3 +1,3 @@
 accessing
-accidentals: anObject
-	accidentals := anObject
+accidentals: anOrderedCollection
+	accidentals := anOrderedCollection.

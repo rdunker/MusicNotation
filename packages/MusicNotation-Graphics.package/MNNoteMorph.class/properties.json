@@ -7,7 +7,11 @@
 	"commentStamp" : "mm 7/26/2019 12:30",
 	"instvars" : [
 		"note",
-		"noteLayout" ],
+		"noteLayout",
+		"ignoreBeam",
+		"ignoreTriole",
+		"beam",
+		"triole" ],
 	"name" : "MNNoteMorph",
 	"pools" : [
 		 ],

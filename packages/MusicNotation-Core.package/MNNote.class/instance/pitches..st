@@ -1,3 +1,3 @@
 accessing
 pitches: aCollection
-	self children: aCollection.
+	self childrenReplaceWith: aCollection.

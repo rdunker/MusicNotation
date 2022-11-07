@@ -1,8 +1,9 @@
 drawing
 drawOn: aCanvas
-	| canvas |
-	canvas := aCanvas asBalloonCanvas
-		aaLevel: 4;
+	| balloonCanvas |
+	balloonCanvas := aCanvas asBalloonCanvas
+		aaLevel: self aaLevel;
 		copyClipRect: self bounds.
+	self submorphs do: [:morph | (morph isKindOf: MNNoteMorph) ifTrue: [morph ignoreBeam: false]].
 	
-	self drawMeasureLinesOn: canvas.
+	self drawMeasureLinesOn: balloonCanvas.

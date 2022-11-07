@@ -1,0 +1,14 @@
+{
+	"category" : "MusicNotation-Graphics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RAD 6/11/2021 19:08",
+	"instvars" : [
+		 ],
+	"name" : "MNBowDrawer",
+	"pools" : [
+		 ],
+	"super" : "MNMultiObjectDrawer",
+	"type" : "normal" }

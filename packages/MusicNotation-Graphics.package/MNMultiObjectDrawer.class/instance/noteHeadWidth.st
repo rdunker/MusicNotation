@@ -1,0 +1,3 @@
+constants
+noteHeadWidth
+	^ 10

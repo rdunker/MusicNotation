@@ -4,6 +4,7 @@
 		"numerator:denominator:" : "mgjm 6/5/2019 20:35" },
 	"instance" : {
 		"bottomWidthUnits" : "mgjm 6/5/2019 21:26",
+		"clickedMessage" : "RAD 6/11/2021 17:37",
 		"codePointsOf:reverseDo:" : "mgjm 6/5/2019 21:35",
 		"denominator" : "mgjm 6/5/2019 21:41",
 		"draw:at:with:" : "mgjm 6/5/2019 21:38",
@@ -11,6 +12,7 @@
 		"flexBase" : "mgjm 6/5/2019 21:40",
 		"fraction" : "mgjm 6/5/2019 20:36",
 		"fraction:" : "mgjm 6/5/2019 20:36",
+		"handlesMouseDown:" : "MP 5/28/2021 17:38",
 		"numerator" : "mgjm 6/5/2019 21:41",
 		"topWidthUnits" : "mgjm 6/5/2019 21:26",
 		"widthUnitsOf:" : "mgjm 6/5/2019 21:42" } }

@@ -1,0 +1,3 @@
+accessing
+clickedMessage
+	^ self fraction

@@ -1,6 +1,7 @@
 tests
 testOpenPreview
 	| editor |
+	
 	editor := MNEditor new.
 	self ensureAbandonOf: editor openPreview
 		do: [ :morph |

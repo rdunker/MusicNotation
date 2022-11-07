@@ -1,3 +1,3 @@
 accessing
 children: aCollection
-	self children replaceWith: aCollection.
+	children := aCollection.
